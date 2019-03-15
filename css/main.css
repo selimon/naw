@@ -112,7 +112,8 @@ header {
 .hashtag {
   position: absolute;
   left: -179px;
-  margin-top: 225%;
+  top: 50%;
+  margin-top: 60px;
   -webkit-transform: rotate(-90deg);
   -ms-transform: rotate(-90deg);
   transform: rotate(-90deg);
@@ -121,6 +122,7 @@ header {
   color: rgba(255, 255, 255, 0.5); }
 
 .offer {
+  margin-left: 100px;
   text-transform: uppercase;
   margin-top: 25vh;
   position: relative; }

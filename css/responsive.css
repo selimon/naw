@@ -79,6 +79,10 @@
 		width: 100%;
 	}
 
+	.show_text{
+		order: -1;
+	}
+
 	.offer__download{
 		bottom: 28%;
 		right: 0;
@@ -90,6 +94,10 @@
 @media screen and (max-width: 768px){
 	.nav_box, .lang, .hashtag_box{
 		display: none;
+	}
+
+	.offer{
+		margin-left: 0;
 	}
 
 	.toggle-button{
