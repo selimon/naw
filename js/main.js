@@ -21,9 +21,9 @@ $(function(){
 
 // Preloader
 
-document.body.onload = function(){
-	setTimeout(function(){
-		var t = document.getElementById("preloader");
-		t.classList.contains("done") || t.classList.add("done");
-	},1e3);
-};
+// document.body.onload = function(){
+// 	setTimeout(function(){
+// 		var t = document.getElementById("preloader");
+// 		t.classList.contains("done") || t.classList.add("done");
+// 	},1e3);
+// };
