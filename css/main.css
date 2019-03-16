@@ -29,13 +29,15 @@
     display: block;
     margin-left: auto; }
   #mob-nav .mob-nav__menu {
-    margin-top: 172px;
-    margin-left: 40px; }
+    margin-left: 40px;
+    top: 20%;
+    position: absolute; }
   #mob-nav .mob-lang {
     color: #fff;
+    position: absolute;
+    bottom: 10%;
     text-transform: uppercase;
-    margin-left: 70px;
-    margin-top: 165px; }
+    margin-left: 70px; }
   #mob-nav .mob-nav__menu__item {
     padding: 20px 0 10px 30px; }
     #mob-nav .mob-nav__menu__item a {
@@ -92,6 +94,14 @@ header {
   color: #fff;
   background: url("../img/background.jpg") no-repeat center top/cover; }
 
+.logo{
+  margin-left: 20px;
+}
+
+.lang{
+  margin-right: 50px;
+}
+
 .lang span, .desc_menu li a {
   cursor: pointer;
   -webkit-transition: all .3s ease;
@@ -138,9 +148,12 @@ header {
   letter-spacing: 0.05em; }
 
 .offer__btn {
-  background: #6A2C9A;  
+  background: #6A2C9A;
+  border-radius: 2px;
+  padding: 16.5px 68px;
+  margin-top: 42.15px;
+  border: none;
   color: #fff;
-  padding: 10px
   text-transform: uppercase; }
 
 .offer__download {
@@ -153,6 +166,9 @@ header {
     width: 255px; }
   .offer__download img {
     margin-right: 21px; }
+
+    .offer__download img:last-child {
+    margin-right: 0px; }
 
 .show {
   position: absolute;
@@ -185,6 +201,7 @@ header {
       .show .show_text .show_text_box .read_more_arrow {
         margin-top: 10%; }
       .show .show_text .show_text_box .show_text_box_text {
+        width: 265px;
         margin-top: 22px; }
       .show .show_text .show_text_box .learn_more {
         color: #AB4FF2;
@@ -202,13 +219,3 @@ header {
       font-weight: bold; }
     .show .show_text .show_text_box_text {
       font-size: 18px; }
-@media (max-width: 1366px) and (min-width: 1024px) {
-  .offer__download {
-    bottom: 10%!important
-  }
-}
-@media (max-width: 1024px) and (min-width: 768px){
-  .offer__download{
-    bottom: 16%
-  }
-} 
