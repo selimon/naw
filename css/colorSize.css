@@ -1,0 +1,94 @@
+.text-black {
+  color: black; }
+
+.bg-fiolete {
+  background: #AC50F4; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+  font-size: 14px; }
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: white; }
+
+.language-one h2 {
+  font-size: 14px; }
+
+.language h2 {
+  font-size: 14px; }
+
+.active {
+  color: #AC50F4; }
+
+.disabled {
+  color: white; }
+
+.text-rotate {
+  color: rgba(255, 255, 255, 0.5); }
+  .text-rotate h2 {
+    font-size: 20px;
+    letter-spacing: 0.36em; }
+
+.text-options h1 {
+  font-size: 95px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  text-transform: uppercase; }
+
+.btn {
+  font-size: 16px; }
+  .btn {
+    background: #6A2C9A; }
+
+.bg-play, .block2, .block-2 {
+  background: #6A2C9A; }
+
+.footer-bg {
+  background: #29292D; }
+
+.col-llg-4 {
+  flex: 0 0 25.333333%;
+  max-width: 25.333333%; }
+
+.col-lgg-5 {
+  flex: 0 0 41.3%;
+    flex-flex-width: 42%; }
+
+.pp-4 {
+  padding: 2.4rem; }
+
+.col-lgg-1 {
+  flex: 100%;
+  max-width: 154px; }
+
+.pt-mobi {
+  padding: 50px; }
+
+.pt-mobil {
+  padding: 30px 0px 0px 20px; }
+
+.coll-lgg-5 {
+  max-width: 827px;
+  flex: 100%; }
+
+.col-lgg-3 {
+  max-width: 460px;
+  flex: 100%; }
+
+.text-options span {
+  font-size: 35px; }
+
+.mobile-version-contact h1 {
+  font-size: 5.4em; }
+
+.grafik span {
+  font-size: 18px; }
+
+.time-block span {
+  display: block; }
+
+.official p {
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  color: #D0D0D0;
+  line-height: 26px; }

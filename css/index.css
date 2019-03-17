@@ -1,0 +1,152 @@
+@media (max-width: 1366px) and (min-width: 1024px){
+	.text-anonsi h1 {
+		font-size: 45px!important;
+		letter-spacing: 0.1em
+	}
+
+} 
+
+@media (max-width: 812px) and (min-width: 320px) {
+	.anonsi-botton {
+		display: flex;
+		justify-content: center!important;
+		padding-right: 60px
+	}
+	.pdd-anonsi {
+		padding: 15px!important
+	}
+	.none-block {
+		display: none!important;
+	} 
+	.posi-ab {
+		padding: 15px!important
+	}
+	.history-block h1 {
+		font-size: 46px!important
+	}
+	.hi-text h2 {
+		font-size: 45px!important
+	}
+	.time-block span {
+		padding: 6px!important
+	}
+	.grafik span {
+		font-size: 9px!important
+	}
+}
+
+@media (max-width: 812px) and (min-width: 568px){
+	.anonsi-botton {
+		display: flex;
+		justify-content: flex-end!important;
+		padding-right: 60px
+	}
+	.d-no {
+		display: none
+	}
+	.none-block {
+		display: block!important;
+	}
+	.posi-rel .text-padd {
+		margin-left: 100px!important;
+		left: 0px!important
+	}
+	.block-mobil-contact{
+		display: flex!important;
+		justify-content: space-between;
+	}
+		.grafik span {
+		font-size: 12px!important
+	}
+		.grafik span {
+		padding: 3px!important
+	}
+
+}
+
+@media (max-width: 812px) and (min-width: 320px){
+		.img-order {
+		order: 0!important;
+	}
+}
+@media (min-width: 1024px){
+	.img-text {
+		top: 20%;
+		font-size: 30px!important
+	}		
+	.text-zoom {
+		max-width: 130%!important;
+		flex: 130%!important;
+		z-index: 999
+	}
+
+
+}
+@media (max-width: 1440px) and (min-width: 1440px){
+	.block-mobil-contact{
+		display: flex;
+		justify-content: space-between;
+	}
+		.text-zoom {
+		max-width: 100%!important;
+		flex: 100%!important;
+	}
+	.mobile-contact {
+		padding-left: 60px!important
+	}
+}
+@media (max-width: 1440px) and (min-width: 1024px) {
+	.block-mobil-contact {
+		max-width: 130%;
+		flex: 130%;
+		display: flex;
+		justify-content: space-between;
+	}
+}
+
+
+
+
+@media (max-width: 1366px) and (min-width: 1024px){
+	.img-text {
+		position: relative;
+		top: 50px!important;
+	}
+
+
+}
+@media (max-width: 812px) and (min-width: 375px){
+	.language {
+		padding-left: 100px
+	}
+}
+
+@media (max-width: 568px) and (min-width: 320px){
+	.block-mobil-contact h5 {
+		font-size: 16px
+	}
+	.date {
+		padding-left: 30px!important
+	}
+	.block-clock h5 {
+		padding-bottom: 10px
+	}
+	.grafik,.block-clock {
+		padding-left: 30px
+	}
+}
+
+/*specification*/
+.no-gutters {
+	padding: 0px;
+}
+.contact-footer-bg {
+	background-image: url(../images/cart.png);
+	background-size: cover;
+}
+.bg-fon-contact{
+	background: #222222!important
+}
+.pl-6{
+	padding-left: 4em
+}

@@ -108,11 +108,12 @@
 	}
 
 	.offer{
-		margin-left: 0;
+		margin-left: 60px;
 	}
 
 	.toggle-button{
 		display: block;
+		padding-left: 45px
 	}
 
 	#header{
