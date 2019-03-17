@@ -263,3 +263,12 @@
 		position: static !important;
 	}
 }
+
+@media (max-width: 568px) and (min-width: 320px) {
+	.offer {
+		margin-left: 0px!important;
+	}
+	.toggle-button {
+		padding-left: 0px
+	}
+} 
