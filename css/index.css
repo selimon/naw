@@ -94,6 +94,11 @@
 	.mobile-contact {
 		padding-left: 60px!important
 	}
+	.img-text {
+		bottom: 0px!important;
+		right: 00%!important;
+		font-size: 200px!important
+	}
 }
 @media (max-width: 1440px) and (min-width: 1024px) {
 	.block-mobil-contact {
@@ -112,8 +117,23 @@
 		position: relative;
 		top: 50px!important;
 	}
-
-
+	.mobile-contact  {
+		padding-left: 5%
+	}
+}
+@media (min-width: 1366px) {
+		.mobile-contact  {
+		padding-left: 5%
+	}
+}
+@media (min-width: 956px){
+			.mobile-contact  {
+		padding-left: 5%
+	}
+	.text-zoom {
+		max-width: 90%;
+		flex: 90%
+	}
 }
 @media (max-width: 812px) and (min-width: 375px){
 	.language {
@@ -139,6 +159,38 @@
 	}
 }
 
+@media (min-width: 2560px){
+	.mobile-contact {
+		padding-left: 10%
+	}
+	.block-mobil-contact {
+		display: flex;
+		justify-content: space-between;
+		max-width: 60%
+	}
+	.text-zoom {
+		max-width: 80%!important;
+		flex: 60%;
+	}
+
+}
+@media (max-width: 2560px) and (min-width: 1441px) {
+		.img-text {
+		bottom: 0px!important;
+		right: 40%!important;
+		font-size: 240px!important
+	}
+	.posi-rel{
+		    margin: 0px 170px 0px 588px!important;
+	}
+}
+@media (max-width: 1905px) and (min-width: 956px){
+		.block-mobil-contact {
+		display: flex;
+		justify-content: space-between;
+		max-width: 100%
+	}
+}
 /*specification*/
 .no-gutters {
 	padding: 0px;
