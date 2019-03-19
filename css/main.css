@@ -87,7 +87,6 @@ ul, p {
 
 header {
   height: 100vh;
-  min-height: 790px;
   position: relative;
   font-family: Montserrat;
   padding-top: 40px;
@@ -196,24 +195,22 @@ header {
     .show .show_text .show_text_box {
       width: 50%;
       -webkit-box-sizing: border-box;
-      box-sizing: border-box;
-      padding: 37px 0 10px 39px; }
+      box-sizing: border-box;}
       .show .show_text .show_text_box .read_more_arrow {
-        margin-top: 10%; }
-      .show .show_text .show_text_box .show_text_box_text {
-        width: 265px;
-        margin-top: 22px; }
+         }
+      .show .show_text .show_text_box .show_text_box_text { }
       .show .show_text .show_text_box .learn_more {
         color: #AB4FF2;
         font-size: 18px;
         text-transform: uppercase;
-        display: block;
-        margin-top: 17px; }
+        display: block; }
     .show .show_text .show_text_box1 {
       color: #000;
-      background: #fff; }
+      background: #fff;
+      padding: 30px }
     .show .show_text .show_text_box2 {
-      background: #6A2C9A; }
+      background: #6A2C9A;
+      padding: 30px; }
     .show .show_text .show_text_box_title {
       font-size: 20px;
       font-weight: bold; }
