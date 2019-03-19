@@ -1,3 +1,9 @@
+@media screen and (max-width: 1300px) {
+	.offer__download{
+		margin-left: -600px
+	}
+}
+
 @media screen and (max-width: 1250px) {
 	#header{
 		min-height: 768px	
@@ -17,7 +23,7 @@
 	}
 
 	.offer__download{
-		bottom: 12%
+		bottom: 145px
 	}
 	/* Show */
 
