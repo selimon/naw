@@ -1,6 +1,6 @@
 @media screen and (max-width: 1250px) {
 	#header{
-		min-height: 900px	
+		min-height: 768px	
 	}
 	/* Offer */
 	.offer__title {
@@ -64,6 +64,12 @@
 	}
 }
 
+@media (max-width: 1024px) and (max-height: 887px){
+	.offer__download{
+		bottom: 17%
+	}
+}
+
 /* 768px - 992px*/
 @media screen and (max-width: 992px){
 	#header{
@@ -89,7 +95,7 @@
 	}
 
 	.offer__download{
-		bottom: 28%;
+		bottom: 30%;
 		right: 5%;
 		left: auto;
 	}
@@ -108,51 +114,45 @@
 	}
 
 	.offer{
-		margin-left: 60px;
+		margin-top: 8vh;
+		margin-left: 0;
 	}
 
 	.toggle-button{
 		display: block;
-		padding-left: 45px
 	}
 
 	#header{
-		min-height: 1200px;
+		min-height: 1024px;
 	}
 }
 
 /* 320px - 665px*/
-@media screen and (max-width: 665px){
+@media screen and (max-width: 665px) and (min-height: 376px){
+	#header{
+		min-height: 568px;
+	}
+
+	.offer{
+		margin-top: 5vh;
+	}
+
 	.offer__title{
-		font-size: 30px;
+		font-size: 19px;
+		width: 255px;
 	}
 	.offer__text{
-		font-size: 16px;
+		font-size: 9px;
+		width: 194px;
 	}
 	.offer__btn{
-		font-size: 12px;
-		padding: 9px 25px;
-		margin-top: 23px;
+		font-size: 9px;
+		padding: 5px 20px;
+		margin-top: 19px;
 	}
 
 	.offer__download{
 		right: 0
-	}
-
-	#header{
-		min-height: 800px;
-	}
-
-	.offer{
-		margin-top: 9vh;
-	}
-
-	.offer__title{
-		width: 255px;
-	}
-
-	.offer__text{
-		width: 194px;
 	}
 
 	.show{
@@ -192,17 +192,17 @@
 	}
 
 	.show_text_box1{
-		top: 46%;
+		top: 39%;
     	left: 8%;
 	} 
 
 	.show_text_box2{
-		top: 52%;
+		top: 48%;
     	right: 10%;
 	}
 
 	.offer__download{
-		bottom: 13%;
+		bottom: 10%;
 		width: 100%;
 		padding: 0 5%;
 	}
@@ -221,9 +221,7 @@
 	.show .show_nav .show_start .show_title_one{
 		font-size: 16px;
 	}
-}
 
-@media screen and (max-width: 380px) {
 	.show .show_nav .show_play{
 		width: 50px;
 		height: 50px;
@@ -242,10 +240,6 @@
 		font-size: 9px;
 	}
 
-	.offer__download{
-		bottom: 8%;
-	}
-
 	.offer__download img{
 		width: 50px;
 		height: 20px;
@@ -258,17 +252,76 @@
 	}
 }
 
+@media screen and (max-height: 426px){
+	#header{
+		min-height: 320px
+	}
+	.offer{
+		margin-top: 10vh;
+		margin-left: 0;
+	}
+	.offer__title{
+		font-size: 30px;
+	}
+
+	.offer__text{
+		font-size: 16px;
+	}
+
+	.offer__btn, .offer__download, .nav_box, .lang, .hashtag_box{
+		display: none !important;
+	}
+
+	.toggle-button{
+		display: block;
+	}
+
+	.show{
+		flex-direction: row
+	}
+
+	.show .show_text{
+		order: 0;
+	}
+
+	.show .show_text .show_text_box{
+		padding: 17px 0 13px 14px;
+	}
+
+	.show .show_nav .show_start .show_title_one,
+	.show .show_text .show_text_box_title{
+		font-size: 9px;
+	}
+
+	.show .show_text .show_text_box_text{
+		font-size: 9px;
+		margin-right: 10px;
+	}
+
+	.show_title_two{
+		font-size: 9px;
+	}
+
+	.show .show_text .show_text_box .learn_more{
+		font-size: 9px;
+	}
+
+	.show .show_nav .show_play{
+		width: 50px;
+		height: 50px;
+	}
+
+	.show .show_nav .show_start{
+		padding: 10px 20px 10px 20px;
+		width: calc(100% - 50px);
+	}
+
+	 .show .show_text .show_text_box .show_text_box_text {
+        margin-top: 0; }
+}
+
 @media screen and (max-height: 360px) {
 	.mob-lang, .mob-nav__menu{
 		position: static !important;
 	}
 }
-
-@media (max-width: 568px) and (min-width: 320px) {
-	.offer {
-		margin-left: 0px!important;
-	}
-	.toggle-button {
-		padding-left: 0px
-	}
-} 
