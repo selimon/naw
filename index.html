@@ -79,7 +79,7 @@
 							<p class="offer__text wow fadeInUp" data-wow-delay="1.6s">
 								свето-музыкальное шоу
 							</p>
-							<button class="offer__btn wow fadeInUp" data-wow-delay="2.2s">
+							<button class="offer__btn wow fadeInUp" data-toggle="modal" data-target="#exampleModalCenter" >
 								Анонсы шоу
 							</button>
 						</div>
@@ -90,8 +90,8 @@
 						<p class="download_text">
 							Скачайте приложения для доступа ко всем функциям
 						</p>
-						<img src="img/app_store.png" alt="App Store">
-						<img src="img/googleplay.png" alt="Google Play">
+						<a href="#" class="pr-3"><img src="img/app_store.png" alt="App Store"></a>
+						<a href="#"><img src="img/googleplay.png" alt="Google Play"></a>
 					</div>
 				</div>
 				<div class="row">
@@ -129,22 +129,35 @@
 			</div>
 		</header>
 	</div>
+	<!-- modal -->
+	<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center ">
+        <h5 class="modal-title pb-3" id="exampleModalLongTitle">Мобильный оператор может <br> взимать плату </h5>
+        <h2>Звонки совершаются через вашу <br> сотовую сеть, не через интернет.</h2>
+      </div>
+      <div class="modal-body row text-center ">
+        <div class="col-lg-6 bottom">
+          <div class="p-2 transform-text">
+        <a href="#" style="text-transform: uppercase" data-dismiss="modal" aria-label="Close"><h4>Отменить</h4></a>
+      </div>
+      </div>
+              <div class="col-lg-6 bottom">
+          <div class="p-2 transform-text">
+        <a href="#" style="text-transform: uppercase"><h4>позвонить</h4></a>
+      </div>
+      </div>
+      </div>
+
+    </div>
+  </div>
+</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="js/slideout.min.js"></script>
 	<script src="js/wow.min.js"></script>
-	<script src="js/main.js"></script>
-		<script type="text/javascript" defer>
-		var slideout = new Slideout({ 
-			'panel': document.getElementById('main'),       //id блока, что будет отъезжать в бок
-			'menu': document.getElementById('mob-nav'),     //id меню 
-			'padding': 375,                                 //На сколько контент должен отъехать в бок 
-			'tolerance': 70 
-		}); 
-		// Toggle button
-		document.querySelector('.toggle-button').addEventListener('click', function() {
-			slideout.toggle();
-		});
-	</script>
+	<script src="js/bootstrap.min.js"></script>
+
 
 </body>
 </html>
