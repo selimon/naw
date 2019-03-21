@@ -178,7 +178,7 @@ header {
     .show .show_nav .show_play {
       border: none;
       width: 100px;
-      height: 100px;
+      height: auto;
       background: #6A2C9A; }
       .show .show_nav .show_play img {
         width: 50%; }
