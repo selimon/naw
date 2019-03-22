@@ -121,19 +121,19 @@ header {
 .hashtag {
   position: absolute;
   left: -179px;
-  top: 50%;
+  top: 60%;
   margin-top: 40px;
   -webkit-transform: rotate(-90deg);
   -ms-transform: rotate(-90deg);
   transform: rotate(-90deg);
-  font-size: 26px;
+  font-size: 24px;
   letter-spacing: 0.36em;
   color: rgba(255, 255, 255, 0.5); }
 
 .offer {
   margin-left: 100px;
   text-transform: uppercase;
-  margin-top: 25vh;
+  margin-top: 13vh;
   position: relative; }
 
 .offer__title {
@@ -158,8 +158,8 @@ header {
 .offer__download {
   text-transform: none;
   position: absolute;
-  bottom: 18%;
-  left: 50%;
+  bottom: 21%;
+  left: 54%;
   margin-left: -630px;
   z-index: 999999
 

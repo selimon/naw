@@ -82,7 +82,7 @@
 	}
 
 	.offer__download{
-		margin-left: -450px;
+		margin-left: -486px;
 	}
 
 	.hashtag{
@@ -169,8 +169,8 @@
 		width: 255px;
 	}
 	.offer__text{
-		font-size: 9px;
-		width: 194px;
+		font-size: 12px;
+		width: 30%;
 	}
 	.offer__btn{
 		font-size: 9px;

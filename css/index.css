@@ -5,6 +5,12 @@
 	}
 
 } 
+@media (max-width: 1366px){
+		.contact-img{
+		height: 400px!important
+	}
+
+}
 @media (min-width: 1366px){
 	.text-padd {
 		padding-left: 10%!important
@@ -23,6 +29,13 @@
 	.footer-block {
 		padding-top: 30%
 	}
+	.p-options {
+		max-width: 85%
+	}
+.footer-block{
+	max-width: 100%;
+	margin-left: 30%
+}
 	/*anonsi*/
 	.anonsi-botton {
 		margin-left: 4%
@@ -236,7 +249,7 @@
 		order: 0!important
 	}
 	.p-options {
-		width: 70%!important
+		width: 99%!important
 	}
 }
 
@@ -251,7 +264,10 @@
 
 
 @media (min-width: 1024px) {
-		
+				.text-anonsi  {
+		width: 30%!important;
+		padding: 50px 0px 50px 0px
+	}
 	.text-zoom {
 		max-width: 130%!important;
 		flex: 130%!important;
@@ -269,6 +285,25 @@
 	.posi-ab img {
 		width: 260px
 	}
+			.contact-img{
+			max-width: 100%;
+			flex: 100%
+		}
+			.mobile-contact{
+		padding-left: 3%!important;
+		max-width: 70%!important;
+		flex: 70%!important
+	}
+	.contact-img{
+		height: 100%!important
+	}
+	.p-options {
+		max-width: 80%;
+	}
+	.footer-block {
+		margin-left: 30%
+	}
+	
 	/*contact*/
 
 
@@ -287,9 +322,7 @@
 		padding-right: 20%
 	}
 	/*contact*/
-	.mobile-contact{
-		padding-left: 3%!important
-	}
+
 	.contact-img  {
 		width: 100%!important;
 		z-index: -99;
@@ -297,16 +330,17 @@
 		overflow: hidden!important;
 		height: 440px
 	}
+	.contact-img img{
+		width: 100%!important
+	}
+
 
 
 
 } 
 
 @media (max-width: 768px) {
-		.text-anonsi  {
-		width: 30%;
-		padding: 50px 0px 50px 0px
-	}
+
 
 	.button-right {
 		padding-right: 17%
@@ -346,7 +380,7 @@
 		justify-content: space-between;
 	}
 	.text-anonsi  {
-		width: 30%;
+		width: 30%!important;
 		padding: 50px 0px 50px 0px
 	}
 
@@ -494,11 +528,12 @@
 @media (min-width: 768px){
 	.posi-ab {
 		position: absolute!important;
-		bottom: 0%!important
+		bottom: -5%!important
 	}
 	.text-history-header {
 		padding-left: 0%!important
 	}
+
 	/*contact*/
 	.anonsi-botton{
 		justify-content: flex-end!important;
@@ -513,6 +548,23 @@
 	.text-anonsi  {
 		width: 40%;
 		padding-left: 15%
+	}
+}
+@media (min-width: 1125px){
+	.mobile-contact{
+		padding-left: 4%!important
+	}
+	.text-options .span {
+		font-size: 1.5em!important
+	}
+	.block-mobil-contact{
+		padding-top: 5%!important
+	}
+	.time-block,.date ,span {
+		font-size: 12px!important
+	}
+	.contact-text-footer p {
+		font-size: 14px!important
 	}
 }
 
