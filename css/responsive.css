@@ -2,6 +2,29 @@
 	.offer__download{
 		margin-left: -600px
 	}
+	.hashtag {
+		display: none;
+	}
+	.offer {
+		margin-top: 10vh
+	}
+
+}
+@media (max-width: 1300px) and (min-width: 1250px){
+		.app {
+		width: 20%;
+		height: auto;
+	}
+	.google{
+		width: 17%;
+		height: auto;
+	}
+	.google,.app {
+		margin-top: 1%
+	}
+	.offer__download .download_text {
+		display: flex;
+	}
 }
 
 @media screen and (max-width: 1250px) {

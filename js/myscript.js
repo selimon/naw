@@ -123,13 +123,14 @@ $(".closed-3").click(function() {
         $('.close').click(function () {
             $('.navbar-mobile-menu').removeClass('open');
         });
-    });
-$(".navbar-toggler").click(function() {
+        $(".navbar-toggler").click(function() {
 	$(".navbar-toggler").addClass('op');
 });
 $(".close").click(function() {
 	$(".navbar-toggler").removeClass('op');
 });
+
+    });
 
 
 

@@ -8,7 +8,9 @@
   background: #fff url("../img/preloader.gif") no-repeat center center;
   z-index: 9999999;
   visibility: visible; }
-
+html {
+  overflow: hidden;
+}
 .done {
   opacity: 0;
   visibility: hidden;
@@ -17,7 +19,9 @@ a,a:hover{
   text-decoration: none;
   color: inherit;
 }
-
+img {
+  max-width: 100%
+}
 #mob-nav {
   position: fixed;
   width: 375px;
