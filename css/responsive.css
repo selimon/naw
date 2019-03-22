@@ -331,8 +331,8 @@
 		font-size: 9px;
 	}
 
-	.show .show_text .show_text_box .learn_more{
-		font-size: 9px;
+	.show .show_text .show_text_box .learn_more,.show .show_text .show_text_box .read_more_arrow{
+		display: none
 	}
 
 	.show .show_nav .show_play{

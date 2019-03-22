@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat");
 @import url("colorSize.css");
 @import url("effects.css");
 @import url("mobile.css");
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif; }
 
 a, a:hover {
   text-decoration: none;
@@ -302,6 +302,9 @@ main {
   font-size: 75px;
   font-weight: bold;
   line-height: 60px; }
+
+.mobile-contact {
+  z-index: 2; }
 
 .bg-fon-history {
   background-image: url(../images/background.png);
