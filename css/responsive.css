@@ -28,9 +28,7 @@
 }
 
 @media screen and (max-width: 1250px) {
-	#header{
-		min-height: 768px	
-	}
+
 	/* Offer */
 	.offer__title {
 	    font-size: 65px;
@@ -353,4 +351,14 @@
 	.mob-lang, .mob-nav__menu{
 		position: static !important;
 	}
+}
+
+@media (min-width: 1125px){
+	.offer__title{
+		font-size: 60px
+	}
+	.offer{
+		margin-left: 0px
+	}
+
 }
