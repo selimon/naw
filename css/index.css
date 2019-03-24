@@ -286,7 +286,7 @@
 		width: 260px
 	}
 
-			.mobile-contact{
+	.mobile-contact{
 		padding-left: 3%!important;
 	}
 	.contact-img{
@@ -297,7 +297,7 @@
 		margin-left: 30%
 	}	
 
-	
+
 	/*contact*/
 
 
@@ -310,6 +310,9 @@
 
 	.img-text {
 		font-size: 110px!important
+	}
+	.block-mobil-contact {
+		max-width: 100%!important;
 	}
 	/*anonsi*/
 	.button-right {
@@ -520,7 +523,7 @@
 		.block-mobil-contact {
 		display: flex;
 		justify-content: space-between;
-		max-width: 100%
+		max-width: 70%
 	}
 }
 /*specification*/
@@ -581,7 +584,7 @@
 		font-size: 12px!important
 	}
 	.contact-text-footer p {
-		font-size: 14px!important
+		font-size: 13px!important
 	}
 }
 
