@@ -587,4 +587,13 @@
 		font-size: 13px!important
 	}
 }
-
+@media  (max-width: 1876px) and (min-width: 1876px){
+	.posi-rel{
+		position: relative;
+	    margin: 0px 170px 0px 300px!important;
+	    min-width: 150px;
+	}
+	.posi-ab {
+		top: 109%!important;
+	}
+}
