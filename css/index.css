@@ -315,9 +315,7 @@
 		max-width: 100%!important;
 	}
 	/*anonsi*/
-	.button-right {
-		padding-right: 20%
-	}
+
 	/*contact*/
 
 	.contact-img  {
@@ -339,9 +337,7 @@
 @media (max-width: 768px) {
 
 
-	.button-right {
-		padding-right: 17%
-	}
+
 	/*contact*/
 	.contact-img img {
 		width: 100%!important
@@ -587,4 +583,13 @@
 		font-size: 13px!important
 	}
 }
-
+@media (max-width: 2560px) and (min-width: 2000px){
+	.posi-rel{
+		margin: 0px 470px 0px 740px!important
+	}
+}
+@media (max-width: 2000px) and (min-width: 1600px){
+		.posi-rel{
+		margin: 0px 363px 0px 430px!important
+	}
+}
