@@ -507,7 +507,7 @@
 	}
 
 }
-@media (max-width: 2560px) and (min-width: 1441px) {
+@media (max-width: 2560px) and (min-width: 2560px) {
 		.img-text {
 		bottom: 0px!important;
 		right: 30%!important;
@@ -560,7 +560,7 @@
 }
 @media (min-width: 1536px) {
 	.posi-ab {
-		top: 87%
+		top: 103%
 	}
 	.text-anonsi  {
 		width: 40%;
@@ -587,13 +587,4 @@
 		font-size: 13px!important
 	}
 }
-@media  (max-width: 1876px) and (min-width: 1876px){
-	.posi-rel{
-		position: relative;
-	    margin: 0px 170px 0px 300px!important;
-	    min-width: 150px;
-	}
-	.posi-ab {
-		top: 109%!important;
-	}
-}
+
