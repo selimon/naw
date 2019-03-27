@@ -66,6 +66,7 @@
 		padding-left: 24%
 	}
 
+
 	.history-block h1 {
 		font-size: 43px!important
 	}
@@ -261,6 +262,9 @@
 		width: 30%!important;
 		padding: 50px 0px 50px 0px
 	}
+	.block-mobil-contact{
+		max-width: 65%;
+	}
 	.text-zoom {
 		max-width: 130%!important;
 		flex: 130%!important;
@@ -304,9 +308,8 @@
 	.img-text {
 		font-size: 110px!important
 	}
-	.block-mobil-contact {
-		max-width: 100%!important;
-	}
+
+
 	/*anonsi*/
 
 	/*contact*/
@@ -333,6 +336,9 @@
 		justify-content: flex-end!important;
 		display: flex;
 		margin-left: 22%
+	}
+	.time-block span{
+		padding-top: 10%;
 	}
 
 	/*contact*/
@@ -434,9 +440,7 @@
 	.offer {
 		padding-left: 0px!important 
 	}
-	.show .show_nav {
-		height: 50px
-	}
+	
 	/*anonsi*/
 
 
@@ -619,8 +623,11 @@
 
 }
 
-
-
+@media (min-width: 1906px) and (max-width: 2559px){
+	.block-clock{
+		padding-left: 20%
+	}  
+}
 
 
 
