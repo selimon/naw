@@ -95,6 +95,7 @@ header {
 
 .logo{
   margin-left: 20px;
+  width: 163px
 }
 
 .lang{
@@ -116,17 +117,17 @@ header {
   margin-right: 60px; }
 
 .desc_menu, .lang {
-  font-size: 16px; }
+  font-size: 12px; }
 
 .hashtag {
   position: absolute;
-  left: -179px;
+  left: -150px;
   top: 60%;
   margin-top: 40px;
   -webkit-transform: rotate(-90deg);
   -ms-transform: rotate(-90deg);
   transform: rotate(-90deg);
-  font-size: 24px;
+  font-size: 20px;
   letter-spacing: 0.36em;
   color: rgba(255, 255, 255, 0.5); }
 
@@ -149,7 +150,7 @@ header {
 .offer__btn {
   background: #6A2C9A;
   border-radius: 2px;
-  padding: 16.5px 68px;
+  padding: 6.5px 40px;
   margin-top: 42.15px;
   border: none;
   color: #fff;
@@ -159,13 +160,16 @@ header {
   text-transform: none;
   position: absolute;
   bottom: 21%;
-  left: 54%;
-  margin-left: -630px;
+  left: 59%;
+  top: 2%;
+  margin-left: -686px;
   z-index: 999999
 
    }
   .offer__download .download_text {
-    width: 230px; }
+    font-size: 14px;
+    padding-right: 20px
+     }
   .offer__download img {
     margin-right: 21px; }
 
@@ -177,7 +181,8 @@ header {
   bottom: 0;
   width: 100%; }
   .show .show_nav {
-    width: 50%; }
+    width: 50%;
+    height: 68px }
     .show .show_nav .show_play {
       border: none;
       width: 100px;
@@ -187,14 +192,15 @@ header {
         width: 50%; }
     .show .show_nav .show_start {
       text-transform: uppercase;
-      padding: 20px 20px 20px 74px;
+      padding: 10px 0px 0px 39px;
       background: #29292D;
       width: calc(100% - 100px); }
       .show .show_nav .show_start .show_title_one {
         font-weight: bold;
-        font-size: 25px; }
+        font-size: 20px; }
   .show .show_text {
-    width: 50%; }
+    width: 50%;
+    height: 167px }
     .show .show_text .show_text_box {
       width: 50%;
       -webkit-box-sizing: border-box;
@@ -204,21 +210,21 @@ header {
       .show .show_text .show_text_box .show_text_box_text { }
       .show .show_text .show_text_box .learn_more {
         color: #AB4FF2;
-        font-size: 18px;
+        font-size: 16px;
         text-transform: uppercase;
         display: block; }
     .show .show_text .show_text_box1 {
       color: #000;
       background: #fff;
-      padding: 30px }
+      padding: 27px 39px }
     .show .show_text .show_text_box2 {
       background: #6A2C9A;
-      padding: 30px; }
+      padding: 27px 39px; }
     .show .show_text .show_text_box_title {
       font-size: 20px;
       font-weight: bold; }
     .show .show_text .show_text_box_text {
-      font-size: 18px; }
+      font-size: 14px; }
 .modal-header {
   display: block; }
   .modal-header h5 {
@@ -232,3 +238,6 @@ header {
   .modal-body h4 {
     color: #6A2C9A;
     font-size: 18px; }
+.show_title_two {
+  font-size: 12px
+}

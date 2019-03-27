@@ -29,7 +29,7 @@ a, a:hover {
 .link-text {
   padding: 0px 5px 0px 0px;
   position: relative;
-  top: -2px; }
+  top: -4px; }
 
 img {
   max-width: 100%; }
@@ -181,7 +181,7 @@ main {
   padding: 0px; }
 
 .block-clock span {
-  font-size: 18px;
+  font-size: 16px;
   color: #D0D0D0;
   line-height: 33px;
   font-style: normal;
@@ -196,7 +196,7 @@ main {
   padding-left: 100px; }
 
 .contact-img img {
-  width: 80%;
+  width: 100%;
   height: auto; }
 
 .section-tri {
@@ -316,15 +316,23 @@ main {
 .history-block {
   padding-top: 236px; }
   .history-block h1 {
-    font-size: 95px;
+    font-size: 45px;
     font-weight: bold;
     letter-spacing: 0.1em; }
+  .history-block h2 {
+    font-size: 20px; }
 
 .section-two {
   padding: 200px 0px 200px 0px; }
 
 .text-block-1 {
   padding: 59px 0px 50px 0px; }
+
+.text-history-header h1 {
+  font-weight: bold; }
+
+.text-history-header p {
+  font-size: 12px; }
 
 .text-position-bottom {
   position: absolute;
@@ -361,7 +369,7 @@ main {
   left: 0;
   right: 0;
   padding-top: 220px;
-  font-size: 180px;
+  font-size: 90px;
   font-weight: bold; }
 
 .posi-rel {
@@ -381,8 +389,8 @@ main {
 .size {
   position: absolute;
   right: 0px;
-  bottom: -160px;
+  bottom: -91px;
   color: #AB4FF2; }
   .size h1 {
-    font-size: 180px;
+    font-size: 90px;
     font-weight: bold; }

@@ -29,7 +29,7 @@
     letter-spacing: 0.36em; }
 
 .text-options h1 {
-  font-size: 95px;
+  font-size: 71px;
   font-weight: bold;
   letter-spacing: 0.1em;
   text-transform: uppercase; }
@@ -44,6 +44,9 @@
 
 .footer-bg {
   background: #29292D; }
+
+.block-mobil-contact h5 {
+  font-size: 20px; }
 
 .col-llg-4 {
   flex: 0 0 25.333333%;
@@ -74,14 +77,11 @@
   max-width: 460px;
   flex: 100%; }
 
-.text-options span {
-  font-size: 35px; }
-
 .mobile-version-contact h1 {
   font-size: 5.4em; }
 
 .grafik span {
-  font-size: 18px;
+  font-size: 16px;
   color: #D0D0D0;
   font-style: normal;
   font-weight: normal;
@@ -95,4 +95,7 @@
   font-weight: normal;
   font-style: normal;
   color: #D0D0D0;
-  line-height: 26px; }
+  line-height: 23px; }
+
+.span {
+  font-size: 20px; }

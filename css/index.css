@@ -8,7 +8,7 @@
 @media (max-width: 1366px){
 		.contact-img{
 		height: 400px!important
-	}
+	}	
 
 }
 @media (min-width: 1366px){
@@ -20,26 +20,24 @@
 	}
 	.posi-ab{
 		left: 0%;
-		top: 97%
+		top: 112%
 	}
 	.img-text {
-		font-size: 130px!important;
-		bottom: -10%
+		font-size: 90px!important;
+		bottom: 0%
 	}
 	.footer-block {
 		padding-top: 30%
 	}
 	.p-options {
-		max-width: 85%
+		max-width: 63%
 	}
 .footer-block{
 	max-width: 100%;
 	margin-left: 30%
 }
 	/*anonsi*/
-	.anonsi-botton {
-		margin-left: 4%
-	}
+
 }
 
 @media (max-width: 812px) and (min-width: 320px) {
@@ -87,6 +85,7 @@
 		justify-content: flex-start!important;
 		display: flex;
 	}
+
 	/*anonsi*/
 	.text-anonsi {
 		width: 30%
@@ -99,12 +98,11 @@
 		top: 10px!important;
 		right: 5%!important
 	}
-	.anonsi-botton{
-	padding-right: 22%!important
-	}
+
+
 	/*contact*/
 	.grafik span {
-		line-height: 14px!important
+		line-height: 13px!important
 	}
 	.block-clock span{
 		line-height: 0px!important;
@@ -170,11 +168,6 @@
 @media (max-width: 812px) and (min-width: 568px){
 	.posi-rel{
 		margin: 0px 100px 0px 100px!important
-	}
-	.anonsi-botton {
-		display: flex;
-		justify-content: flex-end;
-		padding-right: 60px
 	}
 	.d-no {
 		display: none
@@ -336,7 +329,11 @@
 
 @media (max-width: 768px) {
 
-
+	.anonsi-botton{
+		justify-content: flex-end!important;
+		display: flex;
+		margin-left: 22%
+	}
 
 	/*contact*/
 	.contact-img img {
@@ -375,6 +372,11 @@
 	.text-anonsi  {
 		width: 30%!important;
 		padding: 50px 0px 50px 0px
+	}	
+	.anonsi-botton{
+		justify-content: flex-end!important;
+		display: flex;
+		margin-left: 10%
 	}
 
 	}
@@ -385,7 +387,7 @@
 @media (max-width: 1366px) and (min-width: 1024px){
 	.img-text {
 		position: relative;
-		top: 50px!important;
+		bottom: 0px
 	}
 	.mobile-contact  {
 		padding-left: 5%
@@ -409,7 +411,7 @@
 	}
 	/*contact*/
 	.contact-text-footer{
-		width: 75%
+		width: 100%
 	}
 
 }
@@ -426,7 +428,7 @@
 		padding-bottom: 10px
 	}
 	.grafik,.block-clock {
-		padding-left: 30px
+		padding-left: 10px
 	}
 	.offer {
 		padding-left: 0px!important 
@@ -452,14 +454,14 @@
 		flex: 60%;
 	}
 	.posi-ab  {
-		top: 78%!important
+		top: 102%!important
 	}
 	.p-options p{
 		width: 80%!important;
 		font-size: 20px!important
 	}
 	.posi-ab img {
-		width: 372px;
+		width: 315px;
 		height: auto;
 	}
 	.text-history-header  {
@@ -541,17 +543,14 @@
 @media (min-width: 768px){
 	.posi-ab {
 		position: absolute!important;
-		bottom: -5%!important
+		bottom: 6%!important;
 	}
 	.text-history-header {
 		padding-left: 0%!important
 	}
 
 	/*contact*/
-	.anonsi-botton{
-		justify-content: flex-end!important;
-		display: flex;
-	}
+	
 
 }
 @media (min-width: 1536px) {
@@ -568,24 +567,20 @@
 }
 @media (min-width: 1125px){
 	.mobile-contact{
-		padding-left: 4%!important
+		padding-left: 19%!important
 	}
-	.text-options .span {
-		font-size: 1.5em!important
-	}
+
 	.block-mobil-contact{
 		padding-top: 5%!important
 	}
-	.time-block,.date ,span {
-		font-size: 12px!important
-	}
+
 	.contact-text-footer p {
 		font-size: 13px!important
 	}
 }
 @media (max-width: 2560px) and (min-width: 2000px){
 	.posi-rel{
-		margin: 0px 470px 0px 740px!important
+		margin: 0px 630px 0px 740px!important
 	}
 }
 @media (max-width: 2000px) and (min-width: 1600px){
@@ -593,3 +588,56 @@
 		margin: 0px 363px 0px 430px!important
 	}
 }
+
+@media (min-width: 1280px){
+	.text-anonsi h1{
+		font-size: 40px!important
+	}
+	.zoom-text h5{
+		font-size: 25px!important
+	}
+	.zoom-text h5 ~ span {
+		font-size: 12px
+	}
+	.accord-text-options h5{
+		font-size: 
+	}
+}
+
+@media  (min-width: 1025px) and (max-width: 1370px) {
+	.section-p-options p {
+		font-size: 12px!important;
+	}
+	.p-options {
+		width: 100%!important;
+	}
+	.section-fou p {
+		font-size: 12px!important
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.accord-text-options h5 ~ div p {
+	color: #BBBBBB
+}
+.anonsi-botton{
+	max-width: 1221px;
+  	width: 100%;
+  	margin: 0 auto
+}
+.text-anonsi h1 {
+	font-size: 71px
+}
+
