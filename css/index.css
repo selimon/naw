@@ -417,6 +417,7 @@
 }
 
 
+
 @media (max-width: 568px) and (min-width: 320px){
 	.block-mobil-contact h5 {
 		font-size: 16px
@@ -433,7 +434,9 @@
 	.offer {
 		padding-left: 0px!important 
 	}
-
+	.show .show_nav {
+		height: 50px
+	}
 	/*anonsi*/
 
 
@@ -559,7 +562,6 @@
 	}
 	.text-anonsi  {
 		width: 40%;
-		padding-left: 15%
 	}
 	.p-options{
 		width: 100%!important

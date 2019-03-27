@@ -225,6 +225,11 @@ main {
   background-size: cover;
   background-position: right; }
 
+.pdd-anonsi {
+  max-width: 1221px;
+  width: 100%;
+  margin: 0 auto; }
+
 .text-anonsi h1 {
   font-size: 75px;
   font-weight: bold; }
