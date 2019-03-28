@@ -69,6 +69,7 @@
 
 	.offer__download .download_text {
 	    font-size: 12px;
+	    padding-right: 5%
 	}
 
 	.offer__download img {
@@ -92,6 +93,11 @@
 
 }
 
+@media (min-width: 320px){
+	.logo {
+		margin-left: 2px
+	}
+}
 @media (max-width: 1024px) and (max-height: 887px){
 	.offer__download{
 		bottom: 17%
@@ -164,7 +170,7 @@
 		min-height: 568px;
 	}
 	.logo-p{
-		margin-left: 12px;
+		margin-left: 32px;
 		padding:0px!important;
 	}
 	.offer{
@@ -363,11 +369,9 @@
 }
 
 @media (min-width: 1125px){
-	.offer__title{
-		font-size: 60px
-	}
+
 	.offer{
-		margin-left: 0px;
+		margin-left: 5px;
 		margin-top: 26vh
 	}
 
@@ -379,11 +383,67 @@
 	}
 }
 
-@media (max-width: 320px ){
+@media (max-width: 320px )
+{
 	.show .show_nav {
 		height: 50px
 	}
 	.show .show_text .show_text_box {
 		margin-top: 20%
+	}
+}
+
+@media (min-width: 1920px){
+	.offer__title {
+		font-size: 71px
+	}
+	.offer__text{
+		font-size: 35px
+	}
+	.hashtag{
+		font-size: 20px;
+	}
+	.show .show_nav{
+		height: 102px
+	}
+	.show .show_nav .show_start .show_title_one{
+		font-size: 25px
+	}
+	.show_title_two,.show .show_text .show_text_box_text{
+		font-size: 14px
+	}
+	.show .show_nav .show_start{
+		padding: 20px 0px 0px 48px
+	}
+	.show .show_text{
+		height: 190px
+	}
+	.offer__download{
+		left: 58%;
+	}
+	.offer {
+		margin-left: -25px
+	}
+	.show .show_text .show_text_box_title{
+		font-size: 20px
+	}
+	.show .show_text .show_text_box .learn_more{
+		font-size: 16px;
+	}
+	.show .show_text .show_text_box .learn_more{
+		padding-top: 7%
+	}
+	.show .show_text .show_text_box .read_more_arrow {
+		padding-top: 8%
+	}
+}
+@media (min-width: 1366px){
+	.offer__download .download_text {
+		padding-right: 5%
+	}
+}
+@media (min-width: 1024px){
+	.offer__download .download_text {
+		padding-right: 3%
 	}
 }

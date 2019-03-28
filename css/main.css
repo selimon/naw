@@ -94,7 +94,7 @@ header {
   background: url("../img/background.jpg") no-repeat center top/cover; }
 
 .logo{
-  margin-left: 20px;
+  margin-left: 90px;
   width: 163px
 }
 
@@ -121,13 +121,13 @@ header {
 
 .hashtag {
   position: absolute;
-  left: -150px;
-  top: 60%;
+  left: -118px;
+  top: 65%;
   margin-top: 40px;
   -webkit-transform: rotate(-90deg);
   -ms-transform: rotate(-90deg);
   transform: rotate(-90deg);
-  font-size: 20px;
+  font-size: 16px;
   letter-spacing: 0.36em;
   color: rgba(255, 255, 255, 0.5); }
 
@@ -139,12 +139,12 @@ header {
 
 .offer__title {
   font-weight: bold;
-  font-size: 71px;
+  font-size: 50px;
   letter-spacing: 0.1em; }
 
 .offer__text {
   font-weight: 500;
-  font-size: 35px;
+  font-size: 20px;
   letter-spacing: 0.05em; }
 
 .offer__btn {
@@ -160,7 +160,7 @@ header {
   text-transform: none;
   position: absolute;
   bottom: 21%;
-  left: 59%;
+  left: 60%;
   top: 2%;
   margin-left: -686px;
   z-index: 999999
@@ -168,7 +168,7 @@ header {
    }
   .offer__download .download_text {
     font-size: 14px;
-    padding-right: 20px
+    padding-right: 12%
      }
   .offer__download img {
     margin-right: 21px; }
@@ -192,7 +192,7 @@ header {
         width: 50%; }
     .show .show_nav .show_start {
       text-transform: uppercase;
-      padding: 10px 0px 0px 39px;
+      padding: 10px 0px 0px 47px;
       background: #29292D;
       width: calc(100% - 100px); }
       .show .show_nav .show_start .show_title_one {
@@ -206,13 +206,15 @@ header {
       -webkit-box-sizing: border-box;
       box-sizing: border-box;}
       .show .show_text .show_text_box .read_more_arrow {
+        padding-top: 12%
          }
       .show .show_text .show_text_box .show_text_box_text { }
       .show .show_text .show_text_box .learn_more {
         color: #AB4FF2;
-        font-size: 16px;
+        font-size: 12px;
         text-transform: uppercase;
-        display: block; }
+        display: block;
+        padding-top: 11% }
     .show .show_text .show_text_box1 {
       color: #000;
       background: #fff;
@@ -221,10 +223,10 @@ header {
       background: #6A2C9A;
       padding: 27px 39px; }
     .show .show_text .show_text_box_title {
-      font-size: 20px;
+      font-size: 16px;
       font-weight: bold; }
     .show .show_text .show_text_box_text {
-      font-size: 14px; }
+      font-size: 12px; }
 .modal-header {
   display: block; }
   .modal-header h5 {

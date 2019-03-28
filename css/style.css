@@ -200,7 +200,9 @@ main {
   height: auto; }
 
 .section-tri {
-  padding-top: 100px; }
+  padding-top: 100px;
+  display: flex;
+  align-items: flex-end; }
 
 .modal-header {
   display: block; }

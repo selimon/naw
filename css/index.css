@@ -277,7 +277,7 @@
 		bottom: 10%!important;
 	}
 	.text-history-header h1 {
-		font-size: 40px!important
+		font-size: 40px
 	}
 	.posi-ab img {
 		width: 260px
@@ -628,6 +628,78 @@
 		padding-left: 20%
 	}  
 }
+@media (min-width: 1920px){
+	.history-block h1{
+		font-size: 71px!important
+	}
+	.history-block h2{
+		font-size: 35px!important
+	}
+	.history-block-one{
+		padding-top: 105px
+	}
+	.posi-rel{
+		width: 930px;
+		height: 470px;
+		margin: 0 auto;
+		padding: 0px
+	}
+	.text-history-header h1{
+		font-size: 25px
+	}
+	.text-history-header p{
+		font-size: 14px!important
+	}
+	.text-history-header {
+		max-width: 70%
+	}
+	.posi-ab{
+		top: 80%;
+		left: -15%;
+	}
+	.posi-ab img {
+		width: 400px
+	}
+	.size h1,.img-text{
+		font-size: 120px!important
+	}
+	.section-fou p{
+		max-width: 80%
+	}
+	/*contact*/
+	.mobile-contact{
+		padding-left: 14%!important
+	}
+	.span{
+		font-size: 25px!important;
+	}
+	.contact-text-footer p{
+		font-size: 16px!important
+	}
+	.contact-text-footer{
+		max-width: 70%
+	}
+	.mobile-contact {
+		max-width: 51%;
+		flex: 64%
+	}
+	.block-mobil-contact{
+		padding-top: 136px!important;
+		padding-bottom: 96px;
+		max-width: 100%
+	}
+	.contact-text-footer p{
+		line-height: 23px
+	}
+	.contact-img{
+		max-width: 100%;
+		flex: 25%
+	}
+	/*anonsi*/
+	.text-anonsi h1{
+		font-size: 71px!important
+	}
+}
 
 
 
@@ -650,3 +722,9 @@
 	font-size: 71px
 }
 
+.section-p-options p,.section-fou p{
+	color: #D0D0D0
+}
+.logo{
+  width: 163px
+}
