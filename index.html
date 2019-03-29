@@ -14,60 +14,49 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<!-- Main stylesheet file -->
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<!-- Responsive layout -->
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 </head>
 <body>
-	<nav id="mob-nav">
-		<img src="img/close.png" alt="CLOSE" class="close_btn" onclick="slideout.close()">
-		<ul class="mob-nav__menu">
-			<li class="mob-nav__menu__item">
-				<a href="index.html" class="go_to" onclick="slideout.close()">Главная
-				</a>
-			</li>
-			<li class="mob-nav__menu__item">
-				<a href="history.html" class="go_to" onclick="slideout.close()">История</a>
-			</li>
-			<li class="mob-nav__menu__item">
-				<a href="anonsi.html" class="go_to" onclick="slideout.close()">Анонсы</a>
-			</li>
-			<li class="mob-nav__menu__item">
-				<a href="contact.html" class="go_to" onclick="slideout.close()">Контакты</a>
-			</li>
-		</ul>
-		<div class="mob-lang">
-			<span>ru </span>|<span> en</span>
-		</div>
-	</nav>
 	<div id="main" class="main">
-		<header id="header">
-			<div class="container-fluid">
-				<div class="row d-flex align-items-center">
-					<div class="col-3  logo-p">
-						<a href="index.html"><img src="img/logotype.png" alt="LOGO" class="logo"></a>
-					</div>
-					<div class="col-7 nav_box">
-						<nav class="desc-nav">
-							<ul class="desc_menu d-flex">
-								<li>
-									<a href="history.html">История</a>
-								</li>
-								<li>
-									<a href="anonsi.html">Анонсы</a>
-								</li>
-								<li>
-									<a href="contact.html">Контакты</a>
-								</li>
-							</ul>
-						</nav>
-					</div>
-					<div class="col-2 ml-auto">
-						<div class="lang text-right">
-							<span>ru </span>|<span> en</span>
-						</div>
-						<img src="img/menu_bars.png" class="toggle-button" alt="HAMBURHER">
-					</div>
-				</div>
+		<section id="hero">
+			<div class="container-fluid no-gutters">
+    <header id="header">
+      <section >
+        <div class="container-fluid no-gutters">
+          <div class="col-lg-12 ptt-5 ">
+            <nav class="navbar navbar-expand-md navbar-light">
+              <a class="navbar-brand pl-2" href="index.html"><img src="images/logo.png" alt="" class="logo"></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="menu-mobile">
+                <a href="#"><img src="images/menu.png" alt=""></a>
+              </span>
+              </button>
+              <div class="collapse navbar-collapse menu-item  pt-1" >
+                <ul class="navbar-nav ">
+                  <li class="nav-item ">
+                    <a class="nav-link" href="history.html">ИСТОРИЯ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="anonsi.html">АНОНСЫ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">КОНТАКТЫ</a>
+                  </li>
+                </ul>
+                <div class="language d-flex justify-content-end d-lg-none ">
+                  <h2 class="active"><a href="#">RU</a></h2><span class="text-white link-text">|</span><h2 class="disabled"><a href="#">EN</a></h2>
+                </div>
+              </div>
+              <div class="language-one d-flex justify-content-end align-self-center">
+                <h2 class="active"><a href="#">RU</a></h2><span class="text-white link-text">|</span><h2 class="disabled"><a href="#">EN</a></h2>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </section>
+    </header>
 				<div class="row">
 					<div class="col-1 hashtag_box">
 						<div class="hashtag">#СМОЛЕНСКИЙМОСТ</div>	
@@ -80,7 +69,7 @@
 							<p class="offer__text wow fadeInUp" data-wow-delay="1.6s">
 								свето-музыкальное шоу
 							</p>
-							<button class="offer__btn wow fadeInUp" data-toggle="modal" data-target="#exampleModalCenter" >
+							<button class="offer__btn wow fadeInUp" data-wow-delay="2.2s" data-toggle="modal" data-target="#exampleModalCenter" >
 								Анонсы шоу
 							</button>
 						</div>
@@ -94,10 +83,12 @@
 						<div class="show_nav d-flex">
 												<div class="offer__download d-flex">
 						<p class="download_text">
-							Скачайте приложения для <br>  доступа ко всем функциям
+							Скачайте приложения для <br> доступа ко всем функциям
 						</p>
+						<div class="domload-text">
 						<a href="#" class="pr-3 app"><img src="img/app_store.png" alt="App Store"></a>
 						<a href="#" class="google"><img src="img/googleplay.png" alt="Google Play"></a>
+					</div>
 					</div>
 							<button class="show_play"><img src="img/play_btn.png" alt="PLAY"></button>
 							<div class="show_start">
@@ -114,7 +105,7 @@
 									Ближайшее <br>
 									свето-музыкальное шоу состоится <br>1 июня  в 21:00 (Мск)
 								</p>
-								<a href="#" class="learn_more ">Узнать больше</a>
+								<a href="#" class="learn_more read_more_link">Узнать больше</a>
 							</div>
 							<div class="show_text_box2 show_text_box">
 								<h3 class="show_text_box_title">
@@ -123,14 +114,41 @@
 								<p class="show_text_box_text">
 									 На строительстве Арбатского  радиуса второй <br> очереди метро вчера состоялись вновь  выстроенного моста.
 								</p>
-								<a href="#"><img src="img/arrow.png" alt="READ MORE" class="read_more_arrow "></a>
+								<a href="#" class="read_more_link"><img src="img/arrow.png" alt="READ MORE" class="read_more_arrow "></a>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</header>
+		</section>
 	</div>
+
+
+      <!-- mobile-menu -->
+      <section>
+        <div class="navbar-mobile-menu text-white d-lg-none  d-md-none"  style="transform: translateX(-200%);">
+          <div class="close" style="display: block;">
+            <a href="#"  ><img src="images/close.png" alt=""></a>
+          </div>
+          <ul class="navbar-nav ">
+            <li class="nav-item ">
+              <a class="nav-link" href="index.html">ГЛАВНАЯ</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="history.html">ИСТОРИЯ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="anonsi.html">АНОНСЫ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">КОНТАКТЫ</a>
+            </li>
+            <div class="language d-flex  pt-5">
+              <h2 class="active"><a href="#">RU</a></h2><span class="text-white link-text">|</span><h2 class="disabled"><a href="#">EN</a></h2>
+            </div>
+          </ul>
+        </div>
+      </section>
 	<!-- modal -->
 	<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
@@ -157,23 +175,8 @@
 </div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="js/slideout.min.js"></script>
-	<script src="js/wow.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-		<script type="text/javascript" defer>
-		var slideout = new Slideout({ 
-			'panel': document.getElementById('main'),       //id блока, что будет отъезжать в бок
-			'menu': document.getElementById('mob-nav'),     //id меню 
-			'padding': 375,                                 //На сколько контент должен отъехать в бок 
-			'tolerance': 70 
-		}); 
-		// Toggle button
-		document.querySelector('.toggle-button').addEventListener('click', function() {
-			slideout.toggle();
-		});
-	</script>
-	<script>
-		new WOW().init();
-	</script>
+	<script src="js/myscript.js"></script>
 
 </body>
 </html>

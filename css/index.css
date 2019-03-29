@@ -262,6 +262,7 @@
 		width: 30%!important;
 		padding: 50px 0px 50px 0px
 	}
+
 	.block-mobil-contact{
 		max-width: 65%;
 	}
@@ -308,6 +309,9 @@
 	.img-text {
 		font-size: 110px!important
 	}
+		.logo {
+		margin-left: 0px
+			}
 
 
 	/*anonsi*/
@@ -573,7 +577,7 @@
 }
 @media (min-width: 1125px){
 	.mobile-contact{
-		padding-left: 19%!important
+		padding-left: 23%!important
 	}
 
 	.block-mobil-contact{
@@ -625,7 +629,7 @@
 
 @media (min-width: 1906px) and (max-width: 2559px){
 	.block-clock{
-		padding-left: 20%
+		margin-left: 20%
 	}  
 }
 @media (min-width: 1920px){
@@ -726,5 +730,5 @@
 	color: #D0D0D0
 }
 .logo{
-  width: 163px
-}
+  width: 163px;
+  margin-right: 130px

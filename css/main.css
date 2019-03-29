@@ -3,7 +3,7 @@ body {
   font-family: 'Montserrat', sans-serif
 }
 
-html {
+html,body {
   overflow: hidden;
 }
 
@@ -85,13 +85,19 @@ a {
 ul, p {
   margin: 0; }
 
-header {
+#hero {
   height: 100vh;
   position: relative;
   font-family: Montserrat;
-  padding-top: 40px;
   color: #fff;
   background: url("../img/background.jpg") no-repeat center top/cover; }
+
+#header{
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  padding-right: 47px;
+}
 
 .logo{
   margin-left: 90px;
@@ -141,12 +147,22 @@ header {
   font-weight: bold;
   font-size: 50px;
   letter-spacing: 0.1em; }
-
+.domload-text {
+  padding-left: 13%;
+  display: flex;
+}
 .offer__text {
   font-weight: 500;
   font-size: 20px;
   letter-spacing: 0.05em; }
-
+.offer__download{
+      text-transform: none;
+    position: absolute;
+    left: 10%;
+    top: 2%;
+    z-index: 9;
+}
+ 
 .offer__btn {
   background: #6A2C9A;
   border-radius: 2px;
@@ -155,26 +171,21 @@ header {
   border: none;
   color: #fff;
   text-transform: uppercase; }
-
-.offer__download {
-  text-transform: none;
-  position: absolute;
-  bottom: 21%;
-  left: 60%;
-  top: 2%;
-  margin-left: -686px;
-  z-index: 999999
-
    }
   .offer__download .download_text {
     font-size: 14px;
-    padding-right: 12%
+    margin-right: 8%
      }
   .offer__download img {
     margin-right: 21px; }
 
     .offer__download img:last-child {
     margin-right: 0px; }
+
+.read_more_link{
+  position: absolute;
+  bottom: 20px;
+}
 
 .show {
   position: absolute;
@@ -203,10 +214,11 @@ header {
     height: 167px }
     .show .show_text .show_text_box {
       width: 50%;
+      position: relative;
       -webkit-box-sizing: border-box;
       box-sizing: border-box;}
       .show .show_text .show_text_box .read_more_arrow {
-        padding-top: 12%
+        padding-top: 7%
          }
       .show .show_text .show_text_box .show_text_box_text { }
       .show .show_text .show_text_box .learn_more {
@@ -242,4 +254,11 @@ header {
     font-size: 18px; }
 .show_title_two {
   font-size: 12px
+}
+
+.app img {
+  width: 105px
+}
+.google img {
+  width: 105px
 }
