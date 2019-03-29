@@ -97,6 +97,7 @@ ul, p {
   width: 100%;
   top: 0px;
   padding-right: 47px;
+  z-index: 9
 }
 
 .logo{

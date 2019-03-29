@@ -87,19 +87,18 @@
 
 }
 
-@media (max-width: 375px){
-	.logo {
-		margin-left: 2px
-	}
 
-}
 @media (max-width: 375px){
 	.logo {
 		margin-left: 2px
 	}	
+	.show .show_nav{
+		height: 55px
+	}
 		.offer{
 		margin-left: 1%!important
 	}
+
 }
 @media (max-width: 414px){
 			.offer{
@@ -160,6 +159,10 @@
 
 	.offer{
 		margin-top: 15vh;
+		margin-left: 0px
+	}
+	.offer__download{
+		left: 45%;
 	}
 
 	.toggle-button{
@@ -172,6 +175,11 @@
 	#header{
 		min-height: 1024px;
 	}
+	.language {
+		margin-left: 10%
+	}
+
+
 }
 
 /* 320px - 665px*/
@@ -398,8 +406,14 @@
 		margin-top: 20%
 	}
 
+
 }
 
+@media (min-width: 320px) and (max-width: 414px){
+		.offer__download{
+		left: 0%;
+	}
+}
 @media (min-width: 1920px){
 	.offer__title {
 		font-size: 71px
@@ -446,22 +460,68 @@
 	.offer__download .download_text{
 		margin-right: 0px
 	}
-	.offer{
-		margin-left: -27px
-	}
+
 }
 
 @media (max-width: 1024px){
 			.logo {
 		margin-left: 0px
 			}
-					.offer__download{
-			left: 9%;
-		}
+
 		.domload-text{
 			padding-left: 4%
 		}
 }
 @media (min-width: 1024px){
-
+		.offer__download{
+			left: 9%;
+		}
+}
+@media (min-width: 2560px) {
+		/*index*/
+	.navbar-light .navbar-nav .nav-link{
+		font-size: 16px
+	}
+	.logo {
+		width: 205px
+	}
+	.offer__title{
+		font-size: 95px;
+		letter-spacing: 0.05em
+	}
+	.offer{
+		margin-left: 160px
+	}
+	.hashtag{
+		left: -170px;
+		top: 88%;
+		font-size: 26px
+	}
+	.download_text{
+		font-size: 20px
+	}
+	.app img{
+		width: 160px
+	}
+	 .google img {
+	 	width: 160px
+	 }
+	 .offer__download  {
+	 	left: 15%;
+	 }
+	 .show .show_nav .show_start .show_title_one {
+	 	font-size: 35px
+	 }
+	 .show_title_two, .show .show_text .show_text_box_text{
+	 	font-size: 16px
+	 }
+	 .show_title_two, .show .show_text .show_text_box_text{
+	 	font-size: 20px
+	 }
+	 .show .show_text{
+	 	height: 230px
+	 }
+	 .show .show_text .show_text_box .learn_more{
+	 	font-size: 18px
+	 }
 }

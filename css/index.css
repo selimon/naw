@@ -451,6 +451,11 @@
 }
 
 @media (min-width: 2560px){
+	/*index*/
+	.navbar-light .navbar-nav .nav-link{
+		font-size: 16px
+	}
+	/*history*/
 	.mobile-contact {
 		padding-left: 10%
 	}
@@ -729,6 +734,3 @@
 .section-p-options p,.section-fou p{
 	color: #D0D0D0
 }
-.logo{
-  width: 163px;
-  margin-right: 130px
