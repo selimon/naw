@@ -525,3 +525,8 @@
 	 	font-size: 18px
 	 }
 }
+@media (min-width: 568px) and (max-width: 812px){
+	.show .show_nav{
+		height: 50px
+	}
+}
