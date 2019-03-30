@@ -5,6 +5,20 @@
 	}
 
 } 
+@media (min-width: 414px) {
+
+}
+@media (min-width: 320px) and (max-width: 414px){
+	.logo{
+		margin-left: 15px!important
+	}
+		.text-his h1{
+		font-size: 50px!important
+	}
+	.text-anonsi h1{
+		font-size: 24px!important
+	}
+}
 @media (max-width: 1366px){
 		.contact-img{
 		height: 400px!important
@@ -39,7 +53,12 @@
 	/*anonsi*/
 
 }
+@media (min-width: 812px){
+		.anonsi{
+			margin-left: 5%
+	}
 
+}
 @media (max-width: 812px) and (min-width: 320px) {
 	.pdd-anonsi {
 		padding: 15px!important
@@ -64,6 +83,10 @@
 	}
 	.text-history-header {
 		padding-left: 24%
+	}
+	.text-anonsi h1{
+		padding-left: 0%!important;
+		font-size: 30px!important
 	}
 
 
@@ -199,7 +222,6 @@
 		padding: 10px 0px 0px 0px!important
 	}
 	.text-anonsi  {
-		width: 100%!important;
 		padding: 50px 0px 50px 0px
 	}
 	.anonsi-botton {
@@ -312,6 +334,9 @@
 		.logo {
 		margin-left: 0px
 			}
+			.text-anonsi{
+				margin-left: 5%
+			}
 
 
 	/*anonsi*/
@@ -419,10 +444,14 @@
 	.language {
 		padding-left: 100px
 	}
-	/*contact*/
-	.contact-text-footer{
-		width: 100%
+	.text-anonsi{
+				margin-left: 5%
+			}
+				.text-anonsi{
+		width: 90%!important
 	}
+	/*contact*/
+
 
 }
 
@@ -431,30 +460,22 @@
 @media (max-width: 568px) and (min-width: 320px){
 	.block-mobil-contact h5 {
 		font-size: 16px
+	}	.contact-text-footer{
+		width: 100%
 	}
-	.date {
-		padding-left: 30px!important
+	.text-anonsi h1{
+		font-size: 30px!important;
+		display: flex
 	}
-	.block-clock h5 {
-		padding-bottom: 10px
-	}
-	.grafik,.block-clock {
-		padding-left: 10px
-	}
-	.offer {
-		padding-left: 0px!important 
-	}
-	
-	/*anonsi*/
 
+	.text-anonsi{
+		width: 90%!important
+	}
 
 }
 
 @media (min-width: 2560px){
-	/*index*/
-	.navbar-light .navbar-nav .nav-link{
-		font-size: 16px
-	}
+
 	/*history*/
 	.mobile-contact {
 		padding-left: 10%
@@ -564,6 +585,13 @@
 	.text-history-header {
 		padding-left: 0%!important
 	}
+	.text-his h1{
+		font-size: 83px
+	}
+	.text-anonsi h1{
+		font-size: 30px!important;
+		padding-left: 5%
+	}
 
 	/*contact*/
 	
@@ -571,7 +599,7 @@
 }
 @media (min-width: 1536px) {
 	.posi-ab {
-		top: 103%
+		top: 116%
 	}
 	.text-anonsi  {
 		width: 40%;
@@ -726,9 +754,6 @@
 	max-width: 1221px;
   	width: 100%;
   	margin: 0 auto
-}
-.text-anonsi h1 {
-	font-size: 71px
 }
 
 .section-p-options p,.section-fou p{
