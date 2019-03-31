@@ -3,17 +3,47 @@
 		font-size: 45px!important;
 		letter-spacing: 0.1em
 	}
+	.block-clock {
+		position: relative;
+		left: -25%!important
+	}
 
 } 
-@media (min-width: 414px) {
-
+@media (max-width: 812px){
+		.mobile-contact{
+		margin-left: 7%
+	}
+}
+@media (max-width: 414px) and (min-width: 414px) {
+		.text-anonsi h1{
+		font-size: 40px!important
+	}
+	.text-options h1{
+		font-size: 30px!important
+	}
+	.span{
+		font-size: 16px!important
+	}
+	.block-mobil-contact h5{
+		font-size: 16px!important
+	}
+	.pl-6{
+		padding-left: 30%!important
+	}
+	.block-clock {
+		left: 15%;
+		position: relative;
+	}
+	.block-pt{
+		margin-top: 24%
+	}
 }
 @media (min-width: 320px) and (max-width: 414px){
 	.logo{
 		margin-left: 15px!important
 	}
 		.text-his h1{
-		font-size: 50px!important
+		font-size: 45px!important
 	}
 	.text-anonsi h1{
 		font-size: 24px!important
@@ -175,6 +205,33 @@
 	}
 
 }
+@media (max-width: 375px) and (min-width: 375px){
+	.text-anonsi h1{
+		font-size: 40px!important
+	}
+	.text-options h1{
+		font-size: 30px!important
+	}
+	.span{
+		font-size: 16px!important
+	}
+	.block-mobil-contact h5{
+		font-size: 16px!important
+	}
+	.pl-6{
+		padding-left: 30%!important
+	}
+	.block-clock {
+		left: 15%;
+		position: relative;
+	}
+	.block-pt{
+		margin-top: 24%
+	}
+}
+
+
+
 @media (min-width: 568px) and (max-width: 568px){
 
 	.posi-ab {
@@ -306,6 +363,28 @@
 	.text-year{
 		bottom: -18%!important
 	}
+		.text-anonsi h1{
+		font-size: 40px!important
+	}
+	.text-options h1{
+		font-size: 30px!important
+	}
+	.span{
+		font-size: 16px!important
+	}
+	.block-mobil-contact h5{
+		font-size: 16px!important
+	}
+	.pl-6{
+		padding-left: 30%!important
+	}
+	.block-clock {
+		left: 10%;
+		position: relative;
+	}
+	.block-pt{
+		margin-top: 24%
+	}
 }
 @media (max-width: 812px) and (min-width: 320px){
 	}
@@ -344,7 +423,7 @@
 	}
 
 	.mobile-contact{
-		padding-left: 3%!important;
+		padding-left: 10%!important;
 	}
 	.contact-img{
 		height: 100%!important
@@ -398,7 +477,10 @@
 } 
 
 @media (max-width: 768px) {
-
+	.text-anonsi h1{
+		font-size: 30px!important;
+		padding-left: 5%
+	}
 	.anonsi-botton{
 		justify-content: flex-end!important;
 		display: flex;
@@ -580,13 +662,12 @@
 	}
 
 }
-@media (max-width: 1905px) and (min-width: 956px){
-		.block-mobil-contact {
-		display: flex;
-		justify-content: space-between;
-		max-width: 70%
+@media (max-width: 1919px) and (min-width: 1279px){
+	.text-anonsi h1{
+		font-size: 71px!important
 	}
 }
+
 /*specification*/
 .no-gutters {
 	padding: 0px;
@@ -602,7 +683,11 @@
 	padding-left: 4em
 }
 
-
+@media (max-width: 768px) and (min-width: 768px){
+	.mobile-contact {
+		margin-left: 7.5%
+	}
+}
 @media (min-width: 768px){
 	.posi-ab {
 		position: absolute!important;
@@ -614,10 +699,7 @@
 	.text-his h1{
 		font-size: 83px
 	}
-	.text-anonsi h1{
-		font-size: 30px!important;
-		padding-left: 5%
-	}
+
 
 	/*contact*/
 	
@@ -636,7 +718,7 @@
 }
 @media (min-width: 1125px){
 	.mobile-contact{
-		padding-left: 23%!important
+		padding-left: 7%!important
 	}
 
 	.block-mobil-contact{
@@ -647,11 +729,11 @@
 		font-size: 13px!important
 	}
 }
+@media (max-width: 1280px){
 
+}
 @media (min-width: 1280px){
-	.text-anonsi h1{
-		font-size: 40px!important
-	}
+
 	.zoom-text h5{
 		font-size: 25px!important
 	}
@@ -760,4 +842,8 @@
 
 .section-p-options p,.section-fou p{
 	color: #D0D0D0
+}
+.block-clock {
+  position: relative;
+  left: 10%
 }

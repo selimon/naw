@@ -9,14 +9,7 @@
 
 }
 @media (max-width: 1300px) and (min-width: 1250px){
-		.app {
-		width: 20%;
-		height: auto;
-	}
-	.google{
-		width: 17%;
-		height: auto;
-	}
+
 	.google,.app {
 		margin-top: 1%
 	}
@@ -491,7 +484,7 @@
 		font-size: 18px;
 	}
 	.show .show_text .show_text_box .learn_more{
-		padding-top: 7%
+		margin-top: 7%
 	}
 	.show .show_text .show_text_box .read_more_arrow {
 		padding-top: 8%
@@ -581,6 +574,12 @@
 	.show .show_nav .show_start{
 		padding: 20px 0px 0px 48px
 	}
+	.logo{
+		width: 205px
+	}
+	.navbar-light .navbar-nav .nav-link{
+		font-size: 14px
+	}
 	.show .show_text{
 		height: 242px
 	}
@@ -597,7 +596,7 @@
 		font-size: 18px;
 	}
 	.show .show_text .show_text_box .learn_more{
-		padding-top: 7%
+		margin-top: 7%
 	}
 	.show .show_text .show_text_box .read_more_arrow {
 		padding-top: 8%
