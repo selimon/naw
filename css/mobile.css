@@ -65,8 +65,6 @@
     bottom: -40px; }
   .section-two {
     padding: 163px 0px 0px 0px !important; }
-    .section-two p {
-      font-size: 9px !important; }
   .section-p-options {
     order: 2 !important; }
     .section-p-options p {
@@ -74,11 +72,11 @@
   .hi-text h1 {
     font-size: 19px !important; }
   .hi-text p {
-    font-size: 9px; }
+    font-size: 12px; }
   .section-fou h3 {
     font-size: 16px !important; }
   .section-fou p {
-    font-size: 9px !important; }
+    font-size: 12px !important; }
   .section-fou img {
     z-index: 99; }
   .section-fou h3 {
@@ -138,8 +136,6 @@
     padding-left: 40px !important; } }
 
 @media (max-width: 1024px) and (min-width: 768px) {
-  .text-padd {
-    padding-left: 127px !important; }
   .hi-text h1 {
     font-size: 25px !important; }
   .hi-text p {
@@ -148,8 +144,6 @@
     font-size: 25px !important; }
   .section-fou p {
     font-size: 12px !important; }
-  .section-two p {
-    font-size: 9px !important; }
   .section-p-options p {
     font-size: 12px !important; }
   .section-fou h3 {

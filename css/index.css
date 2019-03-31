@@ -26,9 +26,7 @@
 
 }
 @media (min-width: 1366px){
-	.text-padd {
-		padding-left: 10%!important
-	}
+
 	.mobile-contact  {
 		padding-left: 5%
 	}
@@ -81,9 +79,6 @@
 	.posi-rel {
 		margin: 0px!important;
 	}
-	.text-history-header {
-		padding-left: 24%
-	}
 	.text-anonsi h1{
 		padding-left: 0%!important;
 		font-size: 30px!important
@@ -102,9 +97,7 @@
 	.grafik span {
 		font-size: 9px!important
 	}
-	.text-padd {
-		padding: 20px!important
-	}
+
 	.history-text-mobile {
 		justify-content: flex-start!important;
 		display: flex;
@@ -138,17 +131,52 @@
 		overflow: auto!important;
 	}
 }
+@media (min-width: 320px) and (max-width: 414px){
+		/*history*/
+	.main-history-block{
+		width: 100%!important
+	}
+	.block-img-item{
+		left: -74%!important
+	}
+	.history-text-items{
+		left: 33%!important
+	}
+	.history-text-items p{
+		font-size: 12px!important;
+		line-height: 16px!important;
+		width: 221px!important
+	}
+	.text-year h3{
+		font-size: 80px!important;
+	}
+	.text-year{
+		bottom: -18%!important
+	}
+}
 
-
+@media (min-width: 568px) and (max-width: 667px){
+	.main-history-block{
+		width: 100%!important
+	}
+	.history-text-items{
+		left: 30%!important
+	}
+	.text-year h3{
+		font-size: 80px!important
+	}
+	.text-year{
+		bottom: -17%!important
+	}
+}
 @media (min-width: 375px){
 		.posi-ab {
 		bottom: 12%!important
 	}
+
 }
 @media (min-width: 568px) and (max-width: 568px){
-	.text-history-header {
-		width: 100%
-	}
+
 	.posi-ab {
 		right: 75%!important;
 		top: 137%!important;
@@ -239,12 +267,7 @@
 }
 
 @media (max-width: 812px) and (min-width: 667px){
-	.posi-rel .text-padd {
-		left: 0px!important
-	}	
-	.posi-rel {
-		width: 80%;
-	}
+
 	.posi-ab {
 		position: absolute;
 		bottom: 5%!important;
@@ -255,12 +278,6 @@
 		height: 200px;
 	}
 
-	.text-history-header p {
-		width: 60%
-	}
-	.text-history-header {
-		padding-left: 10%!important
-	}
 	.bg-2{
 		order: 0!important
 	}
@@ -268,7 +285,28 @@
 		width: 99%!important
 	}
 }
-
+@media (min-width: 320px) and (max-width: 320px) {
+		.main-history-block{
+		width: 100%!important
+	}
+	.block-img-item{
+		left: -74%!important
+	}
+	.history-text-items{
+		left: 33%!important
+	}
+	.history-text-items p{
+		font-size: 9px!important;
+		line-height: 19px!important;
+		width: 190px!important
+	}
+	.text-year h3{
+		font-size: 80px!important;
+	}
+	.text-year{
+		bottom: -18%!important
+	}
+}
 @media (max-width: 812px) and (min-width: 320px){
 	}
 @media (min-width: 320px){
@@ -285,6 +323,8 @@
 		padding: 50px 0px 50px 0px
 	}
 
+
+
 	.block-mobil-contact{
 		max-width: 65%;
 	}
@@ -298,9 +338,6 @@
 	}
 	.posi-ab {
 		bottom: 10%!important;
-	}
-	.text-history-header h1 {
-		font-size: 40px
 	}
 	.posi-ab img {
 		width: 260px
@@ -324,9 +361,10 @@
 }
 
 @media (max-width: 1024px){
-	.text-history-header{
-		padding-left: 20%!important;
-	}
+
+	.section-two{
+	margin-bottom: 500px!important
+}
 
 	.img-text {
 		font-size: 110px!important
@@ -501,15 +539,6 @@
 		width: 315px;
 		height: auto;
 	}
-	.text-history-header  {
-		width: 50%
-	}
-	.text-history-header p {
-		font-size: 18px
-	}
-	.text-padd{
-		padding-left: 20%!important;
-	}
 	.footer-block div{
 		width: 50%
 	}
@@ -549,9 +578,6 @@
 		font-size: 140px!important;
 		margin-top: 95px
 	}
-	.posi-rel{
-		    margin: 0px 470px 0px 740px!important;
-	}
 
 }
 @media (max-width: 1905px) and (min-width: 956px){
@@ -582,9 +608,9 @@
 		position: absolute!important;
 		bottom: 6%!important;
 	}
-	.text-history-header {
-		padding-left: 0%!important
-	}
+		.section-two{
+	margin-bottom: 500px
+}
 	.text-his h1{
 		font-size: 83px
 	}
@@ -619,16 +645,6 @@
 
 	.contact-text-footer p {
 		font-size: 13px!important
-	}
-}
-@media (max-width: 2560px) and (min-width: 2000px){
-	.posi-rel{
-		margin: 0px 630px 0px 740px!important
-	}
-}
-@media (max-width: 2000px) and (min-width: 1600px){
-		.posi-rel{
-		margin: 0px 363px 0px 430px!important
 	}
 }
 
@@ -675,21 +691,7 @@
 	.history-block-one{
 		padding-top: 105px
 	}
-	.posi-rel{
-		width: 930px;
-		height: 470px;
-		margin: 0 auto;
-		padding: 0px
-	}
-	.text-history-header h1{
-		font-size: 25px
-	}
-	.text-history-header p{
-		font-size: 14px!important
-	}
-	.text-history-header {
-		max-width: 70%
-	}
+
 	.posi-ab{
 		top: 80%;
 		left: -15%;
