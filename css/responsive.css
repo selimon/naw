@@ -450,7 +450,112 @@
 		left: 3%!important;
 	}
 }
-
+@media (min-width: 1824px){
+		.offer__title {
+		font-size: 95px
+	}
+	.offer__text{
+		font-size: 35px
+	}
+	.hashtag{
+		font-size: 20px;
+	}
+	.show .show_nav{
+		height: 102px
+	}
+	.show .show_nav .show_start .show_title_one{
+		font-size: 35px
+	}
+	.show_title_two,.show .show_text .show_text_box_text{
+		font-size: 18px;
+	}
+	.show_text_box_text{
+		padding: 20px 50px 0px 0px
+	}
+	.show .show_nav .show_start{
+		padding: 20px 0px 0px 48px
+	}
+	.show .show_text{
+		height: 242px
+	}
+	.offer {
+		margin-left: 0px
+	}
+	.offer__download{
+		left: 10%
+	}
+	.show .show_text .show_text_box_title{
+		font-size: 20px
+	}
+	.show .show_text .show_text_box .learn_more{
+		font-size: 18px;
+	}
+	.show .show_text .show_text_box .learn_more{
+		padding-top: 7%
+	}
+	.show .show_text .show_text_box .read_more_arrow {
+		padding-top: 8%
+	}
+	.app img{
+		width: 141px
+	}
+	.google img{
+		width: 141px
+	}
+}
+@media (max-width: 1919px) and (min-width: 1825px){
+		.offer__title {
+		font-size: 95px
+	}
+	.offer__text{
+		font-size: 35px
+	}
+	.hashtag{
+		font-size: 20px;
+	}
+	.show .show_nav{
+		height: 102px
+	}
+	.show .show_nav .show_start .show_title_one{
+		font-size: 35px
+	}
+	.show_title_two,.show .show_text .show_text_box_text{
+		font-size: 18px;
+	}
+	.show_text_box_text{
+		padding: 20px 50px 0px 0px
+	}
+	.show .show_nav .show_start{
+		padding: 20px 0px 0px 48px
+	}
+	.show .show_text{
+		height: 242px
+	}
+	.offer {
+		margin-left: 185px
+	}
+	.offer__download{
+		left: 18.5%
+	}
+	.show .show_text .show_text_box_title{
+		font-size: 20px
+	}
+	.show .show_text .show_text_box .learn_more{
+		font-size: 18px;
+	}
+	.show .show_text .show_text_box .learn_more{
+		padding-top: 7%
+	}
+	.show .show_text .show_text_box .read_more_arrow {
+		padding-top: 8%
+	}
+	.app img{
+		width: 141px
+	}
+	.google img{
+		width: 141px
+	}
+}
 @media (min-width: 1920px){
 	.offer__title {
 		font-size: 95px
