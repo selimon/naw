@@ -18,7 +18,8 @@ a, a:hover {
 
 .navbar-light .navbar-nav .nav-link {
   font-weight: 500;
-  margin-left: 44px; }
+  margin-left: 44px;
+  font-size: 14px; }
 
 .language-one h2 {
   padding: 0px 8px 0px 0px; }
