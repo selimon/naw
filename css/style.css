@@ -41,6 +41,10 @@ li {
 body {
   height: 100vh; }
 
+.no-gutters {
+  padding: 0px;
+  margin: 0px; }
+
 .menu-item {
   margin-left: 20px; }
 

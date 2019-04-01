@@ -7,7 +7,12 @@
 		position: relative;
 		left: -25%!important
 	}
-
+	.main-history-block{
+		left: 25%!important
+}
+.history-text-items p{
+	font-size: 14px!important
+}
 } 
 @media (max-width: 812px){
 		.mobile-contact{
@@ -342,7 +347,33 @@
 		width: 99%!important
 	}
 }
+
+@media (max-width: 411px) and (min-width: 384px){
+	.text-options h1{
+		font-size: 40px!important
+	}
+	.block-mobil-contact h5{
+		font-size: 16px!important
+	}
+	.block-pt{
+		margin-top: 25%
+	}
+}
+@media (min-width: 360px){
+	.text-options h1{
+		font-size: 40px!important
+	}
+		.text-options h1{
+		font-size: 40px!important
+	}
+	.block-mobil-contact h5{
+	
+}
+}
 @media (min-width: 320px) and (max-width: 320px) {
+	.mobile-contact{
+		margin-left: 0%
+	}
 		.main-history-block{
 		width: 100%!important
 	}
@@ -387,6 +418,7 @@
 	}
 }
 @media (max-width: 812px) and (min-width: 320px){
+
 	}
 @media (min-width: 320px){
 	.posi-ab{
@@ -729,8 +761,45 @@
 		font-size: 13px!important
 	}
 }
-@media (max-width: 1280px){
-
+@media (max-width: 1480px) and (min-width: 1439px){
+		.text-options h1{
+		font-size: 45px!important
+	}
+	.block-mobil-contact h5 {
+		font-size: 16px!important
+	}
+	.grafik span,.block-clock span{
+		font-size: 12px!important
+	}
+	.block-clock{
+		left: 40%!important
+	}
+	.official h5 {
+		font-size: 16px
+	}
+	.block-pt {
+		margin-top: 15%
+	}
+}
+@media (max-width: 1440px) and (min-width: 1201px){
+	.text-options h1{
+		font-size: 45px!important
+	}
+	.block-mobil-contact h5 {
+		font-size: 16px!important
+	}
+	.grafik span,.block-clock span{
+		font-size: 12px!important
+	}
+	.block-clock{
+		left: -40%!important
+	}
+	.official h5 {
+		font-size: 16px
+	}
+		.block-pt {
+		margin-top: 15%
+	}
 }
 @media (min-width: 1280px){
 
