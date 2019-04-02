@@ -148,7 +148,7 @@ ul, p {
   font-size: 50px;
   letter-spacing: 0.1em; }
 .domload-text {
-  padding-left: 13%;
+  padding-left: 4%;
   display: flex;
 }
 .offer__text {
@@ -161,6 +161,7 @@ ul, p {
     left: 10.5%;
     top: 2%;
     z-index: 9;
+    width: 100%
 }
  
 .offer__btn {

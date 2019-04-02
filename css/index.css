@@ -833,6 +833,9 @@
 	}  
 }
 @media (min-width: 1920px){
+	.logo {
+		width: 205px!important
+	}
 	.history-block h1{
 		font-size: 71px!important
 	}
@@ -915,4 +918,8 @@
 .block-clock {
   position: relative;
   left: 10%
+}
+
+.header-ittem {
+	padding-left: 2%
 }

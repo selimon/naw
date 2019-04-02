@@ -8,6 +8,8 @@
 	}
 
 }
+
+
 @media (max-width: 1300px) and (min-width: 1250px){
 
 	.google,.app {
@@ -17,6 +19,8 @@
 		display: flex;
 	}
 }
+
+
 
 @media screen and (max-width: 1250px) {
 
@@ -81,6 +85,8 @@
 }
 
 
+
+
 @media (max-width: 375px){
 	.logo {
 		margin-left: 2px
@@ -91,20 +97,23 @@
 		.offer{
 		margin-left: 1%!important
 	}
-
 }
+
+
 @media (max-width: 414px){
 			.offer{
 		margin-left: 1%!important
 	}
-
-
 }
+
+
 @media (max-width: 1024px) and (max-height: 887px){
 	.offer__download{
 		bottom: 17%
 	}
 }
+
+
 
 /* 768px - 992px*/
 @media screen and (max-width: 992px){
@@ -140,11 +149,15 @@
 	}
 }
 
+
+
 @media screen and (max-width: 846px) {
 	.lang{
 		margin-right: 0;
 	}
 }
+
+
 
 /* 576px - 768px*/
 @media screen and (max-width: 768px){
@@ -178,6 +191,8 @@
 
 }
 
+
+
 @media (max-width: 768px) and (min-width: 768px){
 	.offer__download{
 		margin-left: 40%
@@ -187,6 +202,8 @@
 	}
 }
  
+
+
 /* 320px - 665px*/
 @media screen and (max-width: 665px) and (min-height: 375px){
 	#header{
@@ -311,21 +328,32 @@
 	}
 }
 
+
+
 @media screen and (max-width: 375px){
 	#mob-nav{
 		width: 100%;
 	}
-}
-@media (max-width: 375px) and (min-width: 375px){
 
+}
+
+
+@media (max-width: 375px) and (min-width: 375px){
+.offer{
+	margin-left: 0%!important
+}
 	.domload-text{
-		margin: 0px 0px 0px 40px;
+		position: relative;
+		left: 10%
 	}
 	.offer__download{
 		padding: 0px;
 		margin-left: 10px
 	}
+
 }
+
+
 @media screen and (max-height: 426px){
 	#header{
 		min-height: 320px
@@ -395,11 +423,14 @@
         margin-top: 0; }
 }
 
+
+
 @media screen and (max-height: 360px) {
 	.mob-lang, .mob-nav__menu{
 		position: static !important;
 	}
 }
+
 
 @media (min-width: 1125px){
 
@@ -424,25 +455,56 @@
 
 
 }
+@media (max-width: 384px) and (min-width: 384px){
+				.domload-text{
+		left: 12.5%;
+		position: relative;
+	}
+	.offer{
+	margin-left: 0%!important
+}
+}
+@media (max-width: 360px) and (min-width: 360px){
+			.domload-text{
+		left: 6%;
+		position: relative;
+	}
+	.offer{
+	margin-left: 0%!important
+}
+}
+@media (max-width: 411px) and (min-width: 411px){
+		.domload-text{
+		left: 17%;
+		position: relative;
+	}
+}
 @media (max-width: 414px) and (min-width: 414px){
 	.domload-text{
-		margin: 0px 0px 0px 70px;
+		left: 17%;
+		position: relative;
 	}
 	.offer__download{
 		padding: 0px;
 		margin-left: 10px
 	}
 }
+
+
 @media (min-width: 812px){
 	.language {
 		margin-left: 15%
 	}
 }
+
+
 @media (min-width: 320px) and (max-width: 320px){
 			.offer__download{
 		left: 3%!important;
 	}
 }
+
+
 @media (min-width: 1824px){
 		.offer__title {
 		font-size: 95px
@@ -496,6 +558,8 @@
 		width: 141px
 	}
 }
+
+
 @media (max-width: 1919px) and (min-width: 1825px){
 		.offer__title {
 		font-size: 95px
@@ -549,6 +613,8 @@
 		width: 141px
 	}
 }
+
+
 @media (min-width: 1920px){
 	.offer__title {
 		font-size: 95px
@@ -608,6 +674,8 @@
 		width: 141px
 	}
 }
+
+
 @media (max-width: 1366px){
 
 	.offer__download .download_text{
@@ -618,6 +686,8 @@
 	}
 
 }
+
+
 
 @media (max-width: 1024px){
 			.logo {
@@ -631,9 +701,8 @@
 			left: 5.5%;
 		}
 }
-@media (min-width: 1024px){
 
-}
+
 @media (min-width: 2560px) {
 		/*index*/
 	.navbar-light .navbar-nav .nav-link{
@@ -682,6 +751,8 @@
 	 	font-size: 18px
 	 }
 }
+
+
 @media (min-width: 568px) and (max-width: 812px){
 	.show .show_nav{
 		height: 50px
