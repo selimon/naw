@@ -93,10 +93,7 @@ ul, p {
   background: url("../img/background.jpg") no-repeat center top/cover; }
 
 #header{
-  position: absolute;
   width: 100%;
-  top: 0px;
-  z-index: 9
 }
 
 .logo{
@@ -140,7 +137,6 @@ ul, p {
 .offer {
   margin-left: 100px;
   text-transform: uppercase;
-  margin-top: 35vh;
   position: relative; }
 
 .offer__title {

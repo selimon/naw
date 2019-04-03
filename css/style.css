@@ -1,6 +1,6 @@
 @import url("colorSize.css");
 @import url("effects.css");
-@import url("mobile.css");
+@import url(mobile.css);
 * {
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif; }
@@ -211,6 +211,16 @@ main {
 .open {
   transform: translateX(0%) !important; }
 
+.section-items-one {
+  position: absolute;
+  top: 20%;
+  left: 0;
+  right: 0;
+  margin: 0 auto; }
+
+.section-tri {
+  margin-top: 40%; }
+
 .history-block-one {
   padding-bottom: 240px; }
 
@@ -256,9 +266,7 @@ main {
   height: auto; }
 
 .section-tri {
-  padding-top: 100px;
-  display: flex;
-  align-items: flex-end; }
+  padding-top: 100px; }
 
 .modal-header {
   display: block; }
@@ -403,6 +411,10 @@ main {
   top: 50px;
   left: -30%; }
 
+.history-items-img {
+  position: absolute;
+  bottom: 0px; }
+
 .history-text-items {
   position: absolute;
   left: 20%;
@@ -450,7 +462,7 @@ main {
     font-weight: bold; }
 
 .section-p-options p {
-  font-size: 14px; }
+  font-size: 18px; }
 
 .img-options img {
   z-index: -1; }
@@ -465,7 +477,7 @@ main {
     font-weight: bold;
     letter-spacing: 0.12em; }
   .section-fou p {
-    font-size: 14px; }
+    font-size: 18px; }
 
 .img-text {
   position: absolute;

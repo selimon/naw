@@ -116,8 +116,7 @@
   .size {
     bottom: -67px !important; }
   .bg-2 {
-    display: block !important; }
-  left: 25%; }
+    display: block !important; } }
 
 @media (max-width: 568px) and (min-width: 320px) {
   .text-block-1 {
