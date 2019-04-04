@@ -120,9 +120,56 @@
 	/*anonsi*/
 
 }
-@media (min-width: 812px){
+@media (max-width: 812px) and (min-width: 767px){
+			.text-his h1{
+		font-size: 43px!important
+	}
+
+}
+@media (max-width: 736px) and (min-width: 667px){
+				.text-his h1{
+		font-size: 43px!important
+	}	.section-items-one{
+		top: -50px!important
+	}		/*history*/
+	.history-items-img{
+		position: relative!important;
+	}
+	.main-history-block{
+		width: 380px!important;
+		position: relative!important;
+		right: -11%!important;
+		left: auto!important
+	}
+	.block-img-item{
+		left: -74%!important
+	}
+	.history-text-items{
+		left: 33%!important
+	}
+	.history-text-items p{
+		font-size: 12px!important;
+		line-height: 16px!important;
+		width: 230px!important;
+	}
+	.history-text-items h1{
+		font-size: 16px
+	}
+	.text-year h3{
+		font-size: 80px!important;
+	}
+	.text-year{
+		bottom: -18%!important;
+		right: 10%!important
+	}
+}
+@media (min-width: 812px) and (max-width: 812px){
+
 		.anonsi{
 			margin-left: 5%
+	}
+	.section-items-one{
+		top: 0px!important
 	}
 
 }
@@ -248,6 +295,7 @@
 		bottom: -17%!important
 	}
 }
+
 @media (min-width: 375px){
 		.posi-ab {
 		bottom: 12%!important
@@ -282,7 +330,42 @@
 
 
 @media (min-width: 568px) and (max-width: 568px){
-
+	/*history*/
+	.text-his h1{
+		font-size: 43px!important
+	}	.section-items-one{
+		top: -50px!important
+	}
+	.history-items-img{
+		position: relative!important;
+	}
+	.main-history-block{
+		width: 380px!important;
+		position: relative!important;
+		right: -11%!important;
+		left: auto!important
+	}
+	.block-img-item{
+		left: -74%!important
+	}
+	.history-text-items{
+		left: 33%!important
+	}
+	.history-text-items p{
+		font-size: 12px!important;
+		line-height: 16px!important;
+		width: 230px!important;
+	}
+	.history-text-items h1{
+		font-size: 16px
+	}
+	.text-year h3{
+		font-size: 80px!important;
+	}
+	.text-year{
+		bottom: -18%!important;
+		right: 10%!important
+	}
 	.posi-ab {
 		right: 75%!important;
 		top: 137%!important;
@@ -324,6 +407,7 @@
 }
 
 @media (max-width: 812px) and (min-width: 568px){
+
 	.posi-rel{
 		margin: 0px 100px 0px 100px!important
 	}
@@ -833,14 +917,50 @@
 		.section-two{
 	margin-bottom: 500px
 }
-	.text-his h1{
-		font-size: 83px
-	}
+
 
 
 	/*contact*/
 	
 
+}
+@media (min-width: 640px) and (max-width: 640px){
+		/*history*/
+	.text-his h1{
+		font-size: 43px!important
+	}	.section-items-one{
+		top: -50px!important
+	}
+	.history-items-img{
+		position: relative!important;
+	}
+	.main-history-block{
+		width: 380px!important;
+		position: relative!important;
+		right: -11%!important;
+		left: auto!important
+	}
+	.block-img-item{
+		left: -74%!important
+	}
+	.history-text-items{
+		left: 33%!important
+	}
+	.history-text-items p{
+		font-size: 12px!important;
+		line-height: 16px!important;
+		width: 230px!important;
+	}
+	.history-text-items h1{
+		font-size: 16px
+	}
+	.text-year h3{
+		font-size: 80px!important;
+	}
+	.text-year{
+		bottom: -18%!important;
+		right: 10%!important
+	}
 }
 @media (min-width: 1536px) {
 	.posi-ab {

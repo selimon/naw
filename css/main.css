@@ -124,7 +124,7 @@ ul, p {
 
 .hashtag {
   position: absolute;
-  left: -87px;
+  left: -80px;
   top: 65%;
   margin-top: 40px;
   -webkit-transform: rotate(-90deg);
@@ -137,7 +137,9 @@ ul, p {
 .offer {
   margin-left: 100px;
   text-transform: uppercase;
-  position: relative; }
+  position: relative; 
+  top: 70px
+}
 
 .offer__title {
   font-weight: bold;
