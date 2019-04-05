@@ -1154,3 +1154,57 @@
 .header-ittem {
 	padding-left: 2%
 }
+
+@media (max-width: 1280px) and (min-width: 1280px){
+	.logo{
+		width: 123px!important;
+		margin-left: 40px!important
+	}
+		.navbar-light .navbar-nav .nav-link{
+		font-size: 12px!important
+	}
+	.text-anonsi h1{
+		font-size: 45px!important;
+		margin-left: 175px
+	}
+	.zoom-text h5,.accord-text-options h5{
+		font-size: 16px!important
+	}
+	.zoom-text h5 ~ span{
+		font-size: 12px!important
+	}
+	/*history*/
+	.text-his h1{
+		font-size: 45px!important
+	}
+	.bg-fon-history{
+		background-position: center;
+	}
+	.history-text-items h1 ,.section-tri h1,.section-fou h3{
+		font-size: 20px!important;
+		letter-spacing: 0.12em;
+		font-weight: bold
+	}
+	.history-text-items p,.section-p-options p,.section-fou p{
+		font-size: 12px!important;
+		line-height: 22px;
+	}
+	.text-year h3,.img-text{
+		font-size: 90px!important;
+	}
+	.text-year{
+		bottom: -20%!important
+	}
+	/*contact */
+	.mobile-contact{
+		margin-left: 102px
+	}
+	.contact-img img {
+		width: 540px!important;
+		max-width: none;
+	}
+	.contact-img {
+    position: absolute;
+    right: 15%;
+    top: 15%;
+}

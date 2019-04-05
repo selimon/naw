@@ -866,3 +866,40 @@
     font-size: 26px;
 }
 }
+@media (max-width: 1280px) and (min-width: 1280px){
+	.navbar-light .navbar-nav .nav-link{
+		font-size: 12px
+	}
+	.logo{
+		width: 123px;
+		margin-left: 40px
+	}
+	.offer__title{
+		font-size: 50px!important
+	}
+	.offer__btn{
+		font-size: 14px;
+		padding: 6.5px 52px;
+	}
+	.download_text{
+		font-size: 12px
+	}
+	.hashtag{
+		display: block;
+		font-size: 16px
+	}
+	.offer{
+		top: 41px;
+		margin-left: 2.5%
+	}
+	.offer__download{
+		left: 12%
+	}
+	.show .show_nav .show_start .show_title_one{
+		font-size: 16px
+	}
+	.show .show_nav{
+		height: 68px
+	}
+	
+}
