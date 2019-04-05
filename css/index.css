@@ -1213,6 +1213,9 @@
     right: 15%;
     top: 15%;
 }
+.contact-text-footer{
+	max-width: 60%
+}
 }
 
 .language-one{

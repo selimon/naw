@@ -691,7 +691,7 @@
 	}
 	.offer {
 		margin-left: -1%;
-		margin-top: 10%
+		margin-top: 6%
 	}
 	.offer__download{
 		left: 8.5%
@@ -717,6 +717,17 @@
 	.read_more_link {
     position: absolute;
     bottom: 10px;
+}
+.offer__btn{
+	width: 285px;
+	height: 55px
+}
+.domload-text{
+	padding-left: 4.5%
+}
+.read_more_arrow {
+	position: relative;
+	bottom: 10px
 }
 }
 
