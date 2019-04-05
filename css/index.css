@@ -744,8 +744,14 @@
 
 
 
-
+@media (max-width: 1366px) and (min-width: 768px){
+			.bg-fon-anonsi{
+    background-position: center!important;
+    background-position-y: -178px!important;
+	}
+}
 @media (max-width: 1366px) and (min-width: 1024px){
+
 	.img-text {
 		position: relative;
 		bottom: 0px

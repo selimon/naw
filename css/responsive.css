@@ -122,7 +122,7 @@
 }
 @media (max-width: 415px) and (min-width:414px){
 		.domload-text{
-		left: 18%!important;
+		left: 11%!important;
 		position: relative!important;
 	}
 	.offer{
@@ -364,7 +364,7 @@
 }
 	.domload-text{
 		position: relative;
-		left: 11%
+		left: 5%
 	}
 	.offer__download{
 		padding: 0px;
@@ -502,7 +502,7 @@
 		height: 50px
 	}
 	.domload-text{
-		left: 8%!important;
+		left: 1%!important;
 		position: relative;
 	}
 	.offer{
@@ -715,10 +715,10 @@
 
 @media (min-width: 1366px) and (max-width: 1367px){
 	.offer{
-		top: 0px;
+		top: 240px;
 	}
 	.hashtag{
-		top: 15%
+		top: 155%
 	}
 }
 @media (max-width: 1366px){
@@ -732,9 +732,9 @@
 
 }
 
+@media (max-width: 1024px) and (min-width: 1024px){
 
 
-@media (max-width: 1024px){
 			.logo {
 		margin-left: 0px
 			}
@@ -745,11 +745,23 @@
 				.offer__download{
 			left: 5.5%;
 		}
-		.offer{
-			margin-top: 0%;
+				.offer{
+					position: absolute;
 			margin-left: -5%
 		}
+
 }
+
+@media (max-width: 1023px) and (min-width: 1366px){
+	.offer{
+		top: 200px!important;
+		position: absolute;
+}
+}
+@media (max-width: 1023px) and (min-width: 1366px){
+
+}
+
 @media (min-width: 320px) and (max-width: 415px){
 	.offer{
 		margin-left: -0%!important;
@@ -777,7 +789,7 @@
 		margin-left: 160px
 	}
 	.hashtag{
-		left: -170px;
+		left: -165px;
 		top: 88%;
 		font-size: 26px
 	}
@@ -835,5 +847,12 @@
 	.offer {
     margin-top: -44%;
     margin-left: 0%;
+}
+}
+@media (max-width: 2559px) and (min-width: 1824px){
+	.hashtag {
+    left: -165px;
+    top: 88%;
+    font-size: 26px;
 }
 }
