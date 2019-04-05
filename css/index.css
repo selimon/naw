@@ -1108,8 +1108,8 @@
 		flex: 64%
 	}
 	.block-mobil-contact{
-		padding-top: 136px!important;
-		padding-bottom: 96px;
+		padding-top: 100px!important;
+		padding-bottom: 96px!important;
 		max-width: 100%
 	}
 	.contact-text-footer p{
@@ -1212,4 +1212,9 @@
     position: absolute;
     right: 15%;
     top: 15%;
+}
+}
+
+.language-one{
+  margin-right: 91px
 }

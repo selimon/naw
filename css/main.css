@@ -182,7 +182,7 @@ ul, p {
 
 .read_more_link{
   position: absolute;
-  bottom: 20px;
+  bottom: 18px;
 }
 
 .show {
@@ -267,4 +267,7 @@ ul, p {
   .modal-header h2 {
     font-size: 18px;
     color: #29292D
+}
+.language-one{
+  margin-right: 91px
 }

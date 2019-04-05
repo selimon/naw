@@ -690,11 +690,11 @@
 		height: 242px
 	}
 	.offer {
-		margin-left: 185px;
+		margin-left: -1%;
 		margin-top: 10%
 	}
 	.offer__download{
-		left: 18.5%
+		left: 8.5%
 	}
 	.show .show_text .show_text_box_title{
 		font-size: 20px
@@ -714,6 +714,10 @@
 	.google img{
 		width: 141px
 	}
+	.read_more_link {
+    position: absolute;
+    bottom: 10px;
+}
 }
 
 @media (min-width: 1366px) and (max-width: 1367px){
