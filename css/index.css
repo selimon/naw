@@ -1123,6 +1123,11 @@
 	.text-anonsi h1{
 		font-size: 71px!important
 	}
+	.bg-fon-anonsi{
+		background-size: auto!important;
+		background-position: center!important;
+		background-position-y: -142px!important;
+	}
 }
 
 
