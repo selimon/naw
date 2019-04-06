@@ -655,24 +655,26 @@
 }
 
 
-@media (min-width: 1920px){
+@media (max-width: 1920px) and (min-width: 1367px){
 	.offer__title {
-		font-size: 95px
+		font-size: 71px
 	}
 	.offer__text{
 		font-size: 35px
 	}
 	.hashtag{
-		font-size: 20px;
+		font-size: 20px!important;
+		left: -75%!important;
+		top:75%!important;
 	}
 	.show .show_nav{
 		height: 102px
 	}
 	.show .show_nav .show_start .show_title_one{
-		font-size: 35px
+		font-size: 25px
 	}
 	.show_title_two,.show .show_text .show_text_box_text{
-		font-size: 18px;
+		font-size: 14px;
 	}
 	.show_text_box_text{
 		padding: 20px 50px 0px 0px
@@ -700,7 +702,7 @@
 		font-size: 20px
 	}
 	.show .show_text .show_text_box .learn_more{
-		font-size: 18px;
+		font-size: 16px;
 	}
 	.show .show_text .show_text_box .learn_more{
 		margin-top: 7%
@@ -716,7 +718,7 @@
 	}
 	.read_more_link {
     position: absolute;
-    bottom: 10px;
+    bottom: 22px;
 }
 .offer__btn{
 	width: 285px;
@@ -916,6 +918,13 @@
 	}
 	.show .show_nav{
 		height: 68px
+	}
+	.read_more_link{
+		bottom: 12px
+	}
+	.offer__btn{
+		width: 217px;
+		height: 40px
 	}
 	
 }
