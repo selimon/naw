@@ -1128,6 +1128,10 @@
 		background-position: center!important;
 		background-position-y: -142px!important;
 	}
+	/*history*/
+	.main-history-block{
+		width: 930px!important
+	}
 }
 
 
