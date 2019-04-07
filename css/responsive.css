@@ -375,6 +375,10 @@
 	.show .show_nav{
 		height: 60px
 	}
+	.padding {
+  margin-right: 0px;
+  margin-left: 0px
+}
 
 }
 
@@ -655,7 +659,7 @@
 }
 
 
-@media (max-width: 1920px) and (min-width: 1367px){
+@media (max-width: 1920px) and (min-width: 1537px){
 	.offer__title {
 		font-size: 71px
 	}
