@@ -744,12 +744,7 @@
 
 
 
-@media (max-width: 1366px) and (min-width: 768px){
-			.bg-fon-anonsi{
-    background-position: center!important;
-    background-position-y: -178px!important;
-	}
-}
+
 @media (max-width: 1366px) and (min-width: 1024px){
 
 	.img-text {
@@ -806,7 +801,7 @@
 
 }
 
-@media (min-width: 2560px){
+@media (max-width: 2560px) and (min-width: 1921px){
 
 	/*history*/
 	.mobile-contact {
@@ -845,7 +840,67 @@
 	}
 	.anonsi-botton {
 		margin-left: -17.5%
+	}	/*anonsi*/
+	.text-anonsi h1{
+		font-size: 71px!important
 	}
+
+	/*anonsi*/
+
+.pt-4{
+	padding-top: 1.3rem!important
+}
+.pp-b{
+	padding-bottom: 1.2rem
+}
+.accordion-text span ~ h5{
+	font-size: 25px!important
+}
+.accordion-text span{
+	font-size: 14px!important
+}
+
+.accordion-text{
+	justify-content: inherit!important;
+}
+.accordion-text span {
+	padding-right: 80px
+}
+.accordion-text h5{
+	padding-left: 48px
+} 
+.zoom-text{
+	margin-left: -84px
+}
+.activ{
+	top: 125px!important;
+	right: 15px!important
+}
+.prr-5 {
+    padding: 68px 157px 0px 0px!important;
+}
+.p-text{
+	max-width: 89%;
+	flex: 89%
+}
+.ptt-4{
+	padding-top: 68px!important;
+	position: relative;
+	right: 90px
+}
+.text-anonsi{
+	position: relative;
+	top: 70px;
+	right: 10px
+}
+.language-one {
+    margin-right: 31px!important;
+    margin-top: 25px;
+}
+.anonsi-botton{
+	padding-bottom: 7em!important
+}
+
 
 }
 
@@ -1063,7 +1118,7 @@
 		margin-left: 20%
 	}  
 }
-@media (min-width: 1920px){
+@media (min-width: 1567px) and (max-width: 1920px){
 	.logo {
 		width: 205px!important
 	}
@@ -1092,7 +1147,7 @@
 	}
 	/*contact*/
 	.mobile-contact{
-		padding-left: 14%!important
+		padding-left: 19%!important
 	}
 	.span{
 		font-size: 25px!important;
@@ -1101,7 +1156,7 @@
 		font-size: 16px!important
 	}
 	.contact-text-footer{
-		max-width: 70%
+		max-width: 85%
 	}
 	.mobile-contact {
 		max-width: 51%;
@@ -1119,6 +1174,29 @@
 		max-width: 100%;
 		flex: 25%
 	}
+.text-options h1{
+	margin-top: 30px
+}
+.block-mobil-contact {
+    padding-top: 17%!important;
+}
+.block-mobil-contact h5 {
+    font-size: 21px!important;
+}
+.block-pt {
+    margin-top: -2%;
+}
+.official{
+	margin-top: 15px!important
+}
+.official h5 {
+    font-size: 24px;
+}
+.span{
+	position: relative;
+	top: 40px;
+	font-size: 25px!important
+}
 	/*anonsi*/
 	.text-anonsi h1{
 		font-size: 71px!important
@@ -1128,6 +1206,65 @@
 		background-position: center!important;
 		background-position-y: -142px!important;
 	}
+	/*anonsi*/
+
+.pt-4{
+	padding-top: 1.3rem!important
+}
+.pp-b{
+	padding-bottom: 1.2rem
+}
+.accordion-text span ~ h5{
+	font-size: 25px!important
+}
+.accordion-text span{
+	font-size: 14px!important
+}
+.bg-fon-anonsi{
+	    background-image: url(../images/video.png)!important;
+	    background-size: auto!important;
+	    background-position: inherit!important;
+}
+.accordion-text{
+	justify-content: inherit!important;
+}
+.accordion-text span {
+	padding-right: 80px
+}
+.accordion-text h5{
+	padding-left: 48px
+} 
+.zoom-text{
+	margin-left: -84px
+}
+.activ{
+	top: 125px!important;
+	right: 15px!important
+}
+.prr-5 {
+    padding: 68px 157px 0px 0px!important;
+}
+.p-text{
+	max-width: 89%;
+	flex: 89%
+}
+.ptt-4{
+	padding-top: 68px!important;
+	position: relative;
+	right: 90px
+}
+.text-anonsi{
+	position: relative;
+	top: 70px;
+	right: 10px
+}
+.language-one {
+    margin-right: 31px!important;
+    margin-top: 25px;
+}
+.anonsi-botton{
+	padding-bottom: 7em!important
+}
 	/*history*/
 	.main-history-block{
 		width: 930px!important
@@ -1167,7 +1304,12 @@
 @media (max-width: 1280px) and (min-width: 1280px){
 	.logo{
 		width: 123px!important;
-		margin-left: 40px!important
+		margin-left: 20px!important;
+		margin-top: 20px!important
+	}
+	.menu-item{
+		margin-left: -14px!important;
+		margin-top: 15px!important
 	}
 		.navbar-light .navbar-nav .nav-link{
 		font-size: 12px!important
@@ -1219,6 +1361,91 @@
 }
 .contact-text-footer{
 	max-width: 60%
+}
+/*anonsi*/
+.container-anonsi,.pdd-anonsi,.anonsi-botton{
+	max-width: 918px!important
+}
+.pt-4{
+	padding-top: 1.3rem!important
+}
+.pp-b{
+	padding-bottom: 1.2rem
+}
+.accordion-text span ~ h5{
+	font-size: 16px!important
+}
+.accordion-text span{
+	font-size: 12px!important
+}
+.bg-fon-anonsi{
+	    background-image: url(../images/background-mobile.png)!important;
+	    background-size: auto!important;
+	    background-position: inherit!important;
+}
+.accordion-text{
+	justify-content: inherit!important;
+}
+.accordion-text span {
+	padding-right: 80px
+}
+.accordion-text h5{
+	padding-left: 48px
+} 
+.zoom-text{
+	margin-left: -34px
+}
+.activ{
+	top: 125px!important;
+	right: 15px!important
+}
+.prr-5 {
+    padding: 55px 113px 0px 0px!important;
+}
+.p-text{
+	max-width: 89%;
+	flex: 89%
+}
+.ptt-4{
+	padding-top: 54px!important;
+	position: relative;
+	right: 30px
+}
+.text-anonsi{
+	position: relative;
+	top: 30px;
+	right: 180px
+}
+.language-one {
+    margin-right: 31px!important;
+    margin-top: 25px;
+}
+.anonsi-botton{
+	padding-bottom: 3em!important
+}
+/*contact*/
+.text-options h1{
+	margin-top: 30px
+}
+.block-mobil-contact {
+    padding-top: 17%!important;
+}
+.block-mobil-contact h5 {
+    font-size: 21px!important;
+}
+.block-pt {
+    margin-top: -2%;
+}
+.official{
+	margin-top: 15px!important
+}
+.official h5 {
+    font-size: 24px;
+}
+.span{
+	position: relative;
+	top: 40px;
+	font-size: 25px!important
 }
 }
 
