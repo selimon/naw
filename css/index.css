@@ -9,6 +9,8 @@
 	}
 	.main-history-block{
 		left: 25%!important
+}.bg-fon-anonsi{
+	background-position-y: -347px!important
 }
 .history-text-items p{
 	font-size: 14px!important
@@ -407,7 +409,9 @@
 }
 
 @media (max-width: 812px) and (min-width: 568px){
-
+.bg-fon-anonsi{
+	background-position-y: 0px!important
+}
 	.posi-rel{
 		margin: 0px 100px 0px 100px!important
 	}
@@ -785,6 +789,9 @@
 
 
 @media (max-width: 568px) and (min-width: 320px){
+	.bg-fon-anonsi{
+	background-position-y: 0px!important
+}
 	.block-mobil-contact h5 {
 		font-size: 16px
 	}	.contact-text-footer{
@@ -1118,7 +1125,7 @@
 		margin-left: 20%
 	}  
 }
-@media (min-width: 1567px) and (max-width: 1920px){
+@media (min-width: 1281px) and (max-width: 1920px){
 	.logo {
 		width: 205px!important
 	}
@@ -1360,7 +1367,7 @@
     top: 15%;
 }
 .contact-text-footer{
-	max-width: 60%
+	max-width: 66%
 }
 /*anonsi*/
 .container-anonsi,.pdd-anonsi,.anonsi-botton{
