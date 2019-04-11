@@ -1,0 +1,44 @@
+// specification 
+// Color_Size
+$h1: 50px
+$h2: 25px
+// color
+$header-items: black
+$hover-header: #ec56ac
+$section-text: #54003e
+
+.navbar-light .navbar-nav .nav-link
+	font-size: $h2
+	color: $header-items
+	margin: 0px 10px 0px 10px 
+	padding: 0
+	&:hover 
+		color: $hover-header
+		border-bottom: 2px solid $hover-header
+		padding-bottom: 0px
+
+.dropdown-item
+  background: $hover-header
+  border-top: 1px solid white
+  color: white
+  &:hover 
+  	background: $hover-header
+  	color: white
+.text-items-section 
+	h2
+		font-size: $h1
+		&:nth-child(2)
+			color: $section-text
+.text-items-section 
+		padding-left: 180px
+		margin-top: 150px
+.dropdown-toggleOne,.text-radius,.text-position,.text-hover-items,.btn-warning
+	font-size: $h2
+.section-tri
+	background: #f6f6f6
+
+.text-radius a
+  border: 1px solid $hover-header
+  border-radius: 100px
+.card-body span 
+	font-size: 20px
