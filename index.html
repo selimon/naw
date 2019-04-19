@@ -1,273 +1,99 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html>
 	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<!-- fonts -->
-		<link href="https://fonts.googleapis.com/css?family=Vesper+Libre" rel="stylesheet">
-		<!-- Bootstrap -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-		<title>Document</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<title>site</title>
+		<link rel="stylesheet" type="text/css" href="css/carousel.css">
+		<link rel="stylesheet" type="text/css" href="css/video.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css">
 	</head>
 	<body>
-		<header>
-			<div class="container-fluid">
-				<nav class="navbar navbar-expand-lg navbar-light ">
-					<a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-					</button>
-					<div class="collapse navbar-collapse align-self-center justify-content-end" id="navbarNav">
-						<ul class="navbar-nav ">
-							<li class="nav-item ">
-								<a class="nav-link" href="#">HOME  </a>
-							</li>
-							<li class="nav-item dropdown">
-								<a class="nav-link " href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-									FUNDRAISING <span class="arrow"><img src="images/arrow-down.png" alt=""></span>
-								</a>
-								<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-									<a class="dropdown-item" href="#">CFD Team</a>
-									<a class="dropdown-item" href="#">Successes</a>
-									<a class="dropdown-item" href="#">Resource Guide</a>
-								</div>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#">EXPERIENCES </a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link " href="#">OUR TEAM</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link " href="#">ABOUT </a>
-							</li>
-							<li >
-								<a class="zoom" href="#zoom" ><img src="images/zoom.png" alt=""></a>
-							</li>
-						</ul>
-						<form class="header-form">
-							<input class="form-control mr-sm-2" type="search" placeholder="Search..."  id="zoom">
-						</form>
-					</div>
-				</nav>
+
+	<section >
+
+<video autoplay loop muted class="bgvideo no" id="bgvideo ">
+   <source src="video_fon/Unцtitled.mp4" type="video/mp4"></source>
+  </video>
+		<div class="container-fluid">
+			<input id="nav-btn-open" name="nav" type="radio" value="Show Navigation" />
+			<label for="nav-btn-open"><i class="fab fa-artstation"></i>Show Navigation</label>
+			<input id="nav-btn-close" name="nav" type="radio" value="Close Navigation" />
+			<label for="nav-btn-close"><i class="fab fa-artstation"></i> Close Navigation</label>
+			<nav id="nav" role="navigation">
+				<!-- NAV - Primary -->
+				<ul class="nav-primary ">
+					<li class="item "><a href="#" class="l">Home</a></li>
+					<li class="item "><a href="#" class="d">Portfolio</a></li>
+					<li class="item "><a href="#" class="s">Recall</a></li>
+				</ul>
+				<ul class="nav-primary-one">
+					<li><a href="#"><i class="fab fa-vk"></i></a></li>
+					<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+					<li><a href="#"><i class="fab fa-facebook"></i></a></li>
+					<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+					</ul>
+			</nav>
+		</div>
+	</section>
+	<section class="sec-1">
+		<div class="container ">
+			<div class="col-lg-12 text-center text-white mt-5">
+			<h2>Gallery</h2>
 			</div>
-		</header>
-		<section>
-			<div class="container-fluid ">
-				<div class="row ">
-					<div class="col-lg-6 img-bg no-gutters">
-						<div class="text-items-section">
-							<span class="red"></span><h2>EXPERIENCE</h2>
-							<h2>LOREM IPSUM DOLOR SIT <br> AMET CONCECTETUR</h2>
-						</div>
-					</div>
-					<div class="col-lg-6 no-gutters">
-						<img src="images/img.jpg" alt="">
-					</div>
+		</div>
+	</section>
+
+	<section id="sec-2" class="sec-2 ">
+		<div class="container-fluid">
+			<div class="col-lg-12 text-center "><h3>Portfolio</h3></div>
+			<div class="row no-gutters gallery-options">
+				<div class="col-lg-4 ">
+					<a data-fancybox="gallery" href="images/gallery/1.jpg"><img src="images/gallery/1.jpg" alt="" class="img-fluid"></a>
+					<a data-fancybox="gallery" href="images/gallery/2.jpg"><img src="images/gallery/2.jpg" alt="" class="img-fluid"></a>
+					<a data-fancybox="gallery" href="images/gallery/3.jpg"><img src="images/gallery/3.jpg" alt="" class="img-fluid"></a>
+					<a data-fancybox="gallery" href="images/gallery/4.jpg"><img src="images/gallery/4.jpg" alt="" class="img-fluid"></a>
+				</div>
+				<div class="col-lg-4 ">
+					<a data-fancybox="gallery" href="images/gallery/5.jpg"><img src="images/gallery/5.jpg" alt="" class="img-fluid"></a>
+					<a data-fancybox="gallery" href="images/gallery/6.jpg"><img src="images/gallery/6.jpg" alt="" class="img-fluid"></a>
+					<a data-fancybox="gallery" href="images/gallery/7.jpg"><img src="images/gallery/7.jpg" alt="" class="img-fluid"></a>
+					<a data-fancybox="gallery" href="images/gallery/8.jpg"><img src="images/gallery/8.jpg" alt="" class="img-fluid"></a>
+				</div>
+				<div class="col-lg-4">
+					<a data-fancybox="gallery" href="images/gallery/9.jpg"><img src="images/gallery/9.jpg" alt="" class="img-fluid"></a>
+					<a data-fancybox="gallery" href="images/gallery/10.jpg"><img src="images/gallery/10.jpg" alt="" class="img-fluid"></a>
+					<a data-fancybox="gallery" href="images/gallery/11.jpg"><img src="images/gallery/11.jpg" alt="" class="img-fluid"></a>
+					<a data-fancybox="gallery" href="images/gallery/12.jpg"><img src="images/gallery/12.jpg" alt="" class="img-fluid"></a>
 				</div>
 			</div>
-		</section>
-		<section class="menu-items-two p-3 d-flex justify-content-center">
-			<div class="dropdown">
-				<a  href="#"  class="btn dropdown-toggleOne">
-					All Destinations
-				</a>
-			</div>
-			<div class="dropdown">
-				<a class="btn  dropdown-toggleOne" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					Arts & Culture <span class="arrow"><img src="images/arrow-copy.png" alt=""></span>
-				</a>
-				<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-					<a class="dropdown-item" href="#">Everest</a>
-					<a class="dropdown-item" href="#">Everest</a>
+			<div class="row">
+				<div class="col-lg-6 img-writers d-flex">
+					<a data-fancybox="gallery" href="images/monoliza.jpg"><img src="images/monoliza.jpg" alt="" class="img-fluid"></a>
+					<div class="h3 ml-5">
+						«Мо́на Ли́за», она же «Джоко́нда»
+						<p>Картина Леонардо да Винчи, находящаяся в Лувре (Париж, Франция), одно из самых известных произведений живописи в мире[2][3], которое, как считается, является портретом Лизы Герардини, супруги торговца шёлком из Флоренции Франческо дель Джокондо, написанным около 1503—1505 года.</p>
+					</div>
 				</div>
-			</div>
-			<div class="dropdown">
-				<a class="btn  dropdown-toggleOne" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					Mountains <span class="arrow"><img src="images/arrow-copy.png" alt=""></span>
-				</a>
 				
-				<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-					<a class="dropdown-item" href="#">Everest</a>
-					<a class="dropdown-item" href="#">Everest</a>
+				<div class="col-lg-6 img-writers d-flex">
+					<a data-fancybox="gallery" href="images/monoliza.jpg"><img src="images/monoliza.jpg" alt="" class="img-fluid"></a>
+					<div class="h3 ml-5">
+						«Мо́на Ли́за», она же «Джоко́нда»
+						<p>Картина Леонардо да Винчи, находящаяся в Лувре (Париж, Франция), одно из самых известных произведений живописи в мире[2][3], которое, как считается, является портретом Лизы Герардини, супруги торговца шёлком из Флоренции Франческо дель Джокондо, написанным около 1503—1505 года.</p>
+					</div>
 				</div>
 			</div>
-			<div class="dropdown">
-				<a class="btn  dropdown-toggleOne" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					Voluntourism <span class="arrow"><img src="images/arrow-copy.png" alt=""></span>
-				</a>
-				<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-					<a class="dropdown-item" href="#">Everest</a>
-					<a class="dropdown-item" href="#">Everest</a>
-				</div>
-			</div>
-			<div class="dropdown">
-				<a class="btn  dropdown-toggleOne" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					Cities <span class="arrow"><img src="images/arrow-copy.png" alt=""></span>
-				</a>
-				<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-					<a class="dropdown-item" href="#">Everest</a>
-					<a class="dropdown-item" href="#">Everest</a>
-				</div>
-			</div>
-			<div class="dropdown">
-				<a class="btn  dropdown-toggleOne" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					Beaches <span class="arrow"><img src="images/arrow-copy.png" alt=""></span>
-				</a>
-				<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-					<a class="dropdown-item" href="#">Everest</a>
-					<a class="dropdown-item" href="#">Everest</a>
-				</div>
-			</div>
-		</section>
-		<section class="section-tri p-4">
-			<div class="text-radius  col-lg-6 text-center">
-				<a href="#" >Theatre <span><img src="images/close.png" alt=""></span></a>
-			</div>
-		</section>
+		</div>
+	</section>
 
-
-		<section class="cart-item">
-			<div class="container-fluid">
-				<div class="row ">
-					<div class="col-lg-4 d-flex justify-content-center col-md-12 col-sm-12">
-						<div class="card" style="width: 30rem;">
-							<img src="images/img_1.png" class="card-img-top" alt="..."><span class="text-position text-white">BEAVER CREEK, CO <br> BACHELOR GULCH SUMMER</span><span class="text-hover-items"><a href="#">DETAILS</a></span>
-							<div class="card-body d-flex justify-content-around">
-								<div><img src="images/full-size.png" alt="" class="zoom-img"><span>1,022 sq.ft</span></div>
-								<div><img src="images/ico_im.png" alt=""><span>4</span></div>
-								<div><img src="images/ico_img_5.png" alt=""><span>2</span></div>
-								<div><img src="images/ico.png" alt=""  class="zoom-img"><span>2</span></div>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 d-flex justify-content-center">
-						<div class="card" style="width: 30rem;">
-							<img src="images/img_2.png" class="card-img-top" alt="..."><span class="text-position text-white">ASPEN, CO 2BR</span><span class="text-hover-items"><a href="#">DETAILS</a></span>
-							<div class="card-body d-flex justify-content-around">
-								<div><img src="images/full-size.png" alt=""  class="zoom-img"><span>1,022 sq.ft</span></div>
-								<div><img src="images/ico_im.png" alt=""><span>4</span></div>
-								<div><img src="images/ico_img_5.png" alt=""><span>2</span></div>
-								<div><img src="images/ico.png" alt=""  class="zoom-img"><span>2</span></div>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 d-flex justify-content-center">
-						<div class="card" style="width: 30rem;">
-							<img src="images/img_1.png" class="card-img-top" alt="..."><span class="text-position text-white">BEAVER CREEK, CO <br> BACHELOR GULCH SUMMER</span><span class="text-hover-items"><a href="#">DETAILS</a></span>
-							<div class="card-body d-flex justify-content-around">
-								<div><img src="images/full-size.png" alt=""  class="zoom-img"><span>1,022 sq.ft</span></div>
-								<div><img src="images/ico_im.png" alt=""><span>4</span></div>
-								<div><img src="images/ico_img_5.png" alt=""><span>2</span></div>
-								<div><img src="images/ico.png" alt=""  class="zoom-img"><span>2</span></div>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 d-flex justify-content-center">
-						<div class="card" style="width: 30rem;">
-							<img src="images/img_4.png" class="card-img-top" alt="..."><span class="text-position text-white">BEAVER CREEK, CO LANDING</span><span class="text-hover-items"><a href="#">DETAILS</a></span>
-							<div class="card-body d-flex justify-content-around">
-								<div><img src="images/full-size.png" alt=""  class="zoom-img"><span>1,022 sq.ft</span></div>
-								<div><img src="images/ico_im.png" alt=""><span>4</span></div>
-								<div><img src="images/ico_img_5.png" alt=""><span>2</span></div>
-								<div><img src="images/ico.png" alt=""  class="zoom-img"><span>2</span></div>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 d-flex justify-content-center">
-						<div class="card" style="width: 30rem;">
-							<img src="images/img_5.png" class="card-img-top" alt="..."><span class="text-position text-white">BROADWAY EXPERIENCE</span><span class="text-hover-items"><a href="#">DETAILS</a></span>
-							<div class="card-body d-flex justify-content-around">
-								<div><img src="images/full-size.png" alt=""  class="zoom-img"><span>1,022 sq.ft</span></div>
-								<div><img src="images/ico_im.png" alt=""><span>4</span></div>
-								<div><img src="images/ico_img_5.png" alt=""><span>2</span></div>
-								<div><img src="images/ico.png" alt=""  class="zoom-img"><span>2</span></div>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 d-flex justify-content-center">
-						<div class="card" style="width: 30rem;">
-							<img src="images/img_6.png" class="card-img-top" alt="..."><span class="text-position text-white">BELIZE, PRIVATE ISLANDR</span><span class="text-hover-items"><a href="#">DETAILS</a></span>
-							<div class="card-body d-flex justify-content-around">
-								<div><img src="images/full-size.png" alt=""  class="zoom-img"><span>1,022 sq.ft</span></div>
-								<div><img src="images/ico_im.png" alt=""><span>4</span></div>
-								<div><img src="images/ico_img_5.png" alt=""><span>2</span></div>
-								<div><img src="images/ico.png" alt=""  class="zoom-img"><span>2</span></div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="container-fluid">
-				<div class="col-lg-12 text-center">
-					<div class="navigation-botton">
-						<div class="left pt-5 pb-5">
-							<a href="#"><img src="images/double-left.png" alt=""></a>
-							<a href="#" class="link-items">1</a>
-							<a href="#" class="link-items">2</a>
-							<a href="#" class="link-items">3</a>
-							<a href="#" class="link-items">4</a>
-							<a href="#" class="link-items">5</a>
-							<a href="#"><img src="images/double.png" alt=""></a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section class="form-menu mt-5">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-lg-6">
-						<div class="d-flex">
-						<form class="pt-5 mt-4 mb-3 mr-4">
-							<input class="options" type="text" placeholder="First Name"  id="zoom">
-						</form>
-
-						<form class="pt-5 mt-4 mb-3 mr-4">
-							<input class="options" type="text" placeholder="Event State"  id="zoom">
-						</form>
-					</div>
-						<div class="d-flex">
-						<form class="pt-5 mt-4 mb-3 mr-4">
-							<input class="options" type="text" placeholder="Last Name"  id="zoom">
-						</form>
-						<form class="pt-5 mt-4 mb-3 mr-4">
-							<input class="options" type="text" placeholder="Phone number"  id="zoom">
-						</form>
-</div>
-						<div class="d-flex">
-						<form class="pt-5 mt-4 mb-3 mr-4">
-							<input class="options" type="text" placeholder="Charity Name"  id="zoom">
-						</form>
-
-						<form class="pt-5 mt-4 mb-3 mr-4 pbb-5">
-							<input class="options" type="text" placeholder="E-mail"  id="zoom">
-						</form>
-					</div>
-					</div>
-
-					<div class="col-lg-6 ">
-						<div class="form-text-items text-center pt-4 col-lg-7">
-						<h3>Send me info about your <br> one-of-a-kind experiences <br> designed to m</h3>
-<button type="button" class="btn btn-warning text-white">SEND ME INFO</button>
-					</div>
-						<img src="images/girl.png" alt="" class="img-items">
-					</div>
-				</div>
-			</div>
-		</section>
-		<section>
-			<div class="blog">
-				<div class="col-lg-12 text-center pt-5">
-					<span class="left-link"></span><h1>BLOG</h1><span class="left-right"></span>
-				</div>
-			</div>
-		</section>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script src="https://unpkg.com/popper.js/dist/umd/popper.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/myscript.js"></script>
-	</body>
+	
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.fancybox.min.js"></script>
 </html>
