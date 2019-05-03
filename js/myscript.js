@@ -1,10 +1,16 @@
-// form 
-jQuery(document).ready(function($) {
-	$(".zoom").click(function() {
-	$(".header-form").addClass('active');
-});
-	$("").mouseout(function() {
-	$(".header-form").removeClass('active');
-});
+// menu-mobile
+$(document).ready(function() {
+    $('.navbar-toggler').click(function() {
+        $('.navbar-mobile-menu').addClass('open');
+    });
+    $('.close').click(function() {
+        $('.navbar-mobile-menu').removeClass('open');
+    });
+    $(".navbar-toggler").click(function() {
+        $(".navbar-toggler").addClass('op');
+    });
+    $(".close").click(function() {
+        $(".navbar-toggler").removeClass('op');
+    });
 
 });

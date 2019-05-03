@@ -1,39 +1,7 @@
-.navbar-light .navbar-nav .nav-link {
-  font-size: 25px;
-  color: black;
-  margin: 0px 10px 0px 10px;
-  padding: 0; }
-  .navbar-light .navbar-nav .nav-link:hover {
-    color: #ec56ac;
-    border-bottom: 2px solid #ec56ac;
-    padding-bottom: 0px; }
+.col-lg-6 {
+  max-width: 50%;
+  flex: 50%; }
 
-.dropdown-item {
-  background: #ec56ac;
-  border-top: 1px solid white;
-  color: white; }
-  .dropdown-item:hover {
-    background: #ec56ac;
-    color: white; }
-
-.text-items-section h2 {
-  font-size: 50px; }
-  .text-items-section h2:nth-child(2) {
-    color: #54003e; }
-
-.text-items-section {
-  padding-left: 180px;
-  margin-top: 150px; }
-
-.dropdown-toggleOne, .text-radius, .text-position, .text-hover-items, .btn-warning {
-  font-size: 25px; }
-
-.section-tri {
-  background: #f6f6f6; }
-
-.text-radius a {
-  border: 1px solid #ec56ac;
-  border-radius: 100px; }
-
-.card-body span {
-  font-size: 20px; }
+.col-lg-7 {
+  max-width: 70.4%;
+  flex: 70.4%; }
