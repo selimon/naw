@@ -1,38 +1,50 @@
-@media (max-width: 1024px) {
-  .banner-fon {
+@media (max-width: 1920px) {
+  .bg-fon {
+    margin-top: 105px;
     background-position: center; } }
 
-@media (max-width: 768px) {
-  .block-list {
-    display: block;
-    margin: 20px 0px 40px 0px;
-    height: auto; }
-    .block-list li {
-      font-size: 22px;
-      padding-top: 10px; }
-  .col-md-12 {
-    display: block; }
-  .banner-fon {
-    margin-top: 255px; } }
+@media (max-width: 1280px) {
+  .bg-fon {
+    margin-top: 105px;
+    background-position: center; } }
 
-@media (max-width: 812px) {
-  .col-md-12 {
-    flex: 100%;
-    max-width: 100%; } }
+@media (max-width: 1366px) {
+  .bg-fon {
+    margin-top: 105px;
+    background-position: center; } }
+
+@media (max-width: 1024px) {
+  .bg-fon {
+    margin-top: 105px;
+    background-position: center; }
+  .block-text {
+    position: relative;
+    width: 50%;
+    right: 0px; }
+  .phone-info h6 {
+    text-align: center; }
+  .phone-info {
+    margin: 0px 0px 0px 20px;
+    padding: 0px; }
+  .block-phone {
+    width: 50%; } }
+
+@media (max-width: 768px) {
+  .phone-info {
+    justify-content: space-between !important; } }
 
 @media (max-width: 575px) and (min-width: 320px) {
-  .banner-fon {
-    margin-top: 0px; }
-  .banner-text h1 {
+  .block-nav {
+    display: block; }
+  .block-menu {
+    height: auto; }
+  .bg-fon .bg-fon__text h1 {
+    font-size: 40px;
     text-align: center; }
-  .banner-btn {
+  .button-text {
     display: flex;
     justify-content: center; }
-  .block-menu, .navbar-nav, .block, .banner-btn h3 {
-    display: none; }
-  .navbar {
-    display: block; }
-    .navbar img {
-      padding: 10px; }
-  .navbar-toggler {
-    opacity: 1; } }
+    .button-text h5 {
+      display: none; }
+  .bg-fon {
+    margin-top: 280px; } }

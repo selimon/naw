@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box; }
+
 a, a:hover {
   text-decoration: none;
   color: inherit; }
@@ -6,201 +9,140 @@ img {
   max-width: 100%; }
 
 ul, li {
-  list-style: none; }
+  list-style: none;
+  padding: 0px; }
 
 .container {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto; }
 
-.row {
-  display: flex; }
+button:focus {
+  outline: none;
+  border-style: none; }
 
 .no-gutters {
-  margin: 0px;
   padding: 0px; }
-
-.col-lg-6 {
-  max-width: 50%;
-  flex: 50%; }
-
-.col-lg-7 {
-  max-width: 70.4%;
-  flex: 70.4%; }
 
 header {
   position: fixed;
   top: 0;
   width: 100%;
   background: white; }
+  header .navbar-logo img {
+    width: 120px; }
 
-.navbar {
-  display: flex;
-  align-items: center;
-  justify-content: center; }
+.navbar-light .navbar-nav .nav-link {
+  color: #5e5e5e;
+  margin-left: 40px; }
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: black; }
 
-.navbar-nav {
-  display: flex; }
-  .navbar-nav li a {
-    color: #4e4e4e;
-    margin-left: 40px;
-    font-size: 18px; }
-
-.block {
-  display: flex;
-  justify-content: flex-end; }
-
-.block-phone {
-  align-items: center;
-  padding-right: 20px; }
-
-.block-close {
-  position: relative;
+.block-text {
   background: #f2f2f2;
-  width: 50%; }
-  .block-close img {
-    width: 15px;
+  height: 45px;
+  align-items: center;
+  width: 100%;
+  right: -425px;
+  position: absolute; }
+  .block-text img {
     height: 15px;
-    align-self: center;
-    padding: 10px; }
+    margin-right: 20px; }
 
-.block-menu {
+.phone-info h6 {
+  color: #363636;
+  font-weight: 100; }
+
+.block-bg {
   background: #f2f2f2; }
 
-.block-list {
-  display: flex;
-  height: 75px; }
-  .block-list li {
-    padding-right: 20px;
-    color: #a2a2a2;
-    font-size: 18px;
-    align-self: center; }
-    .block-list li .active {
-      color: #363636; }
+.block-nav {
+  display: flex; }
+  .block-nav .block-item {
+    padding: 10px 35px 10px 0px;
+    color: #5c5c5c; }
 
-.navbar-mobile-menu li {
-  padding-top: 20px;
-  font-size: 22px; }
+.block-menu {
+  height: 50px; }
 
-.navbar-mobile-menu {
-  position: absolute;
-  background: #222222;
-  z-index: 99;
-  top: 0px;
-  width: 100%;
-  left: 0px;
-  height: 100vh;
-  padding: 0px 0px 0px 0px;
-  border-bottom: 1px solid white;
-  transition-duration: 1.5s;
-  animation-timing-function: linear; }
-  .navbar-mobile-menu .navbar-nav {
-    padding-top: 115px; }
-
-.navbar-toggler {
-  z-index: 999;
-  border: none;
-  position: absolute;
-  right: 20px;
-  top: 10px;
-  background: black;
-  padding: 10px;
-  opacity: 0; }
-
-.modal-content {
-  width: auto; }
-
-.open {
-  transform: translateX(0%) !important; }
-
-.history-block-one {
-  padding-bottom: 240px; }
-
-.close {
-  z-index: 999;
-  opacity: 1;
-  position: absolute;
-  right: 10px;
-  top: 30px;
-  background-color: #222222; }
-
-.op {
-  display: none; }
-
-.block-list__link {
-  color: white;
-  margin-top: 150px; }
-
-.banner-fon {
+.bg-fon {
   background-image: url(../images/bg-fon.jpg);
-  background-repeat: no-repeat;
   height: 100%;
-  margin-top: 128px; }
+  background-repeat: no-repeat;
+  margin-top: 105px;
+  background-size: cover; }
+  .bg-fon .bg-fon__text {
+    padding-top: 127px; }
+    .bg-fon .bg-fon__text h1 {
+      font-size: 65px;
+      letter-spacing: 0.1em; }
+    .bg-fon .bg-fon__text .checkbox {
+      margin-top: 30px; }
+      .bg-fon .bg-fon__text .checkbox img {
+        margin-right: 15px; }
+    .bg-fon .bg-fon__text .btn {
+      background: #c43b49;
+      width: 175px;
+      border-radius: 30px;
+      padding: 10px;
+      color: white;
+      height: 60px;
+      margin-bottom: 50px; }
+    .bg-fon .bg-fon__text .button-text h5 {
+      padding: 10px;
+      font-size: 35px;
+      letter-spacing: 0.1em; }
 
-.banner-text h1 {
-  font-size: 60px;
-  font-weight: 100;
-  padding-top: 130px;
-  color: white; }
+.weight {
+  font-weight: 100; }
 
-.banner-checkbox li {
-  padding: 5px; }
-
-.banner-checkbox img {
-  margin: 0px 10px 0px 0px; }
-
-.banner-btn {
-  margin-top: 20px; }
-  .banner-btn button {
-    background: #c43b49;
-    border: none;
-    border-radius: 40px;
-    padding: 20px;
-    font-size: 17px;
-    color: white;
-    width: 175px;
-    margin-bottom: 50px; }
-  .banner-btn h3 {
-    font-size: 20px;
-    color: white;
-    font-weight: 100;
-    margin-left: 20px; }
-
-@media (max-width: 1024px) {
-  .banner-fon {
+@media (max-width: 1920px) {
+  .bg-fon {
+    margin-top: 105px;
     background-position: center; } }
 
-@media (max-width: 768px) {
-  .block-list {
-    display: block;
-    margin: 20px 0px 40px 0px;
-    height: auto; }
-    .block-list li {
-      font-size: 22px;
-      padding-top: 10px; }
-  .col-md-12 {
-    display: block; }
-  .banner-fon {
-    margin-top: 255px; } }
+@media (max-width: 1280px) {
+  .bg-fon {
+    margin-top: 105px;
+    background-position: center; } }
 
-@media (max-width: 812px) {
-  .col-md-12 {
-    flex: 100%;
-    max-width: 100%; } }
+@media (max-width: 1366px) {
+  .bg-fon {
+    margin-top: 105px;
+    background-position: center; } }
+
+@media (max-width: 1024px) {
+  .bg-fon {
+    margin-top: 105px;
+    background-position: center; }
+  .block-text {
+    position: relative;
+    width: 50%;
+    right: 0px; }
+  .phone-info h6 {
+    text-align: center; }
+  .phone-info {
+    margin: 0px 0px 0px 20px;
+    padding: 0px; }
+  .block-phone {
+    width: 50%; } }
+
+@media (max-width: 768px) {
+  .phone-info {
+    justify-content: space-between !important; } }
 
 @media (max-width: 575px) and (min-width: 320px) {
-  .banner-fon {
-    margin-top: 0px; }
-  .banner-text h1 {
+  .block-nav {
+    display: block; }
+  .block-menu {
+    height: auto; }
+  .bg-fon .bg-fon__text h1 {
+    font-size: 40px;
     text-align: center; }
-  .banner-btn {
+  .button-text {
     display: flex;
     justify-content: center; }
-  .block-menu, .navbar-nav, .block, .banner-btn h3 {
-    display: none; }
-  .navbar {
-    display: block; }
-    .navbar img {
-      padding: 10px; }
-  .navbar-toggler {
-    opacity: 1; } }
+    .button-text h5 {
+      display: none; }
+  .bg-fon {
+    margin-top: 280px; } }

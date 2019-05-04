@@ -1,47 +1,56 @@
-// media-1980px
-
-// media-1366px
-// media-1280px
-// media-1024px
-@media (max-width: 1024px)
-    .banner-fon 
+// 1980px 
+@media (max-width: 1920px)
+    .bg-fon 
+        margin-top: 105px
         background-position: center
-// media-768
-@media (max-width: 768px)
-    .block-list
-        display: block
-        margin: 20px 0px 40px 0px
-        height: auto
-        li 
-            font-size: 22px
-            padding-top: 10px
-    .col-md-12 
-        display: block
-    .banner-fon
-        margin-top: 255px
 
-// media-812
-@media (max-width: 812px)
-    .col-md-12 
-	    flex: 100%
-	    max-width: 100%
+// 1280px
+@media (max-width: 1280px)
+    .bg-fon 
+        margin-top: 105px
+        background-position: center
 
-// mobile
-@media (max-width: 575px) and (min-width: 320px)
-    .banner-fon 
-        margin-top: 0px
-    .banner-text h1 
+// 1366px
+@media (max-width: 1366px)
+    .bg-fon 
+        margin-top: 105px
+        background-position: center
+
+// 1024px
+@media (max-width: 1024px)
+    .bg-fon 
+        margin-top: 105px
+        background-position: center
+    .block-text 
+        position: relative
+        width: 50%
+        right: 0px
+    .phone-info h6 
         text-align: center
-    .banner-btn 
-        display: flex
-        justify-content: center
-    .block-menu,.navbar-nav,.block,.banner-btn h3
-        display: none
-    .navbar
+    .phone-info 
+        margin: 0px 0px 0px 20px
+        padding: 0px
+    .block-phone 
+        width: 50%
+// 768px 
+@media (max-width: 768px)
+    .phone-info 
+        justify-content: space-between!important
+
+// 575-320px
+@media (max-width: 575px) and (min-width: 320px)
+    .block-nav 
         display: block
-        img 
-            padding: 10px
-    .navbar-toggler
-        opacity: 1
-// media-1980px
-// media-1980px
+    .block-menu 
+        height: auto
+    .bg-fon .bg-fon__text h1
+        font-size: 40px
+        text-align: center
+    .button-text
+        display: flex
+        justify-content: center 
+        h5 
+            display: none
+    .bg-fon 
+        margin-top: 280px
+    
