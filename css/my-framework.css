@@ -1,0 +1,65 @@
+.btn-theme {
+  background: #ee011c; }
+
+.controls-one .owl-nav {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  position: absolute;
+  top: 220px;
+  width: 90%;
+  left: 9%; }
+  .controls-one .owl-nav button.owl-prev {
+    background-image: url(../images/left.png);
+    width: 100px;
+    background-repeat: no-repeat;
+    background-color: transparent; }
+  .controls-one .owl-nav button.owl-next {
+    background-image: url(../images/right.png);
+    width: 100px;
+    background-repeat: no-repeat;
+    background-color: transparent; }
+
+.controls-2 .owl-nav {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  position: absolute;
+  top: 210px;
+  width: 90%;
+  left: 9%;
+  z-index: 9; }
+  .controls-2 .owl-nav button.owl-prev {
+    background-image: url(../images/left.png);
+    width: 100px;
+    background-repeat: no-repeat;
+    background-color: transparent; }
+  .controls-2 .owl-nav button.owl-next {
+    background-image: url(../images/right.png);
+    width: 100px;
+    background-repeat: no-repeat;
+    background-color: transparent; }
+
+.block-form-2 h6 {
+  margin: 34px 0px 50px 30px; }
+
+.block-form-2 button {
+  margin-left: 20px;
+  border: 1px solid #2B2B2B;
+  background: transparent;
+  border-radius: 10px;
+  padding: 5px 50px 5px 50px; }
+
+.controls-one, .owl-dots {
+  bottom: 60px;
+  position: relative; }
+
+.controls-2 .owl-dots {
+  position: relative;
+  bottom: 380px; }
+
+.bg-wolf {
+  background: #F7F8F2; }
+
+.pll-5 {
+  padding-left: 70px; }

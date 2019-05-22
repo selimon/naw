@@ -1,7 +1,8 @@
-// specification
-* 
-  box-sizing: border-box
 
+// specification
+body
+  font-family: 'Amatic SC', cursive
+  overflow-x: hidden
 a,a:hover 
   text-decoration: none
   color: inherit
@@ -9,87 +10,205 @@ a,a:hover
 img 
   max-width: 100%
 
-ul,li 
-  list-style: none
+ul
   padding: 0px
+  li 
+  list-style: none
 
 .container 
   width: 100%
-  max-width: 1200px
+  max-width: 1670px
   margin: 0 auto 
 
 button:focus 
   outline: none
-  border-style: none
-.no-gutters 
-  padding: 0px
+input:focus 
+  outline: none 
 @import "options-file";
 // header 
-header 
-  position: fixed
-  top: 0
-  width: 100%
-  background: white
-  .navbar-logo img
-    width: 120px
-
-.navbar-light .navbar-nav .nav-link
-  color: #5e5e5e
-  margin-left: 40px
-  &:hover 
-    color: black
-.block-text
-  background: #f2f2f2 
-  height: 45px
-  align-items: center
-  width: 100%
-  right: -425px
-  position: absolute
-  img 
-    height: 15px
-    margin-right: 20px
-.phone-info 
-  h6
-    color: #363636
-    font-weight: 100
-.block-bg
-  background: #f2f2f2
-.block-nav 
-  display: flex
-  .block-item 
-    padding: 10px 35px 10px 0px
-    color: #5c5c5c
-.block-menu  
-  height: 50px
-
-.bg-fon 
-  background-image: url(../images/bg-fon.jpg)
+// nav-menu
+.bg-fon-header
+  background-image: url(../images/bg-fon.png)
   height: 100%
+  background-position: center
   background-repeat: no-repeat
-  margin-top: 105px
   background-size: cover
-  .bg-fon__text 
-    padding-top: 127px
-    h1 
-      font-size: 65px
-      letter-spacing: 0.1em
-    .checkbox
-      margin-top: 30px 
-      img 
-        margin-right: 15px
-    .btn 
-      background: #c43b49
-      width: 175px
-      border-radius: 30px
-      padding: 10px
-      color: white
-      height: 60px
-      margin-bottom: 50px
-    .button-text h5 
-      padding: 10px
-      font-size: 35px
-      letter-spacing: 0.1em
-.weight
-  font-weight: 100
+.navbar-light .navbar-nav .nav-link
+  color:  white
+  margin-left: 49px
+.navbar-nav 
+  padding: 43px 0px 0px 118px
+.btn-theme 
+  background: transparent
+  border: 1px solid white
+  border-radius: 10px
+.form-header 
+  margin: 34px 83px 0px 226px
+.phone,.navbar-logo
+  margin: 43px 0px 0px 0px
+// form-header 
+.info-header
+  .list-info-header li
+    margin-top: 46px
+  h1
+    margin-top: 120px
+.form-info
+  input 
+    border-radius: 5px
+    border: none
+    padding: 5px 10px 5px 10px
+  input::-webkit-input-placeholder
+.info-header 
+  margin-left: 120px
+.btn-info 
+  background: linear-gradient(#98257A,#63377A)
+  border: none
+  padding: 5px 10px 5px 10px
+  border-radius: 5px
+.block-girl img 
+  margin-top: 98px
+  width: 573px
+// mouse-effects
+.mouse
+  position: absolute
+  width: 22px
+  height: 42px
+  bottom: 40px
+  left: 50%
+  margin-left: -12px
+  border-radius: 15px
+  border: 2px solid white
+  animation: intro 
+  z-index: 99999
+.bg-mouse
+  background-image: url(../images/bg-mouse.png)
+  background-size: cover
+  width: 120px
+  height: 100px
+  margin: 0 auto
+
+.scroll
+  display: block
+  width: 8px
+  height: 12px
+  margin: 6px auto
+  border-radius: 4px
+  border: 2px solid white
+  background: transparent
+  animation: finger
+  animation-duration: 1s
+  animation-iteration-count: infinite
+
+		
+@keyframes intro
+  0%
+    opacity: 0
+    transform: translateY(40px)
+  100%
+    opacity: 1
+    transform: translateY(0)
+
+@keyframes finger
+  0%
+    opacity: 1
+  100%
+    opacity: 0
+    transform: translateY(20px)
+.block-white 
+  padding-bottom: 50px
+.block-shop-content
+  ul li 
+    padding-top: 33px
+  .elment-shop 
+    position: absolute
+    left: 0
+    right: 0
+    top: 50px
+    margin: 0 auto
+    &::after 
+      content: ' '
+      position: absolute
+      width: 150px
+      height: 2px
+      background: #F7B12B
+      bottom: 0px
+      top: 90px
+      left: 0
+      right: 0
+      margin: 0 auto
+  p 
+    padding-top: 10px
+    
+.btn-shop 
+  font-size: 12px
+  background: transparent
+  border: 1px solid #0788BB
+  color: #0788BB
+  border-radius: 5px
+  cursor: pointer
+// sliders-one
+.block-sliders-1
+  h3
+    padding-top: 50px
+    margin: 0px 0px 0px 125px
+.block-sliders-bg
+  background-image: url(../images/sec-one.png)
+  height: 100%
+  background-size: cover
+  background-repeat: no-repeat
+  .link-one 
+    background-image: url(../images/border.png)
+    height: 400px
+    background-repeat: no-repeat
+    background-position: center
+  .slider-link
+    display: flex
+    justify-content: center
+    flex-direction: column
+    align-items: center
+    margin-top: 70px
+    h4 
+      margin-bottom: 130px
+  .block-slider-text span:nth-child(2)
+    margin-left: 70px
+  .block-slider-text span:nth-child(3)
+    margin-left: 70px
+// sliders-form
+.slide-2
+  .link-one 
+    background-image: url(../images/border-2.jpg)
+    height: 500px
+    background-repeat: no-repeat
+    background-position: center
+  .slider-link
+    h4 
+      margin-bottom: 130px
+  .block-slider-text span:nth-child(2)
+    margin-left: 70px
+  .block-slider-text span:nth-child(3)
+    margin-left: 70px
+.block-form 
+  input 
+    border-radius: 5px
+    border: 1px solid #D5D5D5
+    margin: 5px 5px 5px 0px
+    &::-webkit-input-placeholder 
+      padding: 5px 15px 5px 15px
+.form-opt
+  padding: 33px 115px 40px 0px
+.form-opt-2
+  padding: 33px 30px 40px 0px
+.svg-links 
+  .svg-icons 
+    margin: 0px 25px
+    border: 1px solid black
+    padding-top: 15px
+    width: 60px
+    height: 60px
+    border-radius: 360px
+    &:hover 
+      border: 3px solid #F7B12B
+
+
 // mobile
 @import "mobile";
