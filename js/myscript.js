@@ -37,3 +37,10 @@ $(document).ready(function() {
         }
     })
 });
+
+// scroll 
+$(document).ready(function() {
+    $("a[rel='m_PageScroll2id']").mPageScroll2id({
+        highlightClass: "highlighted-menu-item"
+    });
+});

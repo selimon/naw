@@ -46,6 +46,15 @@ p {
   font-size: 14px;
   font-family: 'Montserrat', sans-serif; }
 
+.span42 {
+  font-size: 42px; }
+
+.span22 {
+  font-size: 22px; }
+
+.span28 {
+  font-size: 28px; }
+
 .bg-fon-header {
   background-image: url(../images/bg-fon.png);
   height: 100%;
@@ -240,6 +249,94 @@ p {
   border-radius: 360px; }
   .svg-links .svg-icons:hover {
     border: 3px solid #F7B12B; }
+
+.check-text h3 {
+  margin-right: 183px; }
+
+.check-text span {
+  color: #85227C; }
+
+.check-text::before {
+  content: ' ';
+  position: absolute;
+  background-image: url(../images/big-check.png);
+  background-repeat: no-repeat;
+  width: 26px;
+  height: 50px;
+  left: 60px;
+  top: 48px; }
+
+.check-list .block-check, .check-list .block-check-2, .check-list-2 .block-check, .check-list-2 .block-check-2 {
+  padding: 20px 0px 20px 50px;
+  font-size: 18px; }
+  .check-list .block-check::before, .check-list .block-check-2::before, .check-list-2 .block-check::before, .check-list-2 .block-check-2::before {
+    content: ' ';
+    position: absolute;
+    background-image: url(../images/small-check.png);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 40px;
+    margin-left: -20px; }
+  .check-list .block-check a, .check-list .block-check-2 a, .check-list-2 .block-check a, .check-list-2 .block-check-2 a {
+    text-decoration: underline; }
+
+.board-text h3::before {
+  content: ' ';
+  position: absolute;
+  background-image: url(../images/big-check.png);
+  background-repeat: no-repeat;
+  width: 26px;
+  height: 50px;
+  top: 0;
+  left: -11px; }
+
+.board-bottom button {
+  border-radius: 10px;
+  background: transparent;
+  border: 1px solid black;
+  margin-top: 10px; }
+
+.stars-block li {
+  padding: 10px; }
+
+.stars-block li:nth-child(even) {
+  background: #F8F9FA; }
+
+.border-stars {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #EA358B; }
+
+.btn-stars {
+  padding: 5px 40px 5px 40px; }
+
+.block-map {
+  margin: 0px;
+  padding: 0px;
+  position: relative; }
+
+.map-text li {
+  padding-left: 3em; }
+
+.map-theme {
+  position: absolute;
+  top: 20px;
+  right: 200px;
+  background: white;
+  padding: 35px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+  border-radius: 10px; }
+
+.foot-logo {
+  margin-top: 0px; }
+
+.foot-nav .navbar-nav {
+  padding-top: 15px; }
+
+.foot-form {
+  margin-top: 10px; }
+
+.foot-ph {
+  margin-top: 20px; }
 
 @media (max-width: 1366px) {
   .form-header {

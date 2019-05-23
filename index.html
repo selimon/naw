@@ -4,6 +4,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no, maximum-scale=1" />
     <link href="https://fonts.googleapis.com/css?family=Vesper+Libre" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/preloader.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
@@ -17,8 +18,19 @@
 
 <body>
     <div class="bg-fon-header ">
+        <aside class="float-left" style="position: fixed;top: 250px;left: 30px;z-index: 999;">
+            <div class="aside-block menu">
+                <a href="#header" rel="m_PageScroll2id" data-ps2id-offset="100" class="link-scroll  mPS2id-highlight"></a>
+                <a href="#block-shop" rel="m_PageScroll2id" data-ps2id-offset="100" class="link-scroll mPS2id-highlight"></a>
+                <a href="#sliders" rel="m_PageScroll2id" data-ps2id-offset="100" class="link-scroll mPS2id-highlight"></a>
+                <a href="#form" rel="m_PageScroll2id" data-ps2id-offset="100" class="link-scroll mPS2id-highlight"></a>
+                <a href="#check" rel="m_PageScroll2id" data-ps2id-offset="100" class="link-scroll mPS2id-highlight"></a>
+                <a href="#stars" rel="m_PageScroll2id" data-ps2id-offset="100" class="link-scroll mPS2id-highlight"></a>
+                <a href="#map" rel="m_PageScroll2id" data-ps2id-offset="100" class="link-scroll mPS2id-highlight"></a>
+            </div>
+        </aside>
         <div class="container">
-            <header class="d-flex align-self-center">
+            <header class="d-flex align-self-center" id="header">
                 <div class="row">
                     <nav class="navbar navbar-expand-lg navbar-light ">
                         <a class="navbar-logo" href="#"><img src="images/logo.png" alt=""></a>
@@ -78,7 +90,7 @@
                     </div>
                 </div>
                 <div class="col-xl-12">
-                    <a href="#block-shop">
+                    <a href="#block-shop" rel="m_PageScroll2id" data-ps2id-offset="100">
                         <div class="bg-mouse">
                             <div class="mouse ">
                                 <div class="scroll"></div>
@@ -127,7 +139,7 @@
     </div>
     <section>
         <div class="container pb-5">
-            <div class="block-sliders-bg">
+            <div class="block-sliders-bg" id="sliders">
                 <div class="col-xl-6 bg-wolf">
                     <div class="block-sliders-1 ">
                         <h3>Наши работы</h3>
@@ -284,8 +296,209 @@
             </div>
         </div>
     </section>
+    <section id="check">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-6 check-text align-self-center">
+                    <div class="d-flex justify-content-center pt-5">
+                        <h3><span>Можно сэкономить</span> <br> и сделать самостоятельно</h3>
+                    </div>
+                    <div class="row justify-content-center ">
+                        <ul class="check-list ">
+                            <li class="block-check">Грамотно составить текст объявления <br> <a href="#!">Почему это важно?</a></li>
+                            <li class="block-check">Сделать качественный дизайн листовки <br> <a href="#!">Почему это важно?</a></li>
+                            <li class="block-check">Обзвонить и выбрать недорогую типографию <br> <a href="#!">Почему это важно?</a></li>
+                        </ul>
+                        <ul class="check-list-2">
+                            <li class="block-check-2">Обучить курьеров всем тонкостям работы <br> <a href="#!">Почему это важно?</a></li>
+                            <li class="block-check-2">Нарезать все листовки на свой страх и риск <br> <a href="#!">Почему это важно?</a></li>
+                            <li class="block-check-2">Тщательно проверить работу курьеров <br> <a href="#!">Почему это важно?</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-6">
+                    <img src="images/sec-tri.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-6">
+                    <img src="images/bg-form.jpg" alt="">
+                </div>
+                <div class="col-xl-6 board-text align-self-center">
+                    <div>
+                        <h3>Или заказать у профессионалов</h3>
+                    </div>
+                    <div class="d-flex pt-5">
+                        <div class="col-lg-4">
+                            <h6>Оставьте заявку воспользовавшись формой </h6>
+                            <form action="" class="d-flex flex-column block-form ">
+                                <input type="text" id="phone" placeholder="Введите ваш телефон">
+                                <input type="text" id="name" placeholder="Введите ваше имя">
+                                <button class="btn-theme btn btn-info">ОСТАВИТЬ ЗАЯВКУ</button>
+                            </form>
+                        </div>
+                        <div class="pll-5 col-lg-8 board-bottom">
+                            <h6>Или просто позвоните нам:</h6>
+                            <div class="pt-4">
+                                <h6>+7 (900) 923-53-03</h6>
+                                <button>ЗАКАЗАТЬ ЗВОНОК</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section id="stars">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-6 align-self-center">
+                    <div class="span42">Готовые тарифы</div>
+                    <h4 class="pb-3">Все цены указаны для листовок а5</h4>
+                    <div class="row no-gutters text-center d-flex justify-content-between pb-3">
+                        <div class="col-xl-3">
+                            <div class="bg-orange p-3">
+                                <img src="images/st-1.png" alt="">
+                                <div>
+                                    <span>МИНИ</span>
+                                    <h6>1000 объявлений</h6>
+                                </div>
+                            </div>
+                            <ul class="stars-block">
+                                <li>Выезд и консультация</li>
+                                <li>Ч/Б печать</li>
+                                <li>Нарезка (бесплатно)</li>
+                                <li>Расклейка</li>
+                                <li>Отчёт на е-mail</li>
+                                <li><span>&emsp;</span></li>
+                            </ul>
+                            <h4>от 2100 ₽</h4>
+                            <form action="#!" class="border-stars">
+                                <button class="btn-stars  btn-info">ЗАКАЗАТЬ</button>
+                            </form>
+                        </div>
+                        <div class="col-xl-3">
+                            <div class="bg-blue p-3">
+                                <img src="images/st-2.png" alt="">
+                                <div>
+                                    <span>ПРОФИ</span>
+                                    <h6>5000 объявлений</h6>
+                                </div>
+                            </div>
+                            <ul class="stars-block">
+                                <li>Создание макета</li>
+                                <li>Выезд и консультация</li>
+                                <li>Ч/Б печать</li>
+                                <li>Нарезка (бесплатно)</li>
+                                <li>Расклейка</li>
+                                <li>Отчёт на е-mail</li>
+                            </ul>
+                            <h4>от 8800 ₽</h4>
+                            <form action="#!" class="border-stars">
+                                <button class="btn-stars  btn-info">ЗАКАЗАТЬ</button>
+                            </form>
+                        </div>
+                        <div class="col-xl-3">
+                            <div class="pink p-3">
+                                <img src="images/st-3.png" alt="">
+                                <div>
+                                    <span>ВЕСЬ ГОРОД</span>
+                                    <h6>10000 объявлений</h6>
+                                </div>
+                            </div>
+                            <ul class="stars-block">
+                                <li>Создание макета</li>
+                                <li>Выезд и консультация</li>
+                                <li>Ч/Б печать</li>
+                                <li>Нарезка (бесплатно)</li>
+                                <li>Расклейка</li>
+                                <li>Отчёт на е-mail</li>
+                            </ul>
+                            <h4>от 16700 ₽</h4>
+                            <form action="#!" class="border-stars">
+                                <button class="btn-stars  btn-info">ЗАКАЗАТЬ</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 d-flex justify-content-end">
+                    <img src="images/graphic.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="map">
+        <div class="container-fluid block-map">
+            <div class="col-xl-12 block-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2203.3666212715507!2d84.94518231631734!3d56.47867194324093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4326935f801b6093%3A0xd565e98903c1e199!2z0YPQuy4g0KLRgNC40YTQvtC90L7QstCwLCAyMCwg0L7RhC4zLzEsINCi0L7QvNGB0LosINCi0L7QvNGB0LrQsNGPINC-0LHQuy4sINCg0L7RgdGB0LjRjywgNjM0MDUw!5e0!3m2!1sru!2sua!4v1558618114218!5m2!1sru!2sua"
+                    width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <div class="map-theme">
+                    <span class="span28 ">Контакты</span>
+                    <div class="row pt-3">
+                        <div><img src="images/cart.png" alt=""></div>
+                        <div>
+                            <ul class="map-text">
+                                <li>ул. Трифонова 20, оф.3/1</li>
+                                <li>+7 (900) 923-53-03</li>
+                                <li>offset_tomsk@mail.ru</li>
+                                <li>Мы в соц-сетях:</li>
+                                <li><a href="#!"><span class="pr-4"><img src="images/vk.png" alt=""></span></a>
+                                    <a href="#!"><span><img src="images/instagram.png" alt=""></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-foot">
+        <div class="container">
+            <div class="col-xl-12">
+                <div class="row">
+                    <nav class="navbar navbar-expand-lg navbar-light ">
+                        <a class="navbar-logo foot-logo" href="#"><img src="images/logo.png" alt=""></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                              <span class="navbar-toggler-icon"></span>
+                            </button>
+                        <div class="collapse navbar-collapse foot-nav" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="#">Портфолио</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Как работаем</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Отзывы</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Тарифы</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Контакты</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <form action="" class="form-header align-self-center foot-form">
+                        <button class="btn btn-options text-white btn-theme">ЗАКАЗАТЬ ЗВОНОК</button>
+                    </form>
+                    <div class="phone text-white align-self-center foot-ph">
+                        <p>+7 (900) 923-53-03</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js "></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDyLbHYwonCKW5b2upNX0GrSPYRwBtAa4s&callback=initMap" type="text/javascript"></script>
+    </script>
+    <script src="js/jquery.malihu.PageScroll2id.js"></script>
     <script src="js/myscript.js "></script>
     <script src="js/bootstrap.min.js "></script>
     <script src="js/slick.min.js"></script>
@@ -297,6 +510,18 @@
                 var file = '../' + $(this).data('include') + '.html';
                 $(this).load(file);
             });
+        });
+    </script>
+    <script>
+        (function($) {
+            $(window).on("load", function() {
+                $("a[rel='m_PageScroll2id']").mPageScroll2id();
+            });
+        })(jQuery);
+    </script>
+    <script>
+        $("a[rel='m_PageScroll2id']").mPageScroll2id({
+            highlightClass: "highlighted-menu-item"
         });
     </script>
 </body>

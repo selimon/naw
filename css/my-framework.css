@@ -61,5 +61,37 @@
 .bg-wolf {
   background: #F7F8F2; }
 
+.bg-orange {
+  background: #F7B12B; }
+
+.bg-blue {
+  background: #34BDF3; }
+
+.pink {
+  background: #EA358B; }
+
+.bg-foot {
+  background: #2B2B2B; }
+
 .pll-5 {
   padding-left: 70px; }
+
+.aside-block .link-scroll {
+  background: #B1B1B1;
+  width: 10px;
+  height: 10px;
+  display: block;
+  margin: 20px 20px;
+  border-radius: 10px;
+  z-index: 999; }
+  .aside-block .link-scroll .active {
+    background: #34BDF3; }
+
+a.mPS2id-highlight {
+  background: #ff0; }
+
+a.mPS2id-highlight {
+  background: #0079A8 !important; }
+
+.mPS2id-clicked {
+  background: #E6FF00 !important; }
