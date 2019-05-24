@@ -36,7 +36,8 @@
 
 .owl-theme .owl-dots .owl-dot {
     display: inline-block;
-    zoom: 1
+    zoom: 1;
+    background: transparent
 }
 
 .owl-theme .owl-dots .owl-dot span {
@@ -52,5 +53,5 @@
 
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
-    background: #869791
+    background: #34BDF3
 }
