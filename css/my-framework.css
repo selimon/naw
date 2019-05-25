@@ -40,6 +40,26 @@
     background-repeat: no-repeat;
     background-color: transparent; }
 
+.slide-mobile .owl-nav {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  left: 10%;
+  z-index: 9; }
+  .slide-mobile .owl-nav button.owl-prev {
+    background-image: url(../images/left.png);
+    width: 100px;
+    background-repeat: no-repeat;
+    background-color: transparent; }
+  .slide-mobile .owl-nav button.owl-next {
+    background-image: url(../images/right.png);
+    width: 100px;
+    background-repeat: no-repeat;
+    background-color: transparent; }
+
 .slide-mobile .owl-item img {
   width: auto !important;
   display: unset !important; }
