@@ -439,7 +439,6 @@ p {
     left: 10%; }
   .block-tariff .owl-nav {
     top: 150px;
-    width: 100%;
-    left: 5%; }
+    width: 100%; }
     .block-tariff .owl-nav button.owl-prev {
       margin-right: 50%; } }

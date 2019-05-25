@@ -67,7 +67,6 @@
   position: absolute;
   top: 50px;
   width: 100%;
-  left: 10%;
   z-index: 9; }
   .block-tariff .owl-nav button.owl-prev {
     background-image: url(../images/left.png);
@@ -78,7 +77,8 @@
     background-image: url(../images/right.png);
     width: 100px;
     background-repeat: no-repeat;
-    background-color: transparent; }
+    background-color: transparent;
+    margin-left: 25%; }
 
 .slide-mobile .owl-item img,
 .block-tariff .owl-item img {
