@@ -77,3 +77,10 @@ $(document).ready(function() {
     });
 
 });
+
+// preloader
+$(document).ready(function() {
+    $(window).load(function() {
+        $('#before-load').find('img').fadeOut().end().delay(300).fadeOut('slow');
+    });
+});
