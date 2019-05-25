@@ -60,7 +60,28 @@
     background-repeat: no-repeat;
     background-color: transparent; }
 
-.slide-mobile .owl-item img {
+.block-tariff .owl-nav {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  left: 10%;
+  z-index: 9; }
+  .block-tariff .owl-nav button.owl-prev {
+    background-image: url(../images/left.png);
+    width: 100px;
+    background-repeat: no-repeat;
+    background-color: transparent; }
+  .block-tariff .owl-nav button.owl-next {
+    background-image: url(../images/right.png);
+    width: 100px;
+    background-repeat: no-repeat;
+    background-color: transparent; }
+
+.slide-mobile .owl-item img,
+.block-tariff .owl-item img {
   width: auto !important;
   display: unset !important; }
 
@@ -106,6 +127,9 @@
 
 .pll-3 {
   padding-left: 2rem; }
+
+.ptt-4 {
+  padding-top: 3rem; }
 
 .aside-block .link-scroll {
   background: #B1B1B1;
