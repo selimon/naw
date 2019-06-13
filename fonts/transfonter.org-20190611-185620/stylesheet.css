@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('GothamPro-Black.woff2') format('woff2'),
+        url('GothamPro-Black.woff') format('woff'),
+        url('GothamPro-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('GothamPro-Black_1.woff2') format('woff2'),
+        url('GothamPro-Black_1.woff') format('woff'),
+        url('GothamPro-Black_1.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+

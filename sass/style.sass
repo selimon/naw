@@ -1,12 +1,9 @@
-
+@import "http://fonts.fontstorage.com/import/merriweather.css"
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond&display=swap')
 // specification
-body
-  font-family: 'Amatic SC', cursive
-  overflow-x: hidden
 a,a:hover 
   text-decoration: none
   color: inherit
-
 img 
   max-width: 100%
 
@@ -17,284 +14,180 @@ ul
 
 .container 
   width: 100%
-  max-width: 1394px
+  max-width: 1230px
   margin: 0 auto 
-.container-header
-  width: 100%
-  max-width: 1670px
-  margin: 0 auto 
-button:focus 
-  outline: none
-input:focus 
-  outline: none 
-@import "options-file";
-// header 
-// nav-menu
-.bg-fon-header
-  background-image: url(../images/bg-fon.png)
-  height: 100%
-  background-position: center
-  background-repeat: no-repeat
-  background-size: cover
-.navbar-light .navbar-nav .nav-link
-  color:  white
-  margin-left: 49px
-.navbar-nav 
-  padding: 43px 0px 0px 118px
-.btn-theme 
-  background: transparent
-  border: 1px solid white
-  border-radius: 10px
-.form-header 
-  margin: 34px 83px 0px 226px
-.phone,.navbar-logo
-  margin: 43px 0px 0px 0px
-// form-header 
-.info-header
-  .list-info-header li
-    margin-top: 46px
-  h1
-    margin-top: 120px
-.form-info
-  input 
-    border-radius: 5px
-    border: none
-    padding: 5px 10px 5px 10px
-  input::-webkit-input-placeholder
-.btn-info 
-  background: linear-gradient(#98257A,#63377A)
-  border: none
-  padding: 5px 10px 5px 10px
-  border-radius: 5px
-.block-girl img 
-  margin-top: 98px
-  width: 573px
-// mouse-effects
-.mouse
-  position: absolute
-  width: 22px
-  height: 42px
-  bottom: 40px
-  left: 50%
-  margin-left: -12px
-  border-radius: 15px
-  border: 2px solid white
-  animation: intro 
-  z-index: 99999
-.bg-mouse
-  background-image: url(../images/bg-mouse.png)
-  background-size: cover
-  width: 120px
-  height: 100px
-  margin: 0 auto
-
-.scroll
-  display: block
-  width: 8px
-  height: 12px
-  margin: 6px auto
-  border-radius: 4px
-  border: 2px solid white
-  background: transparent
-  animation: finger
-  animation-duration: 1s
-  animation-iteration-count: infinite
-
-		
-@keyframes intro
-  0%
-    opacity: 0
-    transform: translateY(40px)
-  100%
-    opacity: 1
-    transform: translateY(0)
-
-@keyframes finger
-  0%
-    opacity: 1
-  100%
-    opacity: 0
-    transform: translateY(20px)
-.block-white 
-  padding-bottom: 50px
-.block-shop-content
-  ul li 
-    padding-top: 33px
-  .elment-shop 
-    position: absolute
-    left: 0
-    right: 0
-    top: 50px
-    margin: 0 auto
-    &::after 
-      content: ' '
-      position: absolute
-      width: 150px
-      height: 2px
-      background: #F7B12B
-      bottom: 0px
-      top: 90px
-      left: 0
-      right: 0
-      margin: 0 auto
-  p 
-    padding-top: 10px
-    
-.btn-shop 
-  font-size: 12px
-  background: transparent
-  border: 1px solid #0788BB
-  color: #0788BB
-  border-radius: 5px
+button 
   cursor: pointer
-// sliders-one
-.block-sliders-1
-  h3
-    padding-top: 50px
-    margin: 0px 0px 0px 125px
-.block-sliders-bg
-  background-image: url(../images/sec-one.png)
-  height: 100%
-  background-size: cover
+button:focus
+  outline: none
+  border: none
+// header 
+.bg-header
+  background-image: url(../images/section-3.png)
   background-repeat: no-repeat
-  .link-one 
-    background-image: url(../images/border.png)
-    height: 400px
+  background-size: cover
+.block-border 
+  border: 1px solid #C8C8C8
+  padding: 10 24px
+  background: rgba(255, 255, 255, 0.1)
+  height: 65px
+// section-2 
+.section-2 
+  background-image: url(../images/bg-fon.jpg)
+  background-repeat: no-repeat 
+  background-size: cover
+  background-position: center
+  &
+    padding-bottom: 90px 
+  .block-text h1 
+    display: flex
+    justify-content: flex-end
+.form-1 
+  position: relative
+.form-1::before 
+  content: ' '
+  position: absolute
+  height: 10px 
+  background-image: url(../images/element-1.svg)
+  width: 100%
+  background-repeat: no-repeat
+  top: -10px
+.form-opt 
+  width: 400px 
+  height: 73px
+  border-radius: 40px
+  margin: 15px 0px 15px 0px
+input::-webkit-input-placeholder 
+  text-align: center
+  font-size: 26px
+  color: #898989
+.in-theme 
+  background: white
+  box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.25)
+  border: 1px solid #4F2B1C
+.btn-theme 
+  background: #FF4D00
+  font-size: 26px
+  border: transparent
+.text-transform
+  text-decoration: underline
+// section-3 
+.section-3
+  position: relative
+  &
+	  padding: 75px 0px 220px 0px 
+  .bg-block 
+    background-image: url(../images/block.png)
     background-repeat: no-repeat
     background-position: center
-  .slider-link
-    display: flex
-    justify-content: center
-    flex-direction: column
-    align-items: center
-    margin-top: 70px
-    h4 
-      margin-bottom: 130px
-  .block-slider-text span:nth-child(2)
-    margin-left: 70px
-  .block-slider-text span:nth-child(3)
-    margin-left: 70px
-// sliders-form
-.bg-sliders-1 
-  background-image: url(../images/form-img.jpg)
-  background-repeat: no-repeat
-.slide-2
-  .link-one 
-    background-image: url(../images/border-2.jpg)
-    height: 500px
-    background-repeat: no-repeat
-    background-position: right
-  .slider-link
-    h4 
-      margin-bottom: 130px
-  .block-slider-text span:nth-child(2)
-    margin-left: 70px
-  .block-slider-text span:nth-child(3)
-    margin-left: 70px
-.bg-form
-  background-image: url(../images/bg-form.png)
-  background-repeat: no-repeat
-  height: 480px
-  background-position: center
-.block-form 
-  input 
-    border-radius: 5px
-    border: 1px solid #D5D5D5
-    margin: 5px 5px 5px 0px
-    &::-webkit-input-placeholder 
-      padding: 5px 15px 5px 15px
-.pbb-f
-  padding-top: 12rem
-.form-opt
-  padding: 33px 115px 40px 0px
-.form-opt-2
-  padding: 33px 30px 40px 0px
-.svg-links 
-  .svg-icons 
-    margin: 0px 25px
-    border: 1px solid black
-    padding-top: 15px
-    width: 60px
-    height: 60px
-    border-radius: 360px
-    &:hover 
-      border: 3px solid #F7B12B
-
-// check
-.bg-fon-stars
-  background-image: url(../images/graphic.png)
-  background-repeat: no-repeat
-  background-position: right
-.check-text 
-  padding: 140px 0px 140px 0px
-  h3 
-    margin: 50px 0px 0px 60px
-  span 
-    color: #85227C
-.bg-check
-  background-image: url(../images/sec-tri.png)
-  background-repeat: no-repeat
-  background-position: right
-  height: 100%
-.check-list,.check-list-2
-  .block-check,.block-check-2
-    padding: 20px 0px 20px 20px
-    font-size: 18px
-    &::before 
-      content: ' '
-      position: absolute
-      background-image: url(../images/small-check.png)
-      background-repeat: no-repeat
-      width: 20px
-      height: 40px
-      margin-left: -20px
-    a 
-      text-decoration: underline
-// board-ad 
-.board-text
-  padding: 20px 0px 0px 180px
-.board-bottom 
-  button 
-    border-radius: 10px
-    background: transparent
-    border: 1px solid black
-    margin-top: 22px
-// stars-block 
-.stars-block 
-  li 
-    padding: 10px
-  li:nth-child(even)
-    background: #F8F9FA
-.border-stars
-  padding-bottom: 10px
-  border-bottom: 1px solid #EA358B
-.btn-stars 
-  padding: 5px 40px 5px 40px
-// maps 
-.block-map 
-  margin: 0px
-  padding: 0px
+    padding: 10px 0px
+    height: 165px
+.block-2 
   position: relative
-.map-text 
-  li 
-    padding-left: 3em
-.map-theme 
+  ul li 
+    font-size: 19px
+    padding: 15px 0px
+.block-2::before
+  content: ' '
   position: absolute
-  top: 20px
-  right: 200px
-  background: white
-  padding: 35px
-  box-shadow: 0 0 50px rgba(0,0,0,0.5)
-  border-radius: 10px
+  height: 100%
+  background: #A2A2A2
+  backdrop-filter: blur(20px)
+  mix-blend-mode: multiply
+  width: 100%
+  display: block
+.img-pos 
+  transform: rotate(26.57deg)
+  width: 30%
+  position: absolute
+  left: -100px
+// section-4 
+.paper
+  background-image: url(../images/paper.png)
+  background-size: cover 
+  background-repeat: no-repeat
+  background-position: center
+// section-5 
+.section-5  
+  .block-img 
+    position: relative
+    bottom: 90px
+    display: flex
+    justify-content: flex-end
+// section-6 
+
+.block-sec-6::before 
+    content: ' '
+    position: absolute
+    top: 0 
+    background-image: url(../images/element.png)
+    background-repeat: no-repeat
+    width: 100%
+    height: 40px
+    display: block
+    background-position: center
+.section-6 .block-text 
+  p::before 
+    content: ' '
+    position: absolute
+    width: 3px
+    height: 3px
+    background: black
+    margin: 15px 0px 0px -10px
 // footer
-.foot-logo 
-  margin-top: 0px
-.foot-nav
-  .navbar-nav 
-    padding-top: 15px
-.foot-form
-  margin-top: 10px
-.foot-ph
-  margin-top: 20px
+.block-footer 
+  position: relative
+.block-footer::before 
+    content: ' '
+    position: absolute
+    width: 100%
+    height: 100%
+    background: #A2A2A2
+    mix-blend-mode: multiply
+    left: 0
+    &
+      display: block
+.block-img-2 
+  transform: rotate(38.83deg)
+  width: 30%
+  position: absolute
+  left: 0
+  z-index: 9
+  height: 0
+  margin-top: 50px
+  bottom: -40px
+
+// modal 
+.bg-modal
+  background-image: url(../images/modal.jpg)
+  background-position: center
+  background-size: cover
+  background-repeat: no-repeat
+.modal.fade .modal-dialog 
+  background: transparent
+.linear
+  background: linear-gradient(#F96,#FC3,#C63)
+  padding: 3px
+  width: 100%
+.modal-content 
+  background: white
+  position: relative
+.modal-header,.modal-footer
+  border: none
+.modal-dialog 
+  max-width: 58.33%
+  height: 100%
+  position: relative
+  bottom: 50px
+.footer-modal 
+  background: #FFCDA9
+// video 
+.video-head 
+  padding: 0px!important 
+  background: black
+.video-content 
+  width: 100%
+  max-width: 100%
+  margin: 0px
 // mobile
 @import "mobile";
