@@ -28,9 +28,9 @@ button:focus
   background-size: cover
 .block-border 
   border: 1px solid #C8C8C8
-  padding: 10 24px
+  padding: 10px 24px
   background: rgba(255, 255, 255, 0.1)
-  height: 65px
+  height: 83px
 // section-2 
 .section-2 
   background-image: url(../images/bg-fon.jpg)
@@ -42,6 +42,7 @@ button:focus
   .block-text h1 
     display: flex
     justify-content: flex-end
+    line-height: 98%
 .form-1 
   position: relative
 .form-1::before 
@@ -56,7 +57,7 @@ button:focus
   width: 400px 
   height: 73px
   border-radius: 40px
-  margin: 15px 0px 15px 0px
+  margin: 15px 0px 0px 0px
 input::-webkit-input-placeholder 
   text-align: center
   font-size: 26px
@@ -75,18 +76,23 @@ input::-webkit-input-placeholder
 .section-3
   position: relative
   &
-	  padding: 75px 0px 220px 0px 
+	  padding: 0px 0px 220px 0px 
   .bg-block 
     background-image: url(../images/block.png)
     background-repeat: no-repeat
     background-position: center
     padding: 10px 0px
     height: 165px
+.text-hover
+    transition-duration: 1.2s
+    &:hover
+      color: red
+      transition-duration: 1.2s
 .block-2 
   position: relative
   ul li 
-    font-size: 19px
-    padding: 15px 0px
+    font-size: 22px
+    padding: 8px 0px
 .block-2::before
   content: ' '
   position: absolute
@@ -109,6 +115,7 @@ input::-webkit-input-placeholder
   background-position: center
 // section-5 
 .section-5  
+  height: 450px
   .block-img 
     position: relative
     bottom: 90px
@@ -149,13 +156,13 @@ input::-webkit-input-placeholder
       display: block
 .block-img-2 
   transform: rotate(38.83deg)
-  width: 30%
+  width: 320px
   position: absolute
   left: 0
   z-index: 9
   height: 0
   margin-top: 50px
-  bottom: -40px
+  bottom: 45px
 
 // modal 
 .bg-modal
@@ -189,5 +196,24 @@ input::-webkit-input-placeholder
   width: 100%
   max-width: 100%
   margin: 0px
+// btn-hover 
+.btn-hover
+  transition-duration: 3.3s
+  position: relative
+  &:hover 
+    background: linear-gradient(to top left, purple, crimson, orangered, gold)
+    transition-duration: 2.3s
+    font-size: 16px
+    border-radius: 0
+    &::before 
+      content: ' '
+      position: absolute
+      width: 100%
+      border: 2px solid orange
+      display: block
+      height: 100%
+      top: 5px
+      transition-duration: 2.3s
+
 // mobile
 @import "mobile";

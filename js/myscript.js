@@ -1,8 +1,8 @@
 $(document).ready(function() {
-    $('.header-video').each(function(i, elem) {
+    $('.video').each(function(i, elem) {
         headerVideo = new HeaderVideo({
             element: elem,
-            media: '.header-video__media',
+            media: '.video',
             playTrigger: '.header-video__play-trigger',
             closeTrigger: '.header-video__close-trigger'
         });
