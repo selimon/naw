@@ -1,0 +1,7 @@
+.h-50 { height: 100vh !important; }
+
+nav { z-index: 99; }
+
+.text-animated h1 { text-transform: uppercase; font-size: 65px; mix-blend-mode: color-burn; }
+
+.active { mix-blend-mode: normal !important; }
