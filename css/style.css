@@ -1,2 +1,15 @@
+.h-50 {
+  height: 100vh !important; }
 
+nav {
+  z-index: 99; }
+
+.text-animated h1 {
+  text-transform: uppercase;
+  font-size: 65px;
+  mix-blend-mode: color-burn; }
+
+@media (max-width: 575px) and (min-width: 320px) {
+  .navbar {
+    width: 90%; } }
 /*# sourceMappingURL=style.css.map */
