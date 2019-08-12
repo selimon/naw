@@ -15,11 +15,11 @@ jQuery(document).ready(function($) {
 	})
 });
 // owl-carousel
-$('.owl-carousel').owlCarousel({
+$('.owl-carousel-1').owlCarousel({
     loop:true,
     margin:0,
     nav:false,
-    dots: false,
+    dots: true,
     responsive:{
         0:{
             items:1
