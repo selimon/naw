@@ -1,8 +1,10 @@
 .container { max-width: 1207px; width: 100%; }
 
-img { width: 100%; }
+img { max-width: 100%; }
 
 a, a:hover { text-decoration: none; color: inherit; }
+
+p { margin: 0; }
 
 .hh { height: 100vh; }
 
@@ -18,6 +20,10 @@ h2 { font-size: 50px; }
 .carousel-caption { top: 50vh; }
 
 .slider-text h2 { color: #F17B15; }
+
+.bg-red { background: #710502; }
+
+.about p { color: #F17B15; }
 
 .animated-icon1 { width: 30px; height: 20px; position: relative; margin: 0px; -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -o-transform: rotate(0deg); transform: rotate(0deg); -webkit-transition: 0.5s ease-in-out; -moz-transition: 0.5s ease-in-out; -o-transition: 0.5s ease-in-out; transition: 0.5s ease-in-out; cursor: pointer; }
 
@@ -37,7 +43,9 @@ h2 { font-size: 50px; }
 
 .animated-icon1.open span:nth-child(3) { top: 11px; -webkit-transform: rotate(-135deg); -moz-transform: rotate(-135deg); -o-transform: rotate(-135deg); transform: rotate(-135deg); }
 
-.owl-carousel-1 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span { background: #F17B15 !important; }
+.carousel-1 .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span { background: #F17B15; }
+
+.carousel-1 .owl-nav.disabled + .owl-dots { margin-top: 0; position: absolute; bottom: 10%; left: 0; right: 0; }
 
 @media (max-width: 575px) and (min-width: 320px) { h1 { font-size: 30px; }
   h2 { font-size: 26px; } }

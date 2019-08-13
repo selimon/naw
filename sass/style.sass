@@ -4,17 +4,21 @@
 	max-width: 1207px
 	width: 100%
 img 
-	width: 100%
+	max-width: 100%
 
 a,a:hover 
 	text-decoration: none 
 	color: inherit
+
+p 
+	margin: 0
 // size
 $sizeh1: 60px
 $sizeh2: 50px
 
 // color 
 $orange: #F17B15
+$red: #710502
 // [header]
 .hh
 	height: 100vh
@@ -42,8 +46,15 @@ h2
 .slider-text h2 
 	color: $orange
 
-// owl-carousel 
-// [content]
+.bg-red 
+	background: $red
+
+// sec-about
+.about 
+	p 
+		color: $orange
+
+
 // [footer]
 // [animation]
 @import "animation.sass"

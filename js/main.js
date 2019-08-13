@@ -1,6 +1,3 @@
-$('.carousel').carousel({
-touch: true // default
-})
 // menu-icons
 $(document).ready(function () {
 
@@ -15,7 +12,7 @@ jQuery(document).ready(function($) {
 	})
 });
 // owl-carousel
-$('.owl-carousel-1').owlCarousel({
+$('.carousel-1').owlCarousel({
     loop:true,
     margin:0,
     nav:false,
