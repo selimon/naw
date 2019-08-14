@@ -15,20 +15,33 @@ p
 // size
 $sizeh1: 60px
 $sizeh2: 50px
+$sizeh6: 21px
 
 // color 
 $orange: #F17B15
 $red: #710502
+
+.other-fun 
+	margin-top: 170px 
+	margin-bottom: 70px
+	h6 
+		color: $orange
+
 // [header]
 .hh
 	height: 100vh
 
 .navbar
 	left: 0
+	transition-duration: 1.5s
 	&.active 
 		background: black 
 		height: 100vh
 		margin-top: 0px !important
+	&.scroll 
+		background: #8d949c
+		transition-duration: 1.5s
+		position: fixed !important
 
 .bg-slider 
 	background-image: url(../images/fon.png)
@@ -50,11 +63,54 @@ h2
 	background: $red
 
 // sec-about
-.about 
-	p 
-		color: $orange
+
+// carousel
+.carousel-cafe 
+	.owl-nav.disabled 
+		display: block
+		pointer-events: auto !important
+		position: absolute 
+		width: 100%
+		top: 43%
+	.owl-nav button.owl-prev,
+	.owl-nav button.owl-next 
+		color: transparent
+		position: absolute
+		span
+			width: 62px
+			height: 61px
+			position: absolute
+			background-repeat: no-repeat
+	.owl-nav button.owl-prev 
+		left: 0
+		span 
+			background-image: url(../images/left.svg)
+			background-position: right
+			left: -110px
+	.owl-nav button.owl-next
+		right: 0
+		span 
+			background-image: url(../images/right.svg)
+			background-position: left
+			right: -110px
+
+@media (max-width: 768px) and (min-width: 320px)
+	.about .container 
+		margin: 0 
+	.carousel-cafe .owl-nav.disabled
+		position: relative 
+		display: flex 
+		justify-content: center
+	.carousel-cafe .owl-nav button.owl-next 
+		right: 0
+	.carousel-cafe .owl-nav button.owl-prev span
+		left: 0px
+	.carousel-cafe .owl-nav button.owl-next span 
+		right: 0px
 
 
+.carousel-cafe .owl-stage-outer
+	cursor: w-resize
 // [footer]
 // [animation]
 @import "animation.sass"

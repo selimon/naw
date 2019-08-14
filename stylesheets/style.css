@@ -6,10 +6,14 @@ a, a:hover { text-decoration: none; color: inherit; }
 
 p { margin: 0; }
 
+.other-fun { margin-top: 170px; margin-bottom: 70px; }
+.other-fun h6 { color: #F17B15; }
+
 .hh { height: 100vh; }
 
-.navbar { left: 0; }
+.navbar { left: 0; transition-duration: 1.5s; }
 .navbar.active { background: black; height: 100vh; margin-top: 0px !important; }
+.navbar.scroll { background: #8d949c; transition-duration: 1.5s; position: fixed !important; }
 
 .bg-slider { background-image: url(../images/fon.png); background-repeat: no-repeat; background-size: cover; }
 
@@ -23,7 +27,20 @@ h2 { font-size: 50px; }
 
 .bg-red { background: #710502; }
 
-.about p { color: #F17B15; }
+.carousel-cafe .owl-nav.disabled { display: block; pointer-events: auto !important; position: absolute; width: 100%; top: 43%; }
+.carousel-cafe .owl-nav button.owl-prev, .carousel-cafe .owl-nav button.owl-next { color: transparent; position: absolute; }
+.carousel-cafe .owl-nav button.owl-prev span, .carousel-cafe .owl-nav button.owl-next span { width: 62px; height: 61px; position: absolute; background-repeat: no-repeat; }
+.carousel-cafe .owl-nav button.owl-prev { left: 0; }
+.carousel-cafe .owl-nav button.owl-prev span { background-image: url(../images/left.svg); background-position: right; left: -110px; }
+.carousel-cafe .owl-nav button.owl-next { right: 0; }
+.carousel-cafe .owl-nav button.owl-next span { background-image: url(../images/right.svg); background-position: left; right: -110px; }
+
+@media (max-width: 768px) and (min-width: 320px) { .about .container { margin: 0; }
+  .carousel-cafe .owl-nav.disabled { position: relative; display: flex; justify-content: center; }
+  .carousel-cafe .owl-nav button.owl-next { right: 0; }
+  .carousel-cafe .owl-nav button.owl-prev span { left: 0px; }
+  .carousel-cafe .owl-nav button.owl-next span { right: 0px; } }
+.carousel-cafe .owl-stage-outer { cursor: w-resize; }
 
 .animated-icon1 { width: 30px; height: 20px; position: relative; margin: 0px; -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -o-transform: rotate(0deg); transform: rotate(0deg); -webkit-transition: 0.5s ease-in-out; -moz-transition: 0.5s ease-in-out; -o-transition: 0.5s ease-in-out; transition: 0.5s ease-in-out; cursor: pointer; }
 
