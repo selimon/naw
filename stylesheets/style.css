@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather+Sans:300i,400|Rancho&display=swap");
 .container { max-width: 1207px; width: 100%; }
 
 img { max-width: 100%; }
@@ -6,8 +7,20 @@ a, a:hover { text-decoration: none; color: inherit; }
 
 p { margin: 0; }
 
+h1 { font-size: 60px; }
+
+h2 { font-size: 50px; }
+
+h3 { font-size: 40px; }
+
+h5 { font-size: 24px; }
+
+h6 { font-size: 21px; }
+
 .other-fun { margin-top: 170px; margin-bottom: 70px; }
 .other-fun h6 { color: #F17B15; }
+
+.bg-options { background-repeat: no-repeat; background-size: cover; }
 
 .hh { height: 100vh; }
 
@@ -15,11 +28,7 @@ p { margin: 0; }
 .navbar.active { background: black; height: 100vh; margin-top: 0px !important; }
 .navbar.scroll { background: #8d949c; transition-duration: 1.5s; position: fixed !important; }
 
-.bg-slider { background-image: url(../images/fon.png); background-repeat: no-repeat; background-size: cover; }
-
-h1 { font-size: 60px; }
-
-h2 { font-size: 50px; }
+.bg-slider { background-image: url(../images/fon.png); }
 
 .carousel-caption { top: 50vh; }
 
@@ -35,12 +44,27 @@ h2 { font-size: 50px; }
 .carousel-cafe .owl-nav button.owl-next { right: 0; }
 .carousel-cafe .owl-nav button.owl-next span { background-image: url(../images/right.svg); background-position: left; right: -110px; }
 
-@media (max-width: 768px) and (min-width: 320px) { .about .container { margin: 0; }
-  .carousel-cafe .owl-nav.disabled { position: relative; display: flex; justify-content: center; }
-  .carousel-cafe .owl-nav button.owl-next { right: 0; }
-  .carousel-cafe .owl-nav button.owl-prev span { left: 0px; }
-  .carousel-cafe .owl-nav button.owl-next span { right: 0px; } }
 .carousel-cafe .owl-stage-outer { cursor: w-resize; }
+
+.food-bg { background-image: url(../images/food.png); }
+
+.food-block { padding-top: 180px; }
+.food-block .activ img { padding-bottom: 190px; }
+
+.dotted { background-repeat: repeat-x; background-position: 0px 20px; background-size: 2px 2px; background-image: linear-gradient(to right, #707070 50%, transparent 50%); width: 77%; }
+
+.menu ol li a { font-size: 14px; }
+.menu ol li { padding: 0 5px 0 0 !important; }
+.menu li::before { padding-right: 5px !important; }
+
+.client-bg { background-image: url(../images/clients.png); }
+
+.clients .text-client { padding: 60px 0px 60px 0px; }
+.clients h6 { color: #F17B15; }
+
+.form-btn button { font-size: 16px; background: #F17B15; padding: 12px 70px; }
+
+.footer { background: #151515; padding: 70px 70px; }
 
 .animated-icon1 { width: 30px; height: 20px; position: relative; margin: 0px; -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -o-transform: rotate(0deg); transform: rotate(0deg); -webkit-transition: 0.5s ease-in-out; -moz-transition: 0.5s ease-in-out; -o-transition: 0.5s ease-in-out; transition: 0.5s ease-in-out; cursor: pointer; }
 
@@ -64,5 +88,11 @@ h2 { font-size: 50px; }
 
 .carousel-1 .owl-nav.disabled + .owl-dots { margin-top: 0; position: absolute; bottom: 10%; left: 0; right: 0; }
 
+@media (max-width: 1024px) and (min-width: 320px) { .about .container { margin: 0; }
+  .carousel-cafe .owl-nav.disabled { position: relative; display: flex; justify-content: center; }
+  .carousel-cafe .owl-nav button.owl-next { right: 0; }
+  .carousel-cafe .owl-nav button.owl-prev span { left: 0px; }
+  .carousel-cafe .owl-nav button.owl-next span { right: 0px; }
+  .dotted { width: 100%; } }
 @media (max-width: 575px) and (min-width: 320px) { h1 { font-size: 30px; }
   h2 { font-size: 26px; } }

@@ -1,4 +1,6 @@
 // [fonts]
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:300i,400|Rancho&display=swap')
+
 // [specification]
 .container 
 	max-width: 1207px
@@ -13,19 +15,32 @@ a,a:hover
 p 
 	margin: 0
 // size
-$sizeh1: 60px
-$sizeh2: 50px
-$sizeh6: 21px
+h1 
+	font-size: 60px 
+h2 
+	font-size: 50px
+h3 
+	font-size: 40px
+h5 
+	font-size: 24px
+h6 
+	font-size: 21px
 
+$size14: 14px
 // color 
 $orange: #F17B15
 $red: #710502
+$black: #151515
 
 .other-fun 
 	margin-top: 170px 
 	margin-bottom: 70px
 	h6 
 		color: $orange
+
+.bg-options
+	background-repeat: no-repeat 
+	background-size: cover 
 
 // [header]
 .hh
@@ -45,13 +60,6 @@ $red: #710502
 
 .bg-slider 
 	background-image: url(../images/fon.png)
-	background-repeat: no-repeat 
-	background-size: cover 
-
-h1 
-	font-size: $sizeh1 
-h2 
-	font-size: $sizeh2
 
 .carousel-caption 
 	top: 50vh
@@ -94,24 +102,52 @@ h2
 			background-position: left
 			right: -110px
 
-@media (max-width: 768px) and (min-width: 320px)
-	.about .container 
-		margin: 0 
-	.carousel-cafe .owl-nav.disabled
-		position: relative 
-		display: flex 
-		justify-content: center
-	.carousel-cafe .owl-nav button.owl-next 
-		right: 0
-	.carousel-cafe .owl-nav button.owl-prev span
-		left: 0px
-	.carousel-cafe .owl-nav button.owl-next span 
-		right: 0px
-
-
 .carousel-cafe .owl-stage-outer
-	cursor: w-resize
+	cursor: w-resize 
+// sextion-food 
+.food-bg 
+	background-image: url(../images/food.png)
+
+.food-block 
+	padding-top: 180px 
+	.activ img
+		padding-bottom: 190px
+
+// section-menu 
+.dotted 
+	background-repeat: repeat-x
+	background-position: 0px 20px
+	background-size: 2px 2px
+	background-image: linear-gradient(to right, #707070 50%, transparent 50%)
+	width: 77%
+
+.menu 
+	ol li a 
+		font-size: $size14
+	ol li
+		padding: 0 5px 0 0 !important
+	li::before 
+		padding-right: 5px !important
+
+// section-clients
+.client-bg 
+	background-image: url(../images/clients.png)
+
+.clients 
+	.text-client
+		padding: 60px 0px 60px 0px 
+	h6 
+		color: $orange
+
+.form-btn 
+	button 
+		font-size: 16px
+		background: $orange
+		padding: 12px 70px
 // [footer]
+.footer 
+	background: $black
+	padding: 70px 70px
 // [animation]
 @import "animation.sass"
 // [media]
