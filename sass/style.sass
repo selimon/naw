@@ -3,7 +3,7 @@
 
 // [specification]
 .container 
-	max-width: 1207px
+	max-width: 990px
 	width: 100%
 img 
 	max-width: 100%
@@ -16,138 +16,85 @@ p
 	margin: 0
 // size
 h1 
-	font-size: 60px 
+	font-size: 20px
 h2 
-	font-size: 50px
-h3 
-	font-size: 40px
+	font-size: 17px
 h5 
-	font-size: 24px
-h6 
-	font-size: 21px
-
-$size14: 14px
+	font-size: 15px
 // color 
-$orange: #F17B15
-$red: #710502
-$black: #151515
+$black: #2B2B2B
+$gray: #E8E8E8
+$gray-50: #CCCCCC
+.bg-black-1
+	background: $black
 
-.other-fun 
-	margin-top: 170px 
-	margin-bottom: 70px
-	h6 
-		color: $orange
+.bg-gray-50 
+	background: $gray-50
 
-.bg-options
-	background-repeat: no-repeat 
-	background-size: cover 
 
 // [header]
-.hh
-	height: 100vh
+// owl-carousel 
+.wrapCarouselFull .wrapCarouselThumbs 
+	margin: 0 auto
+	position: relative
+	display: block
+	background: #fff
+	max-width: 640px
 
-.navbar
-	left: 0
-	transition-duration: 1.5s
-	&.active 
-		background: black 
-		height: 100vh
-		margin-top: 0px !important
-	&.scroll 
-		background: #8d949c
-		transition-duration: 1.5s
-		position: fixed !important
+.wrapCarouselThumbs 
+	padding: 20px
 
-.bg-slider 
-	background-image: url(../images/fon.png)
+.carousel-1 .owl-dots
+	display: none
 
-.carousel-caption 
-	top: 50vh
+.carousel-1 .owl-nav
+	position: absolute 
+	bottom: -60px
+	width: 100%
+	display: flex
+	justify-content: space-between
+	& button.owl-next
+		position: relative 
+		right: -10px
+	& button.owl-prev 
+		position: relative
+		left: -10px
 
-.slider-text h2 
-	color: $orange
+.wrapCarouselThumbs .owl-item
+	filter: contrast(0.5)
 
-.bg-red 
-	background: $red
+.owl-item.active.current
+	filter: none
+	box-shadow: 9px 0px 8px -2px
 
-// sec-about
+// accordeon 
+.md-accordion .card .card-header 
+	padding: 15px 0px
 
-// carousel
-.carousel-cafe 
-	.owl-nav.disabled 
-		display: block
-		pointer-events: auto !important
-		position: absolute 
-		width: 100%
-		top: 43%
-	.owl-nav button.owl-prev,
-	.owl-nav button.owl-next 
-		color: transparent
-		position: absolute
-		span
-			width: 62px
-			height: 61px
-			position: absolute
-			background-repeat: no-repeat
-	.owl-nav button.owl-prev 
-		left: 0
-		span 
-			background-image: url(../images/left.svg)
-			background-position: right
-			left: -110px
-	.owl-nav button.owl-next
-		right: 0
-		span 
-			background-image: url(../images/right.svg)
-			background-position: left
-			right: -110px
+.card-body
+	padding: 1rem 0px
 
-.carousel-cafe .owl-stage-outer
-	cursor: w-resize 
-// sextion-food 
-.food-bg 
-	background-image: url(../images/food.png)
+.md-accordion .card .card-header a:not(.collapsed) .rotate-icon:before
+	content: "" !important
 
-.food-block 
-	padding-top: 180px 
-	.activ img
-		padding-bottom: 190px
+.fa-angle-down:before 
+	content: '' !important
 
-// section-menu 
-.dotted 
-	background-repeat: repeat-x
-	background-position: 0px 20px
-	background-size: 2px 2px
-	background-image: linear-gradient(to right, #707070 50%, transparent 50%)
-	width: 77%
+.form-accordion .btn
+	padding: 0px 12px 0px 12px 
 
-.menu 
-	ol li a 
-		font-size: $size14
-	ol li
-		padding: 0 5px 0 0 !important
-	li::before 
-		padding-right: 5px !important
+.btn-icon 
+	padding-top: 0
+	padding-bottom: 0
+      
+.btn > .icon 
+	position: relative
+	display: inline-block
+	padding: 13px
+	background: $gray
+	left: -12px
 
-// section-clients
-.client-bg 
-	background-image: url(../images/clients.png)
-
-.clients 
-	.text-client
-		padding: 60px 0px 60px 0px 
-	h6 
-		color: $orange
-
-.form-btn 
-	button 
-		font-size: 16px
-		background: $orange
-		padding: 12px 70px
 // [footer]
-.footer 
-	background: $black
-	padding: 70px 70px
 // [animation]
 @import "animation.sass"
 // [media]
