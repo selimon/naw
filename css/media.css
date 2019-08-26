@@ -3,6 +3,17 @@
     font-size: 11px; }
 
   .border-sm-0 {
-    border: none !important; } }
+    border: none !important; }
+
+  .soc-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+
+  .text-smm-center {
+    text-align: center; } }
 
 /*# sourceMappingURL=media.css.map */
