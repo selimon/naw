@@ -1,15 +1,91 @@
-.h-50 {
-  height: 100vh !important; }
+/* line 2, ../sass/style.sass */
+img { max-width: 100%; }
 
-nav {
-  z-index: 99; }
+/* line 5, ../sass/style.sass */
+a, a:hover { text-decoration: none; color: inherit; }
 
-.text-animated h1 {
-  text-transform: uppercase;
-  font-size: 65px;
-  mix-blend-mode: color-burn; }
+/* line 9, ../sass/style.sass */
+button:active { outline: none; border: none; }
 
-@media (max-width: 575px) and (min-width: 320px) {
-  .navbar {
-    width: 90%; } }
+/* line 13, ../sass/style.sass */
+p { margin: 0px; }
+
+/* line 16, ../sass/style.sass */
+h1 { font-size: 26px; }
+
+/* line 18, ../sass/style.sass */
+h3 { font-size: 23px; }
+
+/* line 20, ../sass/style.sass */
+.fs-12 { font-size: 12px; }
+
+/* line 22, ../sass/style.sass */
+.fs-14 { font-size: 14px; color: #9d9d9d; }
+
+/* line 26, ../sass/style.sass */
+.pll-5 { padding-left: 80px; }
+
+/* line 28, ../sass/style.sass */
+.pl-card { padding-left: 48px; }
+
+/* line 31, ../sass/style.sass */
+.text-primary-1 { color: #c331d0; }
+
+/* line 33, ../sass/style.sass */
+.bg-opt { background-repeat: no-repeat; }
+
+/* line 38, ../sass/style.sass */
+.check::before { content: " "; position: absolute; width: 21px; height: 16px; background-image: url(../images/check.png); margin: 10px 47px; }
+
+/* line 46, ../sass/style.sass */
+.block::before { content: " "; position: absolute; width: 25px; height: 25px; margin: 10px 47px; background-repeat: no-repeat; }
+
+/* line 53, ../sass/style.sass */
+.block-img-1::before { content: ""; background-image: url(../images/clock.png); }
+
+/* line 56, ../sass/style.sass */
+.block-img-2::before { content: ""; background-image: url(../images/avatar.png); }
+
+/* line 59, ../sass/style.sass */
+.block-img-3::before { content: ""; background-image: url(../images/cleaning-spray.png); }
+
+/* line 62, ../sass/style.sass */
+.block-img-4::before { content: ""; background-image: url(../images/gloves.png); }
+
+/* line 65, ../sass/style.sass */
+.block-img-5::before { content: ""; background-image: url(../images/vacuum.png); }
+
+/* line 71, ../sass/style.sass */
+.form-btn .btn { background-image: -webkit-gradient(linear, left top, left bottom, from(#b62ec4), to(#f383ff)); background-image: linear-gradient(to bottom, #b62ec4 0%, #f383ff 100%); -webkit-transition-duration: 1.2s; transition-duration: 1.2s; }
+/* line 74, ../sass/style.sass */
+.form-btn .btn { padding: 23px 81px 22px 52px; font-size: 22px; border-radius: 33px; -webkit-box-shadow: 0 4px 1px #b136c2; box-shadow: 0 4px 1px #b136c2; }
+/* line 79, ../sass/style.sass */
+.form-btn .btn::before { content: " "; position: absolute; background-image: url(../images/star.svg); width: 30px; height: 34px; right: 40px; }
+/* line 86, ../sass/style.sass */
+.form-btn .btn.active { background-image: -webkit-gradient(linear, left top, left bottom, from(#ff0000), to(#5e0e68)); background-image: linear-gradient(to bottom, #ff0000 0%, #5e0e68 100%); -webkit-transition-duration: 1.2s; transition-duration: 1.2s; -webkit-box-shadow: 4px 16px 20px #78324e; box-shadow: 4px 16px 20px #78324e; }
+
+/* line 92, ../sass/style.sass */
+.modal-content { -webkit-box-shadow: 0 3px 23px 4px rgba(0, 0, 0, 0.15); box-shadow: 0 3px 23px 4px rgba(0, 0, 0, 0.15); border-radius: 10px; }
+
+/* line 97, ../sass/style.sass */
+.form-1 { background-image: url(../images/1.png); background-position: top right; }
+
+/* line 102, ../sass/style.sass */
+.bg-left { background-image: url(../images/left-bg.png); background-position: left bottom; }
+
+/* line 106, ../sass/style.sass */
+.form-input { border: 1px solid #c331d0; border-radius: 35px; padding: 26px 65px 24px 74px; }
+
+/* line 111, ../sass/style.sass */
+.icons-img::before { content: " "; position: absolute; width: 15px; height: 15px; background-image: url(../images/icons.png); margin: 10px 47px; }
+
+@media (max-width: 575px) and (min-width: 320px) { /* line 2, ../sass/media.sass */
+  .form-accordion .btn { font-size: 11px; }
+  /* line 4, ../sass/media.sass */
+  .border-sm-0 { border: none !important; }
+  /* line 6, ../sass/media.sass */
+  .soc-links { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+  /* line 9, ../sass/media.sass */
+  .text-smm-center { text-align: center; } }
+
 /*# sourceMappingURL=style.css.map */

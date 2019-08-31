@@ -1,10 +1,4 @@
-// [fonts]
-@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:300i,400|Rancho&display=swap')
-
 // [specification]
-.container 
-	max-width: 990px
-	width: 100%
 img 
 	max-width: 100%
 
@@ -12,96 +6,115 @@ a,a:hover
 	text-decoration: none 
 	color: inherit
 
+button:active
+	outline: none
+	border: none
+
 p 
-	margin: 0
+	margin: 0px
 // size
 h1 
-	font-size: 20px
-h2 
-	font-size: 17px
-h5 
-	font-size: 15px
-h6 
-	font-size: 13px
+	font-size: 26px
+h3 
+	font-size: 23px
+.fs-12 
+	font-size: 12px
+.fs-14
+	font-size: 14px
+	color: #9d9d9d
+
+.pll-5 
+	padding-left: 80px
+.pl-card
+	padding-left: 48px
 // color 
-$black: #2B2B2B
-$gray: #E8E8E8
-$gray-50: #CCCCCC
-.bg-black-1
-	background: $black
- 
-.bg-gray-50 
-	background: $gray-50
+.text-primary-1 
+	color: #c331d0
+.bg-opt 
+	background-repeat: no-repeat 
 
-.border-gray 
-	border: 1px solid$gray-50
-// [header]
-// owl-carousel 
-.wrapCarouselFull .wrapCarouselThumbs 
-	margin: 0 auto
-	position: relative
-	display: block
-	background: #fff
-	max-width: 640px
 
-.wrapCarouselThumbs 
-	padding: 20px
-
-.carousel-1 .owl-dots
-	display: none
-
-.carousel-1 .owl-nav
+// check 
+.check::before 
+	content: ' '
 	position: absolute 
-	bottom: -60px
-	width: 100%
-	display: flex
-	justify-content: space-between
-	& button.owl-next
-		position: relative 
-		right: -10px
-	& button.owl-prev 
-		position: relative
-		left: -10px
+	width: 21px 
+	height: 16px
+	background-image: url(../images/check.png)
+	margin: 10px 47px
 
-.wrapCarouselThumbs .owl-item
-	filter: contrast(0.5)
+.block::before 
+	content: ' '
+	position: absolute 
+	width: 25px 
+	height: 25px
+	margin: 10px 47px
+	background-repeat: no-repeat
+.block-img-1::before 
+	content: ''
+	background-image: url(../images/clock.png)
+.block-img-2::before 
+	content: ''
+	background-image: url(../images/avatar.png)
+.block-img-3::before 
+	content: ''
+	background-image: url(../images/cleaning-spray.png)
+.block-img-4::before 
+	content: ''
+	background-image: url(../images/gloves.png)
+.block-img-5::before 
+	content: ''
+	background-image: url(../images/vacuum.png)
 
-.owl-item.active.current
-	filter: none
-	box-shadow: 9px 0px 8px -2px
 
-// accordeon 
-.md-accordion .card .card-header 
-	padding: 15px 0px
+// button 
+.form-btn .btn
+	background-image: linear-gradient(to bottom, #b62ec4 0%, #f383ff 100%)
+	transition-duration: 1.2s
+	& 
+		padding: 23px 81px 22px 52px
+		font-size: 22px
+		border-radius: 33px
+		box-shadow: 0 4px 1px rgba(177, 54, 194, 1)
+	&::before 
+		content: ' '
+		position: absolute 
+		background-image: url(../images/star.svg)
+		width: 30px
+		height: 34px
+		right: 40px
+	&.active 
+		background-image: linear-gradient(to bottom, #ff0000 0%, #5e0e68 100%)
+		transition-duration: 1.2s
+		box-shadow: 4px 16px 20px #78324e
 
-.card-body
-	padding: 1rem 0px
+// form_other
+.modal-content 
+	box-shadow: 0 3px 23px 4px rgba(0, 0, 0, 0.15)
+	border-radius: 10px
 
-.md-accordion .card .card-header a:not(.collapsed) .rotate-icon:before
-	content: "" !important
+// form-1 
+.form-1 
+	background-image: url(../images/1.png) 
+	background-position: top right
 
-.fa-angle-down:before 
-	content: '' !important
+// right-form 
+.bg-left 
+	background-image: url(../images/left-bg.png)
+	background-position: left bottom
 
-.form-accordion .btn
-	padding: 0px 12px 0px 12px 
+.form-input 
+	border: 1px solid #c331d0
+	border-radius: 35px
+	padding: 26px 65px 24px 74px
 
-.btn-icon 
-	padding-top: 0
-	padding-bottom: 0
-      
-.btn > .icon 
-	position: relative
-	display: inline-block
-	padding: 13px
-	background: $gray
-	left: -12px
+.icons-img::before
+	content: ' '
+	position: absolute 
+	width: 15px 
+	height: 15px
+	background-image: url(../images/icons.png)
+	margin: 10px 47px
 
-// [footer]
-.footer-btn 
-	.btn 
-		padding: 5px 16px 
-// [animation]
-@import "animation.sass"
 // [media]
 @import "media.sass"
