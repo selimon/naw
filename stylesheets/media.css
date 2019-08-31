@@ -1,10 +1,10 @@
-@media (max-width: 575px) { /* line 2, ../sass/media.sass */
+@media (max-width: 1366px) { /* line 2, ../sass/media.sass */
   h1, .text-h3 { padding: 0px 10px 0px 10px; }
   /* line 4, ../sass/media.sass */
   h3 { padding-top: 15px; }
   /* line 6, ../sass/media.sass */
   .nav-link { padding: 10px 25px 0px 80px; }
   /* line 8, ../sass/media.sass */
-  .form-btn .btn { font-size: 16px; padding: 20px 79px 18px 35px; }
-  /* line 11, ../sass/media.sass */
-  .text-h3 { padding-top: 25px; } }
+  .text-h3 { padding-top: 25px; }
+  /* line 10, ../sass/media.sass */
+  .p { padding: 0px 28px 9px 28px; } }
