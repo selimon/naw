@@ -9,4 +9,4 @@
   /* line 10, ../sass/media.sass */
   .p { padding: 0px 28px 9px 28px; } }
 @media (max-width: 1980px) and (min-width: 1366px) { /* line 13, ../sass/media.sass */
-  .p { padding: 0px 28px 9px 28px; } }
+  .p { padding: 0px 28px 0px 28px; } }
