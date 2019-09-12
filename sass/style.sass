@@ -1,102 +1,184 @@
-// [specification]
-img 
-	max-width: 100%
+@font-face
+	font-family: "ProximaNova"
+	src: url(../fonts/ProximaNova/ProximaNova-Reg.otf)
 
-a,a:hover 
+@font-face
+	font-family: "ProximaNova"
+	src: url(../fonts/ProximaNova/ProximaNova-Bold.otf)
+	font-weight: bold
+
+body 
+	font-family: "ProximaNova", Arial, Helvetica, sans-serifs
+
+.body-1
+	background: #F7FAFC
+
+h1 
+	font-size: 35px 
+h2 
+	font-size: 30px
+h5 
+	font-size: 24px
+h6 
+	font-size: 20px
+.size-14 
+	font-size: 14px
+.size-18 
+	font-size: 18px
+.size-20 
+	font-size: 20px
+.size-22
+	font-size: 22px
+
+.container 
+	max-width: 1190px 
+	width: 100%
+
+a, a:hover 
 	text-decoration: none 
 	color: inherit
 
-button:active
-	outline: none
-	border: none
+img 
+	width: 100%
 
-p 
+.no-indent
+	padding: 0px
 	margin: 0px
-// size
-h1 
-	font-size: 26px
-h3 
-	font-size: 23px
-	padding: 5px 0px 0px 0px
-.fs-12 
-	font-size: 12px
-.fs-14
-	font-size: 14px
-	color: #9d9d9d
+//OTO for Monthly
+header 
+	border-top: 5px solid #41C752
+	padding: 24px 0px 0px 0px
+	background: white
+	.logo 
+		width: auto
+.header-line
+	border-bottom: 1px solid #dedede
+	margin-top: 21px
 
-.pll-5 
-	padding-left: 80px
-.pl-card
-	padding-left: 48px
-// color 
-.text-primary-1 
-	color: #c331d0
-.bg-opt 
-	background-repeat: no-repeat 
-
-
-// check 
-.check::before 
-	content: ' '
-	position: absolute 
-	width: 21px 
-	height: 16px
-	margin: 10px 47px
-
-.block::before 
-	content: ' '
-	position: absolute 
-	width: 25px 
-	height: 25px
-	margin: 10px 47px
-	background-repeat: no-repeat
-
-
-
-// button 
-.form-btn .btn
-	& 
-		padding: 23px 81px 22px 52px
-		font-size: 22px
-		border-radius: 33px
-		box-shadow: 0 4px 1px rgba(177, 54, 194, 1)
-	&::before 
+.section-one 
+	.block-text 
+		padding-top: 102px
+	.img-notice 
+		padding-left: 18px
+	.img-notice::before 
 		content: ' '
 		position: absolute 
+		width: 16px
+		height: 16px 
+		background-image: url(../images/notice.svg)
+		background-repeat: no-repeat
+		margin: 3px 0px 0px -18px
+	.text-green 
+		color: #25772F
+	.text-dark_blue
+		color: #022635
+	.text-opt 
+		margin: 25px 10px 0px 0px
+	.text-list 
+		padding-top: 20px
+		.img-check 
+			padding-top: 16px
+			margin-left: 32px
+			&::before 
+				content: ' '
+				position: absolute 
+				width: 20px
+				height: 20px
+				margin-left: -31px
+				background-image: url(../images/checkmark.svg)
+.form 
+	margin-top: 60px
+	width: 316px
+	.theme-btn 
+		background: #41C752
+		border: none
+		color: white
+	.size-btn 
+		width: 316px 
+		height: 57px
+		display: inline-flex 
+		justify-content: center
+		font-size: 20px
+	.form-text 
+		color: #3CCB5E
+		text-decoration: underline 
+		text-align: center
+		margin-top: 16px
+	.btn 
+		padding: 10px
+@media (max-width: 575px) and (min-width: 320px)
+	.form 
+		width: 100% 
+		text-align: center
+	.form .size-btn 
+		width: auto 
+.block-img 
+		margin: 53px 0px 0px 42px
+.f-w 
+	font-weight: bold
+
+// Downsell_Page
+.section-info 
+	.img-notice-2::before 
+		content: ' '
+		position: absolute 
+		width: 21px
+		height: 21px
+		background-image: url(../images/notice.svg)
+		background-repeat: no-repeat
+		margin: 5px 0px 0px -21px
+.block-info 
+	background: white
+	margin-top: 30px
+	padding: 21px 0px
+	box-shadow: -1px 2px 15px 0px #DFE8F2
+@media (max-width: 575px) and (min-width: 320px)
+	.block-info 
+		padding: 20px
+.text-green
+	color: #25772F
+.section-two 
+	.block-text 
+		margin: 127px 0px 0px 0px
+	.text-gray-1 
+		color: #777777
+	.text-opt 
+		margin-top: 27px
+	.block-img-2 
+		margin-top: 32px
+.section-tri
+	.check
+		padding: 0px 50px
+	.check::before 
+		content: ' '
+		position: absolute
+		width: 20px
+		height: 20px
+		background-image: url(../images/checkmark.svg)
+		margin-left: -31px 
+// Downsell after 
+.section-info
+	.img-notice-3
+		margin-left: 31px
+	.img-notice-3::before 
+		content: ' '
+		position: absolute 
+		width: 36px
+		height: 36px
+		background-image: url(../images/not.svg)
+		background-repeat: no-repeat
+		margin: 0px 0px 0px -45px		
+.check-list 
+	.text-opt 
+		margin: 10px 0px 23px 0px
+	.check 
+		margin-left: 31px
+		margin-top: 23px
+	.check::before 
+		content: ' '
+		position: absolute
 		width: 30px
-		height: 34px
-		right: 40px
-
-.btn-active 
-	background-image: linear-gradient(to bottom, #b62ec4 0%, #f383ff 100%)
-	transition-duration: 1.2s
-	&.active:hover
-		transition-duration: 1.2s
-		box-shadow: 4px 16px 20px #78324e
-// form_other
-.modal-content 
-	box-shadow: 0 3px 23px 4px rgba(0, 0, 0, 0.15)
-	border-radius: 10px
-
-// form-1 
-.form-1  
-	background-position: top right
-
-// right-form 
-.bg-left 
-	background-position: left bottom
-
-.form-input 
-	border: 1px solid #c331d0
-	border-radius: 35px
-	padding: 26px 65px 24px 74px
-
-.icons-img::before
-	content: ' '
-	position: absolute 
-	width: 15px 
-	height: 15px
-	margin: 10px 47px
-
-// [media]
-@import media
+		height: 30%
+		background-image: url(../images/checkmark.svg)
+		background-repeat: no-repeat
+		margin-left: -31px 
