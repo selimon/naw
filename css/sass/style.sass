@@ -29,6 +29,19 @@ $fs20: 20px
 $fs26: 26px
 $fs32: 32px
 
+
+h2 
+	font-size: $fs22
+h3 
+	font-size: $fs20
+	font-weight: 400
+h4 
+	font-size: $fs22
+	font-weight: 400
+h6 
+	font-size: $fs32
+	font-weight: 400
+
 // preloader 
 #load
 	position: fixed
@@ -106,43 +119,35 @@ header
 // header-text 
 .header_text 
 	padding-bottom: 150px
-	h2 
-		font-size: $fs22
-		span 
-			font-size: 16px
-	h3 
-		font-size: $fs20
-		&::before 
-			content: " "
-			position: absolute 
-			background-image: url(/images/vector.svg)
-			background-repeat: no-repeat
-			top: 90%    
-			transform: translate(35%, 0%)
-			width: 100%
-			height: 100%
-
-	h4 
-		font-size: $fs26
-		.sp4 
-			color: $col-pink
-		&:before 
-			content: " "
-			position: absolute 
-			background-image: url(/images/bg-text.svg)
-			background-repeat: no-repeat
-			top: 90%    
-			transform: translate(18%, -10%)
-			width: 100%
-			height: 100%
+	span 
+		font-size: 16px
+	&::before 
+		content: " "
+		position: absolute 
+		background-image: url(/images/vector.svg)
+		background-repeat: no-repeat
+		top: 90%    
+		transform: translate(35%, 0%)
+		width: 100%
+		height: 100%
+	.sp4 
+		color: $col-pink
+	&:before 
+		content: " "
+		position: absolute 
+		background-image: url(/images/bg-text.svg)
+		background-repeat: no-repeat
+		top: 90%    
+		transform: translate(18%, -10%)
+		width: 100%
+		height: 100%
 
 // section 1 
 .section-1 
 	padding-bottom: 150px
 	.fs-32
 		font-size: $fs32
-	h4 
-		font-size: $fs22
+
 
 .vector-img 
 	background-image: url(/images/8layers.png)
@@ -155,9 +160,7 @@ header
 // section-2
 .section2 
 	.fs-32 
-	font-size: $fs32
-	h3
-		font-size: $fs22
+		font-size: $fs32
 .block-text li
 	font-size: 17px
 	position: relative
@@ -176,8 +179,7 @@ header
 	background-image: url(/images/fon2.png)
 	background-size: cover
 	padding: 350px 0px 365px 0px
-	h3
-		font-size: $fs20	
+	h3	
 		top: 100px
 		&::before 
 			content: " "
@@ -192,9 +194,7 @@ header
 
 // section5 
 .section5 
-	h6 
-		font-size: $fs32
-		font-weight: 400
+
 	h3 
 		font-size: $fs20
 		font-weight: 400
@@ -256,13 +256,10 @@ header
 // section6 
 .section6 
 	h6 
-		font-size: $fs32
-		font-weight: 400
 		padding-bottom: 140px
 .card 
 	height: 400px
 	h3 
-		font-size: 20px
 		top: 10%
 		width: 100%
 	.btn 
@@ -293,8 +290,6 @@ header
 
 .block_soc_link
 	h4 
-		font-size: $fs26
-		font-weight: 400 
 		padding: 100px 0px 0px 0px
 
 .block_links 
