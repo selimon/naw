@@ -1,8 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap')
+// font 
+.lato-reg 
+	font-family: "Lato - Regular"
+.lato-b 
+	font-family: "Lato - Bold"
 // specification 
 .container
 	max-width: 1170px 
 	width: 100% 
 	margin: 0 auto
+
+body 
+	font-family: 'Lato', sans-serif
 
 img 
 	width: 100%
@@ -29,6 +38,16 @@ $fs20: 20px
 $fs26: 26px
 $fs32: 32px
 
+h2 
+	font-size: $fs22
+h3 
+	font-size: $fs20
+h4 
+	font-size: $fs26
+h6 
+	font-size: $fs32
+	font-weight: 400
+
 // preloader 
 #load
 	position: fixed
@@ -48,14 +67,18 @@ $fs32: 32px
 	margin: -35px 0 0 -35px 
 
 // header 
+.img-slider 
+	position: absolute 
+	top: 0px 
+	left: 0px
 header 
 	overflow: hidden 
 
+.navbar-light .navbar-nav .nav-link 
+	color: rgb(99, 35, 151)
+
 .header_logo 
-	background-image: url(/images/fon.png)
-	height: auto 
-	background-size: cover 
-	background-repeat: no-repeat
+	padding-bottom: 400px
 
 .navbar-light .navbar-nav .nav-link.active 
 	color: $col-pink
@@ -79,6 +102,7 @@ header
 .btn_header
 	background-image: linear-gradient(45deg, #e676f9 0%, #9969f1 99%, #9969f1 100%)
 	border-radius: 23px
+	box-shadow: 0 2px 16px rgba(0, 0, 0, 0.26)
 	box-shadow: 0 2px 16px rgba(0, 0, 0, 0.26)
 	position: relative
 	overflow: hidden
@@ -106,12 +130,10 @@ header
 // header-text 
 .header_text 
 	padding-bottom: 150px
-	h2 
-		font-size: $fs22
+	h2
 		span 
 			font-size: 16px
 	h3 
-		font-size: $fs20
 		&::before 
 			content: " "
 			position: absolute 
@@ -121,7 +143,6 @@ header
 			width: 100%
 			height: 100%
 	h4 
-		font-size: $fs26
 		.sp4 
 			color: $col-pink
 		&:before 
@@ -138,8 +159,6 @@ header
 	padding-bottom: 150px
 	.fs-32
 		font-size: $fs32
-	h4 
-		font-size: $fs22
 
 .vector-img 
 	background-position: top
@@ -152,8 +171,6 @@ header
 .section2 
 	.fs-32 
 	font-size: $fs32
-	h3
-		font-size: $fs22
 .block-text li
 	font-size: 17px
 	position: relative
@@ -171,8 +188,7 @@ header
 .section4 
 	background-size: cover
 	padding: 350px 0px 365px 0px
-	h3
-		font-size: $fs20	
+	h3	
 		top: 100px
 		&::before 
 			content: " "
@@ -186,11 +202,7 @@ header
 
 // section5 
 .section5 
-	h6 
-		font-size: $fs32
-		font-weight: 400
 	h3 
-		font-size: $fs20
 		font-weight: 400
 
 .text_ab_me
@@ -281,7 +293,6 @@ header
 
 .block_soc_link
 	h4 
-		font-size: $fs26
 		font-weight: 400 
 		padding: 100px 0px 0px 0px
 
@@ -294,5 +305,29 @@ header
 .footer 
 	background: $footer 
 
+
+// ABOUT_PAGE
+// section2 
+.about-bg .spam-bg
+	background-repeat: no-repeat 
+	background-size: cover 
+
+.ppt-5
+	padding-top: 160px
+
+.email 
+	border-bottom: 1px solid #d4d0df !important 
+	background: transparent 
+	border: transparent 
+	width: 100%
+::-webkit-input-placeholder 
+	padding: 0px 30px
+	color: white
+
+
+
+// recall_Page 
+.card 
+	height: auto 
 // media 
 @import "media"

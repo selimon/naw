@@ -52,12 +52,12 @@
 	</div>
 
 	<!-- header -->
-	<header class="header_logo" style="background-image: url(images/fon.png)">
+	<header class="header_logo position-relative">
 		<div class="container">
 
 			<!-- header_site -->
 
-			<nav class="navbar navbar-expand-lg navbar-light pt-3 position-relative">
+			<nav class="navbar navbar-expand-lg navbar-light pt-3" style="z-index: 99">
 	  		<a class="navbar-brand mr-5" href="#!"><img src="images/logo.png" alt="Logo"></a>
 	  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
 	    			<span class="navbar-toggler-icon"></span>
@@ -68,7 +68,7 @@
 				        <a class="nav-link active" href="#">Главная</a>
 				      </li>
 				      <li class="nav-item">
-				        <a class="nav-link" href="#">Обо мне</a>
+				        <a class="nav-link" href="about_page.html">Обо мне</a>
 				      </li>
 				      <li class="nav-item">
 				        <a class="nav-link" href="#">Блог</a>
@@ -77,41 +77,29 @@
 				        <a class="nav-link" href="#">отзывы</a>
 				      </li>
 				      <li class="nav-item">
-				        <a class="nav-link" href="#">марафон</a>
+				        <a class="nav-link" href="#">Тренинг</a>
 				      </li>
 				      <li class="nav-item">
 				        <a class="nav-link" href="#">онлайн консультации</a>
 				      </li>
 				    </ul>
 				  </div>
-				    <ul class="navbar-nav ml-auto text-center d-block">
-				    	<a href="#!"><i class="fab fa-skype"></i></a>
-				    	<a href="#!"><i class="fab fa-instagram"></i></a>
-				    	<a href="#!"><i class="fab fa-facebook-f"></i></a>
-				    	<a href="#!"><i class="fab fa-vk"></i></a>
-				    	<form action="#!" class="flex-column d-flex align-self-end mt-4">
-				    		<a href="#!" class="btn btn_header text-white">
-				    			<span></span>
-				    			Записаться
-				    		</a>
-				    	</form>
-				    </ul>
 				</nav>
 
 				<!-- end---header_site -->
 
+				<!-- slide-photo -->
+				<div id="rotator">
+				  <ul>
+				    <li class="show img-slider"><img src="images/image.png"  alt="pic1" /></li>
+				    <li class="img-slider"><img src="images/fon.png" alt="pic2" /></li>
+				  </ul>
+				</div>
+				<!-- end_slide-photo -->
+
 				<!-- content-header -->
-				<div class="header_text col-xl-6 pt-5 text-center text-uppercase ">
-					<h2> Надо верить в возможность счастья, чтобы быть счастливым.<span class=" d-flex justify-content-end">Л. Толстой</span></h2>
-					<h3 class="pt-5 pb-5 position-relative">Мы будем искренне рады помочь вам найти ваше счастье, если оно вдруг где-то нечаянно потерялось!</h3>
-					<h4 class="pt-5 pb-5 position-relative">Ближайшая живая встреча -  <span class="sp4">4 августа</span> <span style="font-size: 16px">Осталось - 3 места!</span>
-					</h4>
-		    	<form action="#!" class="d-flex justify-content-end">
-		    		<a href="#!" class="btn btn_header text-white text-center">
-		    			<span></span>
-		    			Записаться
-		    		</a>
-		    	</form>
+				<div class="header_text col-xl-5 pt-5 text-center text-uppercase ">
+					<h2>Счастье - это дорога длиною в жизнь. Это ежедневная работа над собой<span class=" d-flex justify-content-end text-color font-weight-bold">Андрей Усынин</span></h2>
 				</div>
 		</div>
 	</header>
@@ -123,27 +111,19 @@
 		<div class="container">
 			<div class="col-xl-10 m-auto">
 				<div class="text-center">
-					<div class="text-uppercase fs-32">Предлагаем вам сеансы уникального сочетания
-							двух волшебных методик 
-					</div>
+					<div class="text-uppercase fs-32">Предлагаем вам сеансы уникального сочетания двух волшебных методик 
 				</div>
 			</div>
+		</div>
 
-		<div class="row pb-5">
-			<div class="col-xl-5 vector-img text-center mt-3">
-				<img src="images/v1.svg" alt="vector" class="pt-4" style="width: auto;">
-				<h5 class="text-white pb-5 pt-2">Системных расстановок </h5>
-			</div>
-			<div class="col-xl-1 text-center align-self-center">
-				<span>и</span>
-			</div>
-			<div class="col-xl-5 vector-img text-center mt-3">
-				<img src="images/v2.svg" alt="" class="pt-4" style="width: auto;">
-				<h5 class="text-white pb-5 pt-2">Эмоционально - Образной терапии</h5>
+		<div class="text-center pt-4 pb-4 col-6 m-auto">
+			<div class="embed-responsive embed-responsive-16by9">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/FeRO2x-FXzc" frameborder="0" allowfullscreen></iframe>
 			</div>
 		</div>
 
 		</div>
+
 		<div class="container no-gutters">
 			<div class="col-xl-10 m-auto">
 				<h4 class=" text-center pb-3">В чем уникальность объединения этих двух замечательных методик работы с собой?</h4>
@@ -151,7 +131,7 @@
 			<div class="col-xl-12">
 				<p><span class="text-color">Системные расстановки</span> являются одним из самых лучших и глубоких инструментов для диагностирования сложностей и неразрешимых задач разного уровня. Это методика, которая позволяет обходить защитные механизмы нашего подсознания и обнаруживать самые глубинные наши сложности, которые не позволяют нам достигать счастья, успеха и гармонии с собой и в отношениях в близкими или деловыми партнерами. Именно системные расстановки позволяют наиболее хорошо, и, при этом, наиболее мягко и экологично раскрывать проблему на глубинных уровнях. И если обычные расстановки просто вскрывают эти вопросы и дальше человек остается с этим наедине, то на нашем сеансе в работу с вами подключается специалист по системно-образной терапии и помогает вам проработать эту ситуацию, с какими бы сложными и эмоциональными переживаниями, она не была связана. Эмоционально-образная терапия дает возможность вернуть каждому человеку ресурсное состояние из любых обстоятельств прошлого.</p>
 				<!-- text-card -->
-				<div class="card mb-3 border-0">
+<!-- 				<div class="card mb-3 border-0">
 				  <div class="row no-gutters">
 				    <div class="col-auto">
 				      <img src="images/v-1.svg" alt="..." class="pt-4">
@@ -179,7 +159,7 @@
 				      </div>
 				    </div>
 				  </div>
-				</div>
+				</div> -->
 
 			</div>
 		</div>
@@ -340,37 +320,6 @@
 
 				<div class="col-xl-6 col-md-6">
 					<div class="pt-5">
-						<h3 class="pl-3">Вредные привычки (только при наличии желания
-														клиента избавиться от таковой)
-						</h3>
-						<ul class="nav flex-column block-text pl-3">
-						  <li class="nav-item pt-2">Курение;
-						  </li>
-						  <li class="nav-item pt-2">Игромания;
-						  </li>
-						  <li class="nav-item pt-2">Алкоголь;
-						  </li>
-						  <li class="nav-item pt-2">Азартные игры и др.
-						  </li>
-						</ul>
-			    	<form action="#!" class="flex-column d-flex align-self-end mt-4 pl-3">
-			    		<a href="#!" class="btn btn_header text-white">
-			    			<span></span>
-			    			Записаться
-			    		</a>
-			    	</form>
-					</div>
-				</div>				
-				<div class="col-xl-6 col-md-6">
-					<img src="images/im6.png" alt="">
-				</div>
-
-
-				<div class="col-xl-6 col-md-6">
-					<img src="images/im7.png" alt="">
-				</div>
-				<div class="col-xl-6 col-md-6">
-					<div class="pt-5">
 						<h3 class="pl-3">Работа с хроническими заболеваниями и
 							некоторыми симптомами заболеваний.
 						</h3>
@@ -389,6 +338,9 @@
 			    		</a>
 			    	</form>
 					</div>
+				</div>				
+				<div class="col-xl-6 col-md-6">
+					<img src="images/im7.png" alt="">
 				</div>
 
 			</div>
@@ -471,7 +423,7 @@
 			</div>
 			<div class="row">
 				<div class="col-xl-3 col-md-6 pb-5">
-					<div class="card position-relative">
+					<div class="card position-relative" style="height: 400px">
 					  <img src="images/c1.png" class="card-img-top" alt="...">
 					  <h3 class="position-absolute text-center text-white text-uppercase">Стоимость 
 								участия 
@@ -489,7 +441,7 @@
 				</div>
 
 				<div class="col-xl-3 col-md-6 pb-5">
-					<div class="card position-relative">
+					<div class="card position-relative" style="height: 400px">
 					  <img src="images/c2.png" class="card-img-top" alt="...">
 					  <h3 class="position-absolute text-center text-white text-uppercase">Стоимость участия с Вашим личным запросом
 						</h3>
@@ -505,7 +457,7 @@
 				</div>
 
 				<div class="col-xl-3 col-md-6 pb-5">
-					<div class="card position-relative">
+					<div class="card position-relative" style="height: 400px">
 					  <img src="images/c1.png" class="card-img-top" alt="...">
 					  <h3 class="position-absolute text-center text-white text-uppercase">Стоимость индивидуальной проработки
 						</h3>
@@ -521,7 +473,7 @@
 				</div>
 
 				<div class="col-xl-3 col-md-6 pb-5">
-					<div class="card position-relative text-center h-100">
+					<div class="card position-relative text-center h-100" style="height: 400px">
 					  <img src="images/c2.png" class="card-img-top" alt="...">
 					  <h3 class="position-absolute text-center text-white text-uppercase">Стоимость<br>ВИП-пакетов 
 						</h3>
@@ -538,12 +490,6 @@
 					</div>
 				</div>
 
-			</div>
-			<div class="col-xl-12 text-center pt-3 pb-5">
-    		<a href="#!" class="btn btn_header text-white">
-    			<span></span>
-    			Подробнее о ценах
-    		</a>
 			</div>
 		</div>
 	</section>
