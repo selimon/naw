@@ -26,25 +26,6 @@ ul li {
   background-repeat: no-repeat; }
 
 /* line 33, ../sass/style.sass */
-h2 {
-  font-size: 22px; }
-
-/* line 35, ../sass/style.sass */
-h3 {
-  font-size: 20px;
-  font-weight: 400; }
-
-/* line 38, ../sass/style.sass */
-h4 {
-  font-size: 22px;
-  font-weight: 400; }
-
-/* line 41, ../sass/style.sass */
-h6 {
-  font-size: 32px;
-  font-weight: 400; }
-
-/* line 46, ../sass/style.sass */
 #load {
   position: fixed;
   left: 0;
@@ -55,7 +36,7 @@ h6 {
   z-index: 1001;
   overflow: hidden; }
 
-/* line 56, ../sass/style.sass */
+/* line 43, ../sass/style.sass */
 #load i {
   font-size: 70px;
   position: absolute;
@@ -63,22 +44,22 @@ h6 {
   top: 50%;
   margin: -35px 0 0 -35px; }
 
-/* line 64, ../sass/style.sass */
+/* line 51, ../sass/style.sass */
 header {
   overflow: hidden; }
 
-/* line 67, ../sass/style.sass */
+/* line 54, ../sass/style.sass */
 .header_logo {
   background-image: url(/images/fon.png);
   height: auto;
   background-size: cover;
   background-repeat: no-repeat; }
 
-/* line 73, ../sass/style.sass */
+/* line 60, ../sass/style.sass */
 .navbar-light .navbar-nav .nav-link.active {
   color: #a072f2; }
 
-/* line 76, ../sass/style.sass */
+/* line 63, ../sass/style.sass */
 .navbar-nav .fab {
   padding: 5px;
   margin-left: 10px;
@@ -89,7 +70,7 @@ header {
   background: linear-gradient(90deg, #FFFFFF 0%, rgba(206, 198, 198, 0.36) 48.96%, #BEADAD 100%);
   -webkit-transition-duration: 1.2s;
           transition-duration: 1.2s; }
-  /* line 84, ../sass/style.sass */
+  /* line 71, ../sass/style.sass */
   .navbar-nav .fab:hover {
     color: #73017D;
     -webkit-transition-duration: 1.6s;
@@ -99,7 +80,7 @@ header {
     -webkit-transform: rotateY(-360deg);
             transform: rotateY(-360deg); }
 
-/* line 92, ../sass/style.sass */
+/* line 79, ../sass/style.sass */
 .btn_header {
   background-image: linear-gradient(45deg, #e676f9 0%, #9969f1 99%, #9969f1 100%);
   border-radius: 23px;
@@ -111,7 +92,7 @@ header {
   width: 195px;
   height: 45px;
   padding: 10px 0px !important; }
-  /* line 102, ../sass/style.sass */
+  /* line 89, ../sass/style.sass */
   .btn_header::before {
     content: " ";
     position: absolute;
@@ -126,71 +107,83 @@ header {
             transition-duration: 1.3s;
     z-index: -1; }
 
-/* line 113, ../sass/style.sass */
+/* line 100, ../sass/style.sass */
 .btn_header:hover::before {
   left: 0px;
   -webkit-transition-duration: 1.3s;
           transition-duration: 1.3s; }
 
-/* line 120, ../sass/style.sass */
+/* line 107, ../sass/style.sass */
 .header_text {
   padding-bottom: 150px; }
-  /* line 122, ../sass/style.sass */
-  .header_text span {
-    font-size: 16px; }
-  /* line 124, ../sass/style.sass */
-  .header_text::before {
-    content: " ";
-    position: absolute;
-    background-image: url(/images/vector.svg);
-    background-repeat: no-repeat;
-    top: 90%;
-    -webkit-transform: translate(35%, 0%);
-            transform: translate(35%, 0%);
-    width: 100%;
-    height: 100%; }
-  /* line 133, ../sass/style.sass */
-  .header_text .sp4 {
-    color: #a072f2; }
-  /* line 135, ../sass/style.sass */
-  .header_text:before {
-    content: " ";
-    position: absolute;
-    background-image: url(/images/bg-text.svg);
-    background-repeat: no-repeat;
-    top: 90%;
-    -webkit-transform: translate(18%, -10%);
-            transform: translate(18%, -10%);
-    width: 100%;
-    height: 100%; }
+  /* line 109, ../sass/style.sass */
+  .header_text h2 {
+    font-size: 22px; }
+    /* line 111, ../sass/style.sass */
+    .header_text h2 span {
+      font-size: 16px; }
+  /* line 113, ../sass/style.sass */
+  .header_text h3 {
+    font-size: 20px; }
+    /* line 115, ../sass/style.sass */
+    .header_text h3::before {
+      content: " ";
+      position: absolute;
+      background-repeat: no-repeat;
+      top: 90%;
+      -webkit-transform: translate(35%, 0%);
+              transform: translate(35%, 0%);
+      width: 100%;
+      height: 100%; }
+  /* line 123, ../sass/style.sass */
+  .header_text h4 {
+    font-size: 26px; }
+    /* line 125, ../sass/style.sass */
+    .header_text h4 .sp4 {
+      color: #a072f2; }
+    /* line 127, ../sass/style.sass */
+    .header_text h4:before {
+      content: " ";
+      position: absolute;
+      background-repeat: no-repeat;
+      top: 90%;
+      -webkit-transform: translate(18%, -10%);
+              transform: translate(18%, -10%);
+      width: 100%;
+      height: 100%; }
 
-/* line 146, ../sass/style.sass */
+/* line 137, ../sass/style.sass */
 .section-1 {
   padding-bottom: 150px; }
-  /* line 148, ../sass/style.sass */
+  /* line 139, ../sass/style.sass */
   .section-1 .fs-32 {
     font-size: 32px; }
+  /* line 141, ../sass/style.sass */
+  .section-1 h4 {
+    font-size: 22px; }
 
-/* line 152, ../sass/style.sass */
+/* line 144, ../sass/style.sass */
 .vector-img {
-  background-image: url(/images/8layers.png);
   background-position: top;
   background-repeat: no-repeat; }
 
-/* line 157, ../sass/style.sass */
+/* line 148, ../sass/style.sass */
 .text-color {
   color: #a072f2; }
 
-/* line 162, ../sass/style.sass */
-.section2 .fs-32 {
+/* line 152, ../sass/style.sass */
+.section2 {
   font-size: 32px; }
+  /* line 155, ../sass/style.sass */
+  .section2 h3 {
+    font-size: 22px; }
 
-/* line 164, ../sass/style.sass */
+/* line 157, ../sass/style.sass */
 .block-text li {
   font-size: 17px;
   position: relative;
   margin-left: 10px; }
-  /* line 168, ../sass/style.sass */
+  /* line 161, ../sass/style.sass */
   .block-text li::before {
     content: " ";
     position: absolute;
@@ -200,40 +193,42 @@ header {
     border-radius: 23px;
     margin: 10px -10px; }
 
-/* line 178, ../sass/style.sass */
+/* line 171, ../sass/style.sass */
 .section4 {
-  background-image: url(/images/fon2.png);
   background-size: cover;
   padding: 350px 0px 365px 0px; }
-  /* line 182, ../sass/style.sass */
+  /* line 174, ../sass/style.sass */
   .section4 h3 {
+    font-size: 20px;
     top: 100px; }
-    /* line 184, ../sass/style.sass */
+    /* line 177, ../sass/style.sass */
     .section4 h3::before {
       content: " ";
       position: absolute;
       width: 826px;
-      background-image: url(/images/v-text.png);
       background-repeat: no-repeat;
       -webkit-transform: translate(-15%, -60px);
               transform: translate(-15%, -60px);
       height: 200px; }
-    /* line 192, ../sass/style.sass */
+    /* line 184, ../sass/style.sass */
     .section4 h3 span {
       font-size: 17px; }
 
-/* line 198, ../sass/style.sass */
+/* line 189, ../sass/style.sass */
+.section5 h6 {
+  font-size: 32px;
+  font-weight: 400; }
+/* line 192, ../sass/style.sass */
 .section5 h3 {
   font-size: 20px;
   font-weight: 400; }
 
-/* line 202, ../sass/style.sass */
+/* line 196, ../sass/style.sass */
 .text_ab_me {
   padding: 30px 0px 45px 0px; }
-  /* line 204, ../sass/style.sass */
+  /* line 198, ../sass/style.sass */
   .text_ab_me::before {
     content: " ";
-    background-image: url(/images/ab-me.png);
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
@@ -243,17 +238,17 @@ header {
     top: -30px;
     z-index: -1; }
 
-/* line 216, ../sass/style.sass */
+/* line 209, ../sass/style.sass */
 .clients {
   padding: 130px 0px 100px 0px; }
-  /* line 218, ../sass/style.sass */
+  /* line 211, ../sass/style.sass */
   .clients .owl-item img {
     display: inline-block; }
-  /* line 220, ../sass/style.sass */
+  /* line 213, ../sass/style.sass */
   .clients p {
     padding: 0px 80px 0px 80px; }
 
-/* line 223, ../sass/style.sass */
+/* line 216, ../sass/style.sass */
 .clients .owl-nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -264,58 +259,57 @@ header {
   position: absolute;
   width: 100%;
   top: 55%; }
-  /* line 229, ../sass/style.sass */
+  /* line 222, ../sass/style.sass */
   .clients .owl-nav .owl-prev {
-    background-image: url(/images/left.svg) !important;
     background-size: cover;
     background-repeat: no-repeat !important;
     width: 60px;
     height: 60px; }
-    /* line 235, ../sass/style.sass */
+    /* line 227, ../sass/style.sass */
     .clients .owl-nav .owl-prev:hover {
-      background-image: url(/images/left1.svg) !important;
       background: transparent;
       color: inherit;
       background-repeat: no-repeat !important; }
-  /* line 240, ../sass/style.sass */
+  /* line 231, ../sass/style.sass */
   .clients .owl-nav .owl-next {
-    background-image: url(/images/right.svg) !important;
     background-size: cover;
     background-repeat: no-repeat !important;
     width: 60px;
     height: 60px; }
-    /* line 246, ../sass/style.sass */
+    /* line 236, ../sass/style.sass */
     .clients .owl-nav .owl-next:hover {
-      background-image: url(/images/right1.svg) !important;
       background-size: cover;
       background-repeat: no-repeat !important;
       color: inherit;
       background: transparent; }
 
-/* line 253, ../sass/style.sass */
+/* line 242, ../sass/style.sass */
 .clients .owl-dot.active span {
   background: #9969f1 !important; }
 
-/* line 258, ../sass/style.sass */
+/* line 247, ../sass/style.sass */
 .section6 h6 {
+  font-size: 32px;
+  font-weight: 400;
   padding-bottom: 140px; }
 
-/* line 260, ../sass/style.sass */
+/* line 251, ../sass/style.sass */
 .card {
   height: 400px; }
-  /* line 262, ../sass/style.sass */
+  /* line 253, ../sass/style.sass */
   .card h3 {
+    font-size: 20px;
     top: 10%;
     width: 100%; }
-  /* line 265, ../sass/style.sass */
+  /* line 257, ../sass/style.sass */
   .card .btn {
     top: 17%; }
 
-/* line 268, ../sass/style.sass */
+/* line 260, ../sass/style.sass */
 .card-text {
   font-size: 13px; }
 
-/* line 272, ../sass/style.sass */
+/* line 264, ../sass/style.sass */
 .card-title::before {
   content: " ";
   position: absolute;
@@ -327,25 +321,26 @@ header {
   margin: 0 auto;
   top: 65px; }
 
-/* line 284, ../sass/style.sass */
+/* line 276, ../sass/style.sass */
 .section7 {
   padding-bottom: 35px; }
 
-/* line 286, ../sass/style.sass */
+/* line 278, ../sass/style.sass */
 .bg-soc {
-  background-image: url(/images/girl.png);
   background-repeat: no-repeat;
   background-position: top right; }
 
-/* line 292, ../sass/style.sass */
+/* line 283, ../sass/style.sass */
 .block_soc_link h4 {
+  font-size: 26px;
+  font-weight: 400;
   padding: 100px 0px 0px 0px; }
 
-/* line 296, ../sass/style.sass */
+/* line 289, ../sass/style.sass */
 .block_links img {
   height: 30px; }
 
-/* line 301, ../sass/style.sass */
+/* line 294, ../sass/style.sass */
 .footer {
   background: #9969f1; }
 

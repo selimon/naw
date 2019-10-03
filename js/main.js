@@ -8,7 +8,7 @@ $('.clients').owlCarousel({
     loop:true,
     margin:10,
     nav:true,
-    navText: ["",""],
+    navText: ["<img src='images/left1.svg'>","<img src='images/right1.svg'>"],
     responsive:{
         0:{
             items:1
