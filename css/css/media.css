@@ -1,0 +1,12 @@
+@media (min-width: 1025px) {
+  /* line 2, ../sass/media.sass */
+  .navbar-expand-lg {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start; } }
+
+/*# sourceMappingURL=media.css.map */
