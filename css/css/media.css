@@ -10,17 +10,21 @@
 
   /* line 8, ../sass/media.sass */
   .header_logo {
-    padding-bottom: 150px; } }
+    padding-bottom: 150px; }
+
+  /* line 10, ../sass/media.sass */
+  .text-mb-center {
+    text-align: center; } }
 @media (max-width: 575px) and (min-width: 320px) {
-  /* line 13, ../sass/media.sass */
+  /* line 15, ../sass/media.sass */
   .fs-32 {
     font-size: 22px; }
 
-  /* line 15, ../sass/media.sass */
+  /* line 17, ../sass/media.sass */
   .ord {
     display: none; }
 
-  /* line 17, ../sass/media.sass */
+  /* line 19, ../sass/media.sass */
   .ord-1 {
     display: block; } }
 
