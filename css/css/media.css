@@ -1,12 +1,27 @@
-@media (min-width: 1025px) {
+@media (max-width: 4000px) and (min-width: 575px) {
   /* line 2, ../sass/media.sass */
-  .navbar-expand-lg {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: row nowrap;
-            flex-flow: row nowrap;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start; } }
+  .ord-1 {
+    display: none; } }
+@media (max-width: 768px) and (min-width: 320px) {
+  /* line 5, ../sass/media.sass */
+  .section4 h3::before {
+    display: none;
+    content: ""; }
+
+  /* line 8, ../sass/media.sass */
+  .header_logo {
+    padding-bottom: 150px; } }
+@media (max-width: 575px) and (min-width: 320px) {
+  /* line 13, ../sass/media.sass */
+  .fs-32 {
+    font-size: 22px; }
+
+  /* line 15, ../sass/media.sass */
+  .ord {
+    display: none; }
+
+  /* line 17, ../sass/media.sass */
+  .ord-1 {
+    display: block; } }
 
 /*# sourceMappingURL=media.css.map */

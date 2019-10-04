@@ -42,11 +42,17 @@ h2
 	font-size: $fs22
 h3 
 	font-size: $fs20
+@media (max-width: 575px) and (min-width: 320px)
+	h3 
+		font-size: 16px
 h4 
 	font-size: $fs26
 h6 
 	font-size: $fs32
-	font-weight: 400
+	font-weight: 400	
+@media (max-width: 575px) and (min-width: 320px)
+	h6 
+		font-size: 23px
 
 // preloader 
 #load
@@ -230,7 +236,7 @@ header
 	justify-content: space-between
 	position: absolute
 	width: 100%
-	top: 55%
+	top: 35%
 	.owl-prev
 		background-size: cover 
 		background-repeat: no-repeat!important
@@ -263,7 +269,7 @@ header
 .card 
 	height: 400px
 	h3 
-		font-size: 20px
+		font-size: 15px
 		top: 10%
 		width: 100%
 	.btn 
