@@ -389,11 +389,41 @@ header {
   padding: 0px 30px;
   color: white; }
 
+/* line 333, ../sass/style.sass */
+.slick-prev:before, .slick-next:before {
+  color: black; }
+
 /* line 336, ../sass/style.sass */
+.slick-next {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: auto;
+  bottom: -30px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  right: 0px;
+  z-index: 9; }
+
+/* line 343, ../sass/style.sass */
+.slick-prev {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: auto;
+  bottom: -30px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  left: 0px;
+  z-index: 9; }
+
+/* line 354, ../sass/style.sass */
 .card {
   height: auto; }
 
-/* line 339, ../sass/style.sass */
+/* line 357, ../sass/style.sass */
 .card-be::before {
   content: "";
   background-repeat: no-repeat;
@@ -403,12 +433,12 @@ header {
   background-position: center;
   bottom: 0px; }
 
-/* line 350, ../sass/style.sass */
+/* line 368, ../sass/style.sass */
 .blog-input input {
   width: 100%;
   border-bottom: 1px solid #d4d0df !important;
   border: transparent; }
-/* line 354, ../sass/style.sass */
+/* line 372, ../sass/style.sass */
 .blog-input ::-webkit-input-placeholder {
   color: #5f5d62;
   padding: 0px 10px; }
