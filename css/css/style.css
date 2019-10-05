@@ -393,6 +393,26 @@ header {
 .card {
   height: auto; }
 
+/* line 339, ../sass/style.sass */
+.card-be::before {
+  content: "";
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  background-position: center;
+  bottom: 0px; }
+
+/* line 350, ../sass/style.sass */
+.blog-input input {
+  width: 100%;
+  border-bottom: 1px solid #d4d0df !important;
+  border: transparent; }
+/* line 354, ../sass/style.sass */
+.blog-input ::-webkit-input-placeholder {
+  color: #5f5d62;
+  padding: 0px 10px; }
+
 @media (max-width: 4000px) and (min-width: 575px) {
   /* line 2, ../sass/media.sass */
   .ord-1 {
