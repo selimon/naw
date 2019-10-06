@@ -17,7 +17,7 @@
     text-align: center; } }
 @media (max-width: 575px) and (min-width: 320px) {
   /* line 15, ../sass/media.sass */
-  .fs-32 {
+  .section-1 .fs-32, .fs-32 {
     font-size: 22px; }
 
   /* line 17, ../sass/media.sass */
@@ -26,6 +26,14 @@
 
   /* line 19, ../sass/media.sass */
   .ord-1 {
-    display: block; } }
+    display: block; }
+
+  /* line 21, ../sass/media.sass */
+  .card h3 {
+    font-size: 22px; }
+
+  /* line 23, ../sass/media.sass */
+  .section4 h3 {
+    font-size: 27px; } }
 
 /*# sourceMappingURL=media.css.map */

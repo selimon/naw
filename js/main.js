@@ -6,7 +6,7 @@ $(window).on('load', function () {
 // slick 
 $('.sl').slick({
   dots: true,
-  infinite: false,
+  infinite: true,
   speed: 300,
   slidesToShow: 5,
   slidesToScroll: 5,
