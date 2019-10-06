@@ -10,7 +10,7 @@
 
   /* line 8, ../sass/media.sass */
   .header_logo {
-    padding-bottom: 150px; }
+    padding-bottom: 0px; }
 
   /* line 10, ../sass/media.sass */
   .text-mb-center {
@@ -34,6 +34,22 @@
 
   /* line 23, ../sass/media.sass */
   .section4 h3 {
-    font-size: 27px; } }
+    font-size: 27px; }
+
+  /* line 25, ../sass/media.sass */
+  .section4 {
+    padding: 100px 0px 150px 0px; }
+
+  /* line 27, ../sass/media.sass */
+  .header_text {
+    padding-bottom: 80px; }
+
+  /* line 29, ../sass/media.sass */
+  section.sl-slide {
+    margin-bottom: 60px; }
+
+  /* line 31, ../sass/media.sass */
+  .section2 .card-be::before {
+    display: block; } }
 
 /*# sourceMappingURL=media.css.map */

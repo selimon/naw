@@ -89,6 +89,11 @@ header
 .navbar-light .navbar-nav .nav-link.active 
 	color: $col-pink
 
+.navbar-toggler
+	position: absolute 
+	right: -5px 
+	top: 10px
+
 .navbar-nav .fab 
 	padding: 5px
 	margin-left: 10px
@@ -103,6 +108,8 @@ header
 		transform-style: preserve-3d
 		transform: rotateY(-360deg)
 
+.pbb-5 
+	padding-bottom: 3rem
 // style_btn
 
 .btn_header
@@ -166,6 +173,7 @@ header
 	.fs-32
 		font-size: $fs32
 
+
 .vector-img 
 	background-position: top
 	background-repeat: no-repeat
@@ -175,8 +183,10 @@ header
 
 // section-2
 .section2 
-	.fs-32 
-	font-size: $fs32
+	.fs-32 	
+		font-size: $fs32
+	.card-be::before
+		display: none
 .block-text li
 	font-size: 17px
 	position: relative
@@ -334,17 +344,19 @@ header
 .slick-next 
 	display: flex 
 	top: auto 
-	bottom: -85px
+	bottom: -95px
 	justify-content: flex-end
 	right: 0px 
 	z-index: 9
+	background-repeat: no-repeat
 .slick-prev 
 	display: flex 
 	top: auto 
-	bottom: -85px
+	bottom: -95px
 	justify-content: flex-end
 	left: 0px 
 	z-index: 9
+	background-repeat: no-repeat
 
 
 
