@@ -17,8 +17,9 @@
 		input[type="radio"]:checked::before{
 			background-image: url(images/check.png)
 		}
-		input[type=checkbox]:checked::before{
-			background-image: url(images/chech.png)
+		input[type=checkbox]:checked+.form-check-label::before{
+			background-image: url(images/chech.png);
+			background-repeat: no-repeat;
 		}
 		.bg-fon2{
 			background-image: url(images/fon2.png);
@@ -117,16 +118,16 @@
 			</div>
 			<div class="block-check d-flex flex-column position-relative">
 				<div class="d-flex align-items-start pt-2 pl-3">
-					<input type="radio" name="myRadios" onchange="handleChange1();" class="position-relative" value="1"/>
-	  			<label for="scales" class="font-weight-bold pl-3">М (40-46) 4 пары</label>
+					<input type="radio" name="myRadios" onchange="handleChange1();" class="position-relative" value="1" id="1" />
+	  			<label for="1" class="font-weight-bold pl-3">М (40-46) 4 пары</label>
   			</div>
   			<div class="d-flex align-items-start pt-2 pl-3">
-					<input type="radio" name="myRadios" onchange="handleChange2();" class="position-relative" value="2" />
-  				<label for="scales" class="font-weight-bold pl-3">Ж (34-41) 4 пары</label>
+					<input type="radio" name="myRadios" onchange="handleChange2();" class="position-relative" value="2" id="2" />
+  				<label for="2" class="font-weight-bold pl-3">Ж (34-41) 4 пары</label>
   			</div>
   			<div class="d-flex align-items-start pt-2 pb-4 pl-3">
-					<input type="radio" name="myRadios" onchange="handleChange3();" class="position-relative" value="3" />
-  				<label for="scales" class="font-weight-bold pl-3">М (40-46) + Ж (34-41) 2+2 пары</label>
+					<input type="radio" name="myRadios" onchange="handleChange3();" class="position-relative" value="3" id="3" />
+  				<label for="3" class="font-weight-bold pl-3">М (40-46) + Ж (34-41) 2+2 пары</label>
   			</div>
   			<form class="pl-4">
 					 <div class="form-group">
@@ -137,13 +138,16 @@
 				<form action="#!" class="pl-4 m-auto ">
 					<a href="#" class="btn btn-theme font-weight-bold position-relative" role="button">Оформить заказ</a>
 				</form>
+
 				<div class="form-check pl-5 pb-4 border-bottom">
-					<input class="form-check-input position-relative d-flex align-items-start" type="checkbox" value="" id="defaultCheck1" checked="">
-					<label class="form-check-label" for="defaultCheck1">
-					  Согласен на обработку персональных данных
+					<input class="input form-check-input position-relative align-items-start" type="checkbox" value="" id="defaultCheck1" checked="">
+					<label class="form-check-label d-flex">
+					</label>
+					<label for="defaultCheck1" style="font-size: 11px">Согласен на обработку персональных данных
 						в соответствии с <span class="font-weight-bold"><a href="document/position.pdf">Положением</a></span> и <span class="font-weight-bold">Согласием</span>
 					</label>
 				</div>
+
 				<ul class="nav flex-column">
 				  <li class="nav-item position-relative d-flex pl-3 pt-1">
 				  	<span><img src="images/ic1.png" alt=""></span>

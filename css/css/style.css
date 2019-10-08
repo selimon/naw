@@ -181,50 +181,61 @@ input[type=tel] {
     left: 110%;
     opacity: 1;
     filter: alpha(opacity=0); } }
-/* line 141, ../sass/style.sass */
+/* line 142, ../sass/style.sass */
+.form-check input {
+  display: none; }
+
+/* line 145, ../sass/style.sass */
 .form-check-label {
-  font-size: 11px; }
-
-/* line 143, ../sass/style.sass */
-input[type=checkbox] {
-  outline: none;
+  width: 14px;
+  height: 14px;
+  border: 1px solid #aeacac;
+  margin: 0px -10px;
+  position: relative;
+  left: -7px;
   top: 15px; }
-  /* line 146, ../sass/style.sass */
-  input[type=checkbox]:checked::before {
+  /* line 153, ../sass/style.sass */
+  .form-check-label::before {
     content: "";
-    width: 20px;
-    height: 20px;
     position: absolute;
-    top: -7.2px; }
+    width: 20px;
+    height: 30px; }
 
-/* line 155, ../sass/style.sass */
+/* line 158, ../sass/style.sass */
+input[type=checkbox] + .form-check-label::before {
+  content: "";
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  top: -5px; }
+
+/* line 180, ../sass/style.sass */
 .slick-slide img {
   display: inherit; }
 
-/* line 157, ../sass/style.sass */
+/* line 182, ../sass/style.sass */
 .slick-prev:before, .slick-next:before {
   display: none; }
 
-/* line 159, ../sass/style.sass */
+/* line 184, ../sass/style.sass */
 .slick-next {
   right: 0px;
   z-index: 9; }
 
-/* line 162, ../sass/style.sass */
+/* line 187, ../sass/style.sass */
 .slick-prev {
   left: 0px;
   z-index: 9; }
 
-/* line 165, ../sass/style.sass */
+/* line 190, ../sass/style.sass */
 .slick-prev,
 .slick-next {
   width: 30px;
   height: 60px; }
 
-/* line 170, ../sass/style.sass */
+/* line 195, ../sass/style.sass */
 .img-be {
   padding-top: 20px; }
-  /* line 172, ../sass/style.sass */
+  /* line 197, ../sass/style.sass */
   .img-be::before {
     content: "";
     position: absolute;

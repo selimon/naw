@@ -138,17 +138,42 @@ input[type=tel]
 		filter: alpha(opacity=0)
 
 // chech
+.form-check 
+	input
+		display: none 
+
 .form-check-label 
-	font-size: 11px
-input[type=checkbox]
-	outline: none
+	width: 14px 
+	height: 14px 
+	border: 1px solid #aeacac
+	margin: 0px -10px
+	position: relative 
+	left: -7px 
 	top: 15px
-	&:checked::before 
+	&::before 
 		content: ""
-		width: 20px
-		height: 20px
-		position: absolute
-		top: -7.2px
+		position: absolute 
+		width: 20px 
+		height: 30px
+input[type=checkbox]+.form-check-label::before 
+	content: ""
+	transform: scale(1)
+	top: -5px
+
+// input[type=checkbox]
+// 	outline: none
+// 	top: 15px
+// 	&:checked::before 
+// 		content: ""
+// 		width: 20px
+// 		height: 20px
+// 		position: absolute
+// 		// top: -7.2px
+// 		visibility: visible
+
+
+
+
 
 // section2 
 // section5 

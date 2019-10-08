@@ -29,7 +29,9 @@ $('.sl').slick({
       breakpoint: 575,
       settings: {
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,  
+        autoplaySpeed: 3000,
+        autoplay: true,
       }
     }
     // You can unslick at a given breakpoint now by adding:
