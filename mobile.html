@@ -94,7 +94,7 @@
 					</div>
 				</div>
 				<!-- block-timer -->
-				<div class="bg-timer">
+				<div class="bg-timer position-relative">
 					<div class="row no-gutters">
 						<div class="col-auto position-relative">
 							<img src="images/label-2.png" alt="" class="ml-4">
@@ -136,7 +136,7 @@
 					 </div>
 				</form>
 				<form action="#!">
-					<a href="#" class="btn btn-theme font-weight-bold position-relative" role="button">Оформить заказ</a>
+					<a href="#!" class="btn btn-theme font-weight-bold position-relative" data-toggle="modal" data-target="#exampleModalCenter" role="button">Оформить заказ</a>
 				</form>
 
 				<div class="form-check pb-4 border-bottom">
@@ -151,13 +151,14 @@
 				<ul class="nav flex-column">
 				  <li class="nav-item position-relative d-flex pt-1">
 				  	<span><img src="images/ic1.png" alt=""></span>
-				  	<p class="fw mb-0 align-self-end fs12">Доставка по РФ 4-9 дней Почтой России</p>
+				  	<p class="fw mb-0 align-self-end pl-3 fs12">Доставка по РФ 4-9 дней Почтой России</p>
 				  </li>
 				  <li class="nav-item position-relative d-flex pt-0">
 				  	<span><img src="images/ic2.png" alt=""></span>
 				  	<p class="fw mb-0 pl-3 align-self-end fs12">Стоимость 350р</p>
 				  </li>
 				</ul>
+
 			</div>
 		</div>
 	</section>
@@ -177,7 +178,7 @@
 				<div class="block-img pb-5">
 
 					<div class="col-xl-12">
-						<video class="embed-responsive embed-responsive-16by9" controls="controls" poster="images/img1.png">
+						<video class="embed-responsive embed-responsive-16by9" controls="controls" poster="images/img1.png" loop="true" autoplay="true">
 							<source src="video/1.mp4" type="video/mp4">
 					</div>
 					<div class="col-xl-12 pt-2 pb-2">
@@ -185,7 +186,7 @@
 					</div>
 
 					<div class="col-xl-12">
-						<video class="embed-responsive embed-responsive-16by9" controls="controls" poster="images/img2.png">
+						<video class="embed-responsive embed-responsive-16by9" controls="controls" poster="images/img2.png" loop="true" autoplay="true">
 							<source src="video/2.mp4" type="video/mp4">
 					</div>
 					<div class="col-xl-12 pt-2 pb-2">
@@ -193,7 +194,7 @@
 					</div>
 
 					<div class="col-xl-12">
-						<video class="embed-responsive embed-responsive-16by9" controls="controls" poster="images/img3.png">
+						<video class="embed-responsive embed-responsive-16by9" controls="controls" poster="images/img3.png" loop="true" autoplay="true">
 							<source src="video/3.mp4" type="video/mp4">
 					</div>
 					<div class="col-xl-12 pt-2 pb-2">
@@ -206,14 +207,6 @@
 		<div class="container">
 			<div class="text-center">					
 				<img src="images/fire.png" alt="">
-					<h4 class="text-uppercase fw">ПОЧЕМУ ТЕРМОНОСКИ АЛЯСКА</h4>
-					<h5 class="font-weight-bold text-uppercase">ВАШ ЛУЧШИЙ ВЫБОР ?</h5>
-					<div class="embed-responsive embed-responsive-16by9">
-					  <iframe width="560" height="315" src="https://www.youtube.com/embed/hxJGeDisdQU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-					</div>	
-					<form action="#!" class="pl-4 m-auto pt-3">
-						<a href="#" class="btn btn-theme font-weight-bold position-relative" role="button">Оформить заказ</a>
-					</form>
 			</div>
 		</div>
 	</section>
@@ -241,6 +234,13 @@
 				  	<span class="font-weight-bold mb-0 pl-4 align-self-end fs18">СОХРАНЯЮТ ВАШИ НОГИ ТЕПЛЫМИ</span>
 				  </li>
 				</ul>
+			<div class="text-center pb-3">
+					<h4 class="text-uppercase fw">ПОЧЕМУ ТЕРМОНОСКИ АЛЯСКА</h4>
+					<h5 class="font-weight-bold text-uppercase">ВАШ ЛУЧШИЙ ВЫБОР ?</h5>	
+					<form action="#!" class="pl-4 m-auto pt-3">
+						<a href="#!" class="btn btn-theme font-weight-bold position-relative" data-toggle="modal" data-target="#exampleModalCenter1" role="button">Оформить заказ</a>
+					</form>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -279,6 +279,46 @@
 			</div>
 		</div>
 	</section>
+
+
+
+
+	<!-- modal-window -->
+	<!-- Modal -->
+		<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog">
+		  <div class="modal-dialog modal-dialog-centered" role="document">
+		    <div class="modal-content border-0">
+		      <div class="modal-body text-center">
+		      	<button type="button" class="close" data-dismiss="modal">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		        <img src="images/fire.png" alt="" class="pt-3 pb-2">
+		        <h4 class="font-weight-bold pb-2">Спасибо за ваш заказ!</h4>
+			        <p>Наш менеджер перезвонит 
+								в течение 15 минут, чтобы уточнить
+								детали заказа
+							</p>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog">
+		  <div class="modal-dialog modal-dialog-centered" role="document">
+		    <div class="modal-content border-0">
+		      <div class="modal-body text-center">
+		      	<button type="button" class="close" data-dismiss="modal">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		        <img src="images/fire.png" alt="" class="pt-3 pb-2">
+		        <h4 class="font-weight-bold pb-2">Спасибо за ваш заказ!</h4>
+			        <p>Наш менеджер перезвонит 
+								в течение 15 минут, чтобы уточнить
+								детали заказа
+							</p>
+		      </div>
+		    </div>
+		  </div>
+		</div>
 	<!-- scripts -->
 	<script
 	  src="https://code.jquery.com/jquery-3.4.1.js"
