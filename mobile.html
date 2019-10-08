@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="css/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/css/slick.css">
+	<link rel="stylesheet" type="text/css" href="css/css/slick-theme.css">
+	<title>home page</title>
+	<link rel="stylesheet" type="text/css" href="css/css/style.css">
+</head>
+<body>
+	<style>
+		.head-bg{
+			background-image: url(images/sec1.png)
+		}
+		input[type="radio"]:checked::before{
+			background-image: url(images/check.png)
+		}
+		input[type=checkbox]:checked::before{
+			background-image: url(images/chech.png)
+		}
+		.bg-fon2{
+			background-image: url(images/fon2.png);
+			background-position: top
+		}
+		.bg-fon4 {
+			background-image: url(images/fon3.png);
+		}
+		.slick-next {
+			background-image: url(images/right.svg);
+			background-repeat: no-repeat;
+		}
+		.slick-next:hover {	
+			background-image: url(images/right.svg);
+			background-repeat: no-repeat;
+		}
+		.slick-prev {
+			background-image: url(images/left.svg);
+			background-repeat: no-repeat;
+		}
+		.slick-prev:hover {	
+			background-image: url(images/left.svg);
+			background-repeat: no-repeat;
+		}
+		.img-be::before {
+			background-image: url(images/b-img.png);
+		}
+	</style>
+
+	<!-- section1 -->
+
+	<section class="section1">
+		<div class="container p-0">
+			<div class="head-bg bg-repeat pb-3 pt-3 pb-5">
+
+				<div class="head-block pt-1 pb-1">
+					<div class="row align-self-center no-gutters">
+						<div class="col-auto pl-4 no-gutters"><img src="images/logo.svg" alt=""></div>
+						<div class="no-gutters align-self-end"><h1 class="text-uppercase font-weight-bold mb-0">ТЕРМОНОСКИ АЛЯСКА</h1></div>
+					</div>
+				</div>
+				<div class="text-head">
+					<ul class="nav flex-column">
+					  <li class="nav-item position-relative d-flex pl-3 pt-2">
+					  	<span><img src="images/im1.png" alt=""></span>
+					  	<p class="text-uppercase font-weight-bold mb-0 pl-3 align-self-end">УНИВЕРСАЛЬНЫЙ РАЗМЕР</p>
+					  </li>
+					  <li class="nav-item position-relative d-flex pl-3 pt-2">
+					  	<span><img src="images/im2.png" alt=""></span>
+					  	<p class="text-uppercase font-weight-bold mb-0 pl-3 align-self-end">ДЛЯ ЛЮБОЙ ОБУВИ</p>
+					  </li>
+					  <li class="nav-item position-relative d-flex pl-3 pt-2">
+					  	<span><img src="images/im3.png" alt=""></span>
+					  	<p class="text-uppercase font-weight-bold mb-0 pl-3 align-self-end">НЕ ПРОМОКАЮТ</p>
+					  </li>
+					</ul>
+				</div>
+
+			`	<!-- head_content -->
+				<div class="pt-4">
+					<h2 class="text-uppercase text-red pl-4">АКЦИЯ!</h2>
+					<div class="position-relative pt-2">
+						<img src="images/emblema.png" alt="">
+						<div class="ab-text position-absolute d-flex flex-column">
+							 	<span class="justify-content-end d-flex" style="text-decoration: line-through;">3 300р</span>
+							 	<span class="text-center text-uppercase font-weight-bold text-white pbb-2" style="font-size: 30px" >990р</span>
+							 	<span class="text-center text-white d-flex justify-content-end" style="font-size: 12px">ЗА 2 ПАРЫ НОСКОВ!</span>
+						</div>
+					</div>
+					<div class="pt-3 pl-3 pbb-5">
+						<img src="images/label.png" alt="">
+					</div>
+				</div>
+				<!-- block-timer -->
+				<div class="bg-timer">
+					<div class="row no-gutters">
+						<div class="col-auto position-relative">
+							<img src="images/label-2.png" alt="" class="ml-4">
+						</div>
+						<div class="text-center pt-0 pl-3">
+							<p class="text-uppercase font-weight-bold mb-1">ДО КОНЦА АКЦИИ ОСТАЛОСЬ:</p>
+							<div class="timer">
+								<script src="//megatimer.ru/get/e03e32efc11b0cbf246dc1b19b1ffef0.js"></script>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="pb-3">
+		<div class="container">
+			<div class="text-center">
+				<h4 class="font-weight-bold pt-4 pb-4">Выберите свой комплект</h4>
+			</div>
+			<div class="block-check d-flex flex-column position-relative">
+				<div class="d-flex align-items-start pt-2 pl-3">
+					<input type="radio" name="myRadios" onchange="handleChange1();" class="position-relative" value="1"/>
+	  			<label for="scales" class="font-weight-bold pl-3">М (40-46) 4 пары</label>
+  			</div>
+  			<div class="d-flex align-items-start pt-2 pl-3">
+					<input type="radio" name="myRadios" onchange="handleChange2();" class="position-relative" value="2" />
+  				<label for="scales" class="font-weight-bold pl-3">Ж (34-41) 4 пары</label>
+  			</div>
+  			<div class="d-flex align-items-start pt-2 pb-4 pl-3">
+					<input type="radio" name="myRadios" onchange="handleChange3();" class="position-relative" value="3" />
+  				<label for="scales" class="font-weight-bold pl-3">М (40-46) + Ж (34-41) 2+2 пары</label>
+  			</div>
+  			<form class="pl-4">
+					 <div class="form-group">
+					   	<label for="exampleInputEmail1">Введите ваш телефон:</label>
+					   	<input type="tel" class="form-control w-75 border-0" id="phone">
+					 </div>
+				</form>
+				<form action="#!" class="pl-4 m-auto ">
+					<a href="#" class="btn btn-theme font-weight-bold position-relative" role="button">Оформить заказ</a>
+				</form>
+				<div class="form-check pl-5 pb-4 border-bottom">
+					<input class="form-check-input position-relative d-flex align-items-start" type="checkbox" value="" id="defaultCheck1" checked="">
+					<label class="form-check-label" for="defaultCheck1">
+					  Согласен на обработку персональных данных
+						в соответствии с <span class="font-weight-bold"><a href="document/position.pdf">Положением</a></span> и <span class="font-weight-bold">Согласием</span>
+					</label>
+				</div>
+				<ul class="nav flex-column">
+				  <li class="nav-item position-relative d-flex pl-3 pt-1">
+				  	<span><img src="images/ic1.png" alt=""></span>
+				  	<p class="fw mb-0 pl-3 align-self-end fs12">Доставка по РФ 4-9 дней Почтой России</p>
+				  </li>
+				  <li class="nav-item position-relative d-flex pl-3 pt-0">
+				  	<span><img src="images/ic2.png" alt=""></span>
+				  	<p class="fw mb-0 pl-3 align-self-end fs12">Стоимость 350р</p>
+				  </li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<!-- section3 -->
+
+	<section class="pt-5 pb-5">
+		<div class="container p-0">
+			<div class="bg-fon2 bg-repeat">
+				<div class="text-center">
+					<div class="pb-3">
+						<img src="images/fire.png" alt="">
+						<h4 class="text-uppercase fw">ТЕРМОНОСКИ АЛЯСКА</h4>
+						<h5 class="font-weight-bold text-uppercase">СОЗДАНЫ ДЛЯ МАКСИМАЛЬНОГО КОМФОРТА</h5>
+					</div>
+				</div>
+				<div class="block-img pb-5">
+
+					<div class="col-xl-12">
+						<video class="embed-responsive embed-responsive-16by9" controls="controls" poster="images/img1.png">
+							<source src="video/1.mp4" type='video/ogg; codecs="theora, vorbis"'>
+					</div>
+					<div class="col-xl-12 pt-2 pb-2">
+					<h5 class="fw">Согреют ваши ноги в любой обуви и в любую погоду</h5>
+					</div>
+
+					<div class="col-xl-12">
+						<video class="embed-responsive embed-responsive-16by9" controls="controls" poster="images/img2.png">
+							<source src="video/2.mp4" type='video/ogg; codecs="theora, vorbis"'>
+					</div>
+					<div class="col-xl-12 pt-2 pb-2">
+					<h5 class="fw">Отлично отводят влагу, при этом бережно сохраняя тепло</h5>
+					</div>
+
+					<div class="col-xl-12">
+						<video class="embed-responsive embed-responsive-16by9" controls="controls" poster="images/img3.png">
+							<source src="video/3.mp4" type='video/ogg; codecs="theora, vorbis"'>
+					</div>
+					<div class="col-xl-12 pt-2 pb-2">
+					<h5 class="fw">Препятствуют образованию грибка и неприятного запаха</h5>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="text-center">					
+				<img src="images/fire.png" alt="">
+					<h4 class="text-uppercase fw">ПОЧЕМУ ТЕРМОНОСКИ АЛЯСКА</h4>
+					<h5 class="font-weight-bold text-uppercase">ВАШ ЛУЧШИЙ ВЫБОР ?</h5>
+					<div class="embed-responsive embed-responsive-16by9">
+					  <iframe width="560" height="315" src="https://www.youtube.com/embed/hxJGeDisdQU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>	
+					<form action="#!" class="pl-4 m-auto pt-3">
+						<a href="#" class="btn btn-theme font-weight-bold position-relative" role="button">Оформить заказ</a>
+					</form>
+			</div>
+		</div>
+	</section>
+
+	<!-- section4 -->
+
+	<section>
+		<div class="container p-0 no-gutters">
+			<div class="bg-fon4 bg-repeat">
+				<ul class="nav flex-column pt-5 pb-5">
+				  <li class="nav-item position-relative d-flex pl-3 pt-2">
+				  	<span><img src="images/v-1.png" alt="" style="width: 56px"></span>
+				  	<span class="font-weight-bold mb-0 pl-4 align-self-end fs18">3-Х СЛОЙНЫЙ ДЫШАЩИЙ МАТЕРИАЛ</span>
+				  </li>
+				  <li class="nav-item position-relative d-flex pl-3 pt-2">
+				  	<span><img src="images/v2.png" alt="" style="width: 53px"></span>
+				  	<span class="font-weight-bold mb-0 pl-4 align-self-end fs18">ПОДХОДИТ ДЛЯ ЛЮБОГО СЕЗОНА</span>
+				  </li>
+				  <li class="nav-item position-relative d-flex pl-3 pt-2">
+				  	<span><img src="images/v3.png" alt="" style="width: 51px"></span>
+				  	<span class="font-weight-bold mb-0 pl-4 align-self-end fs18">НЕ ПРОПУСКАЮТ<br>ХОЛОД</span>
+				  </li>
+				  <li class="nav-item position-relative d-flex pl-3 pt-2">
+				  	<span><img src="images/v4.png" alt="" style="width: 56px"></span>
+				  	<span class="font-weight-bold mb-0 pl-4 align-self-end fs18">СОХРАНЯЮТ ВАШИ НОГИ ТЕПЛЫМИ</span>
+				  </li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<!-- section-5-carousel -->
+
+	<section class="pt-5">
+		<div class="container">
+			<div class="text-center">					
+				<img src="images/fire.png" alt="">
+					<h4 class="text-uppercase fw">ТЕРМОНОСКИ АЛЯСКА</h4>
+					<h5 class="font-weight-bold text-uppercase">ПОДХОДЯТ ДЛЯ</h5>
+			</div>
+			<!-- slider -->
+			<div class="sl">
+				<div class="text-center img-be position-relative">
+					<img src="images/s1.png" alt="" class="">
+					<h5 class="font-weight-bold text-uppercase pt-3">ДАЧИ</h5>
+				</div>
+				<div class="text-center img-be">
+					<img src="images/s2.png" alt="">
+					<h5 class="font-weight-bold text-uppercase pt-3">ДОЛГИХ ПРОГУЛОК</h5>
+				</div>
+				<div class="text-center img-be">
+					<img src="images/s3.png" alt="">
+					<h5 class="font-weight-bold text-uppercase pt-3">ДОМА</h5>
+				</div>
+				<div class="text-center img-be">
+					<img src="images/s4.png" alt="">
+					<h5 class="font-weight-bold text-uppercase pt-3">РАБОТЫ</h5>
+				</div>
+				<div class="text-center img-be">
+					<img src="images/s5.png" alt="">
+					<h5 class="font-weight-bold text-uppercase pt-3">ЗИМНЕГО ОТДЫХА/СПОРТА</h5>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- scripts -->
+	<script
+	  src="https://code.jquery.com/jquery-3.4.1.js"
+	  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+	  crossorigin="anonymous">
+  </script>
+	<script src="js/bootstrap.min.js" async=""></script>
+	<script src="https://kit.fontawesome.com/e21f7d7287.js"></script>
+	<script src="js/slick.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+</html>
