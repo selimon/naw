@@ -21,5 +21,13 @@
   /* line 12, ../sass/media.sass */
   .fs18 {
     font-size: 14px; } }
+@media (max-width: 414px) and (min-width: 411px) {
+  /* line 16, ../sass/media.sass */
+  .pbb-5 {
+    padding-bottom: 150px; } }
+@media (max-width: 375px) {
+  /* line 20, ../sass/media.sass */
+  .pbb-5 {
+    padding-bottom: 109px; } }
 
 /*# sourceMappingURL=media.css.map */
