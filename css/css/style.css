@@ -11,61 +11,65 @@ h1 {
 h6 {
   color: #4F4846; }
 
-/* line 14, ../sass/style.sass */
+/* line 16, ../sass/style.sass */
+.activen {
+  background-color: floralwhite; }
+
+/* line 18, ../sass/style.sass */
 .fon {
   background-repeat: no-repeat;
   background-size: cover; }
 
-/* line 17, ../sass/style.sass */
+/* line 21, ../sass/style.sass */
 .logo {
   padding-left: 60px; }
 
-/* line 19, ../sass/style.sass */
+/* line 23, ../sass/style.sass */
 .btn-floating.btn-lg i {
   line-height: 40px; }
 
-/* line 21, ../sass/style.sass */
+/* line 25, ../sass/style.sass */
 .btn-floating.btn-lg {
   width: 40px;
   height: 40px; }
 
-/* line 26, ../sass/style.sass */
+/* line 30, ../sass/style.sass */
 .block-text {
   padding: 100px 0px 300px 0px; }
 
-/* line 30, ../sass/style.sass */
+/* line 34, ../sass/style.sass */
 .img-fluid {
   -webkit-filter: sepia(1);
           filter: sepia(1);
   padding: 0px 15px; }
 
-/* line 33, ../sass/style.sass */
+/* line 37, ../sass/style.sass */
 .slider {
   overflow: hidden; }
 
-/* line 35, ../sass/style.sass */
+/* line 39, ../sass/style.sass */
 .owl-carousel .owl-stage-outer {
   overflow: inherit; }
 
-/* line 37, ../sass/style.sass */
+/* line 41, ../sass/style.sass */
 .carousel-1 {
   padding-bottom: 26px; }
 
-/* line 41, ../sass/style.sass */
+/* line 45, ../sass/style.sass */
 .about {
   padding-bottom: 50px; }
-  /* line 43, ../sass/style.sass */
+  /* line 47, ../sass/style.sass */
   .about h2 {
     padding: 50px 0px; }
 
-/* line 45, ../sass/style.sass */
+/* line 49, ../sass/style.sass */
 .nav-text .nav-item {
   padding: 5px 0px; }
 
-/* line 49, ../sass/style.sass */
+/* line 53, ../sass/style.sass */
 .contacts {
   padding-bottom: 50px; }
-  /* line 51, ../sass/style.sass */
+  /* line 55, ../sass/style.sass */
   .contacts h2 {
     padding: 50px 0; }
 

@@ -30,3 +30,17 @@
 $(function () {
 $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
 });
+
+// scroll 
+$(window).scroll(function() {
+var height = $(window).scrollTop();
+
+     /*Если сделали скролл на 100px задаём новый класс для header*/
+if(height > 100){
+$('.navbar').addClass('activen');
+} else{
+     /*Если меньше 100px удаляем класс для header*/
+$('.navbar').removeClass('activen');
+}
+
+});
