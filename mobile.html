@@ -3,12 +3,13 @@
 <head>
 	<meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="stylesheet" type="text/css" href="css/css/bootstrap.min.css"><!-- 
-	<link rel="stylesheet" type="text/css" href="css/css/mdb.min.css"> -->
+	<link rel="stylesheet" type="text/css" href="css/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/css/slick.css">
 	<link rel="stylesheet" type="text/css" href="css/css/owl.carousel.min.css">
-	<link rel="stylesheet" type="text/css" href="css/css/owl.theme.default.min.css">
-	<link rel="stylesheet" type="text/css" href="css/css/fancybox.min.css">
+	<link rel="stylesheet" type="text/css" href="css/css/owl.theme.default.min.css"><!-- 
+	<link rel="stylesheet" type="text/css" href="css/css/fancybox.min.css"> -->
+	<link rel="stylesheet" type="text/css" href="css/css/mdb.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
 	<title>home page</title>
 	<link rel="stylesheet" type="text/css" href="css/css/style.css">
 </head>
@@ -17,16 +18,33 @@
 		background-image: url(./images/fon.png);
 		background-position: center;
 	}
+	.about {
+		background-color: black
+	}
+	.contacts {
+		background-color: #24333c
+	}
 </style>
 <body>
 <div class="fon">
 	<header class="header">
 		<div class="container-fluid no-gutters p-0">
-				<nav class="navbar navbar-light border-bottom ">
-				  <a class="navbar-brand logo" href="#">
-				    <img src="images/logo.png" width="50px" height="50px">
-				  </a>
-				</nav>
+			<nav class="navbar navbar-expand-lg border-bottom">
+			  <a class="navbar-brand logo" href="#"><img src="images/logo.png" alt="" width="50px" height="50px"></a>
+			  <div class="collapse navbar-collapse" id="navbarNav">
+			    <ul class="navbar-nav ml-auto">
+			      <li class="nav-item">
+							<a class="btn-floating btn-lg btn-ins" href="https://instagram.com/greatwayband?igshid=1je328mlap0ee" type="button" role="button"><i class="fab fa-instagram"></i></a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="btn-floating btn-lg btn-vk"  href=" https://vk.com/greatway51" type="button" role="button"><i class="fab fa-vk"></i></a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="btn-floating btn-lg btn-yt" href="https://www.youtube.com/channel/UCDa4Kco34Wi0S7OPWupv6fw?view_as=subscriber" type="button" role="button"><i class="fab fa-youtube"></i></a>
+			      </li>
+			    </ul>
+			  </div>
+			</nav>
 		</div>
 	</header>
 
@@ -43,7 +61,8 @@
 
 	<section class="slider">
 		<div class="container">
-				<div class="carousel-1 owl-carousel slider-img mdb-lightbox">
+			<div id="mdb-lightbox-ui"></div>
+				<div class="mdb-lightbox carousel-1 owl-carousel slider-img mdb-lightbox">
 
 					<div class="store">
 				     <a data-fancybox="gallery" href="images/1.4.jpg" style="width: auto;">
@@ -86,11 +105,91 @@
 	</section>
 </div>
 
-<section class="about">
-	<div class="container">
-		<h2>О группе</h2>
-	</div>
-</section>
+	<section class="about text-white">
+		<div class="container">
+			<div class="text-center">
+				<h2>О группе</h2>
+			</div>
+			<div class="nav-text">
+				<ul class="nav flex-column">
+				  <li class="nav-item">
+				  	- работаем вместе уже 3 года
+				  </li>
+				  <li class="nav-item">
+				  	- выпускаем каверы на популярные треки
+				  </li>
+				  <li class="nav-item">
+				  	- выпустили собственный трек, готовим дебютный альбом
+				  </li>
+				  <li class="nav-item">
+				  	- выступали на различных городских мероприятиях
+				  </li>
+				  <li class="nav-item">
+				  	- Дмитрий закончил музыкальную школу по классу "гитара"
+				  </li>
+				  <li class="nav-item">
+				  	- Кирилл занимался с преподавтелями, обучаясь игре на гитаре и фортепиано
+				  </li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<section class="contacts text-white">
+		<div class="container">
+			<div class="text-center">
+				<h2>Контакты группы</h2>
+			</div>
+			<div class="contact-block text-center">
+				<div class="">
+
+        <!--Grid column-->
+        <div class="col-md-10 col-xl-10 mb-md-0 mb-5 m-auto">
+        	<div class="col-xl-12 ">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+              <div class="row">
+                <div class="col-md-6">
+                    <div class="md-form mb-0">
+                        <input type="text" id="name" name="name" class="form-control">
+                        <label for="name" class="">Name</label>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="md-form mb-0">
+                        <input type="text" id="email" name="email" class="form-control">
+                        <label for="email" class="">Email</label>
+                    </div>
+                </div>
+              </div>
+
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="md-form mb-0">
+                          <input type="text" id="subject" name="subject" class="form-control">
+                          <label for="subject" class="">Subject</label>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-12 text-center">
+                  <div class="md-form">
+                      <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                      <label for="message">Message</label>
+                  </div>
+                </div>
+              </div>
+
+							<div class="text-center">
+              	<a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Отправить</a>
+          		</div>
+            </form>
+          </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
 		
 
@@ -103,9 +202,9 @@
 	  crossorigin="anonymous">
   </script>
 	<script src="js/bootstrap.min.js" async=""></script>
-	<script src="js/main.js"></script><!-- 
-	<script src="js/mdb.min.js"></script> -->
-	<script src="js/owl.carousel.min.js"></script>
-  <script src="js/fancybox.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/owl.carousel.min.js"></script><!-- 
+  <script src="js/fancybox.min.js"></script> -->
+  <script src="js/mdb.min.js"></script>
 </body>
 </html>
