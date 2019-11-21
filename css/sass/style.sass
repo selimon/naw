@@ -1,212 +1,40 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap')
-// font 
-.lato-reg 
-	font-family: "Lato - Regular"
-.lato-b 
-	font-family: "Lato - Bold"
-// specification 
-.container
-	max-width: 605px 
-	width: 100% 
-	margin: 0 auto
-
-body 
-	font-family: 'Lato', sans-serif
-
-img 
-	max-width: 100%
-a,a:hover 
-	text-decoration: none 
-	color: inherit
-
-ul li 
-	list-style: none
-// color 
-$col-red: #b31a00
-$col-yell: #ffd800
-
-.text-red 
-	color: $col-red
-.bg-repeat 
-	background-repeat: no-repeat
-	background-size: cover
-// size 
-$fs24: 24px
-$fs28: 28px
-$fs22: 22px
-$fs30: 30px
-$fs19: 19px
-$fs18: 18px
+// specifikation 
 
 h1 
-	font-size: $fs24
-h2 
-	font-size: $fs28
-h3
-	font-size: $fs30
-h4 
-	font-size: $fs22
-h5 
-	font-size: $fs19
-.fs12
-	font-size: 12px
-.fs18 
-	font-size: $fs18
-.fw 
-	font-weight: 300
-// padding 
-.pbb-2 
-	margin: -15px 0px -5px 0px 
-.pbb-5 
-	padding-bottom: 109px
-.pll-1
-	padding-left: 15px
-// section1  
-.head-block
-	background-image: linear-gradient(to right, #002150 0%, #ffffff 100%)
+	font-size: 100px
+	color: #4F4846 
+h6 
+	color: #4F4846 
 
-.ab-text 
-	top: 10px
-	width: 140px
 
-// block-timer 
-.bg-timer 
-	background-color: $col-yell
-	height: 80px
+// header 
+.fon
+	background-repeat: no-repeat 
+	background-size: cover 
+.logo 
+	padding-left: 60px
 
-div#timere03e32efc11b0cbf246dc1b19b1ffef0 
-	min-width: auto !important
+// text 
+.block-text 
+	padding: 100px 0px 300px 0px 
 
-// section2 
-input[type="radio"] 
-	background-color: #b2b2b2
-	width: 27px 
-	height: 27px
-	outline: none
-	appearance: none
-	border-radius: 180px
-	&::before 
-		content: ""
-		position: absolute 
-		width: 14px
-		height: 14px
-		border-radius: 180px
-		left: 0px 
-		right: 2px 
-		top: 22%
-		margin: auto
-		background-image: linear-gradient(to top, #7f7f7f 0%, #cccbcb 61%, #cccbcb 100%)	
-	&:checked
-		background-color: #fdd022
-		&::before 
-			content: " "
-			position: absolute 
-			width: 14px 
-			height: 14px  
-			background-repeat: no-repeat 
-			left: 0px 
-			right: 0px 
-			margin: auto
-			top: 22%
-input[type=tel]
-	background-color: #e9e8e8
-
-// btn-theme 
-.btn-theme 
-	background-image: linear-gradient(-39deg, #ffca2a 0%, #fdd31c 47%, #ffd707 82%, #ffd800 97%, #ffd800 100%)
-	border-radius: 25px	
-	padding: 15px 52px
+// sliders 
+.img-fluid 
+	filter: sepia(1)
+	padding: 0px 15px
+.slider
 	overflow: hidden
-	&:hover 
-		background-image: linear-gradient(-39deg, #ffd800 0%, #ffd800 3%, #ffd707 18%, #fdd31c 53%, #ffca2a 100%)
-	&::after 
-		content: " "
-		width: 100%
-		height: 100%
-		position: absolute 
-		top: -50% 
-		right: -50%
-		left: -50%
-		bottom: -50%
-		background: linear-gradient(to bottom,rgba(229,172,142,0),rgba(255,255,255,.7) 50%,rgba(229,172,142,0))
-		transform: rotateZ(60deg) translate(-5em,7.5em)
-		opacity: 0
-		animation: sheens 2s infinite
-@keyframes sheens
-	0%
-		opacity: 1
-		left: -5%
-	100%
-		left: 110%
-		opacity: 1 
-		filter: alpha(opacity=0)
-
-// chech
-.block-check 
-	padding-left: 30px 
-	padding-right: 30px
-.form-check 
-	input
-		display: none 
-
-.form-check-label 
-	width: 14px 
-	height: 14px 
-	border: 1px solid #aeacac
-	margin: 0px -10px
-	position: relative 
-	left: -7px 
-	top: 15px
-	&::before 
-		content: ""
-		position: absolute 
-		width: 20px 
-		height: 30px
-input[type=checkbox]+.form-check-label::before 
-	content: ""
-	transform: scale(1)
-	top: -5px
-
-// input[type=checkbox]
-// 	outline: none
-// 	top: 15px
-// 	&:checked::before 
-// 		content: ""
-// 		width: 20px
-// 		height: 20px
-// 		position: absolute
-// 		// top: -7.2px
-// 		visibility: visible
-
-
-
-
-
-// section2 
-// section5 
-.slick-slide img 
-	display: inherit
-.slick-prev:before, .slick-next:before 
-	display: none
+.slick-list
+	overflow: visible
 .slick-next
-	right: 0px
-	z-index: 9
+	z-index: 1
 .slick-prev
-	left: 0px
-	z-index: 9
-.slick-prev,
-.slick-next
-	width: 30px 
-	height: 60px
+	z-index: 1
+.store
+	width: auto !important 
 
-.img-be
-	padding-top: 20px
-	&::before 
-		content: ""
-		position: absolute 
-		width: 175px 
-		height: 175px 
-		margin: -15px -18px
-		z-index: -1
+
 // media 
-@import "media"
+@media (min-width: 1024px)
+	.slick-prev .slick-next 
+		display: none

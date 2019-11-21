@@ -1,31 +1,33 @@
-// video 
-window.addEventListener('load', function(){
-    var newVideo = document.getElementById('videoElementId');
-    newVideo.addEventListener('ended', function() {
-        this.currentTime = 0;
-        this.play();
-    }, false);
-
-    newVideo.play();
-
-});
-// slick 
-$('.sl').slick({
-  dots: true,
-  infinite: true,
-  speed: 300,
-  slidesToShow: 5,
-  autoplay: true,
-  autoplaySpeed: 3000,
-  slidesToScroll: 5,
+jQuery(document).ready(function($) {
+  $('.slider').slick({
+  dots: false,
+  infinite: false,
+  slidesToShow: 4,
+  slidesToScroll: 3,
   responsive: [
     {
-      breakpoint: 575,
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 320,
       settings: {
         slidesToShow: 1,
-        slidesToScroll: 1,  
-        autoplaySpeed: 3000,
-        autoplay: true,
+        slidesToScroll: 1,
+        dots: true
       }
     }
     // You can unslick at a given breakpoint now by adding:
@@ -33,10 +35,9 @@ $('.sl').slick({
     // instead of a settings object
   ]
 });
+});
 
 
 
-
-
-
+// gallary 
 
