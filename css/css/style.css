@@ -31,24 +31,11 @@ h6 {
   overflow: hidden; }
 
 /* line 27, ../sass/style.sass */
-.slick-list {
-  overflow: visible; }
+.owl-carousel .owl-stage-outer {
+  overflow: inherit; }
 
 /* line 29, ../sass/style.sass */
-.slick-next {
-  z-index: 1; }
-
-/* line 31, ../sass/style.sass */
-.slick-prev {
-  z-index: 1; }
-
-/* line 33, ../sass/style.sass */
-.store {
-  width: auto !important; }
-
-@media (min-width: 1024px) {
-  /* line 39, ../sass/style.sass */
-  .slick-prev .slick-next {
-    display: none; } }
+.carousel-1 {
+  padding-bottom: 26px; }
 
 /*# sourceMappingURL=style.css.map */
