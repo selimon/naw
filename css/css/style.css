@@ -1,80 +1,22 @@
-/* line 3, ../sass/style.sass */
-h1 {
-  font-size: 100px;
-  color: #4F4846; }
+/* line 2, ../../sass/style.sass */
+.bg { background-repeat: no-repeat; background-size: cover; }
 
-@media (max-width: 575px) {
-  /* line 7, ../sass/style.sass */
-  h1 {
-    font-size: 60px; } }
-/* line 9, ../sass/style.sass */
-h6 {
-  color: #4F4846; }
+/* line 6, ../../sass/style.sass */
+h1 { font-size: 42px; }
 
-/* line 12, ../sass/style.sass */
-.text-black {
-  color: black; }
+/* line 9, ../../sass/style.sass */
+h2 { font-size: 33px; }
 
-/* line 18, ../sass/style.sass */
-.activen {
-  background-color: #000708; }
+/* line 13, ../../sass/style.sass */
+.main-container { background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.45)), to(rgba(255, 255, 255, 0))); background: linear-gradient(180deg, rgba(255, 255, 255, 0.45) 0%, rgba(255, 255, 255, 0) 100%); }
 
-/* line 20, ../sass/style.sass */
-.fon {
-  background-repeat: no-repeat;
-  background-size: cover; }
+/* line 16, ../../sass/style.sass */
+.md-form label { color: black; }
 
-/* line 23, ../sass/style.sass */
-.logo {
-  padding-left: 60px; }
+/* line 19, ../../sass/style.sass */
+#materialContactFormName, #materialContactFormPhone, #materialContactFormNameP, #materialContactFormEmail { border-bottom: 1px solid black; }
 
-/* line 25, ../sass/style.sass */
-.btn-floating.btn-lg i {
-  line-height: 40px; }
-
-/* line 27, ../sass/style.sass */
-.btn-floating.btn-lg {
-  width: 40px;
-  height: 40px; }
-
-/* line 32, ../sass/style.sass */
-.block-text {
-  padding: 100px 0px 300px 0px; }
-
-/* line 36, ../sass/style.sass */
-.img-fluid {
-  -webkit-filter: sepia(1);
-          filter: sepia(1);
-  padding: 0px 15px; }
-
-/* line 39, ../sass/style.sass */
-.slider {
-  overflow: hidden; }
-
-/* line 41, ../sass/style.sass */
-.owl-carousel .owl-stage-outer {
-  overflow: inherit; }
-
-/* line 43, ../sass/style.sass */
-.carousel-1 {
-  padding-bottom: 26px; }
-
-/* line 47, ../sass/style.sass */
-.about {
-  padding-bottom: 50px; }
-  /* line 49, ../sass/style.sass */
-  .about h2 {
-    padding: 50px 0px; }
-
-/* line 51, ../sass/style.sass */
-.nav-text .nav-item {
-  padding: 5px 0px; }
-
-/* line 55, ../sass/style.sass */
-.contacts {
-  padding-bottom: 50px; }
-  /* line 57, ../sass/style.sass */
-  .contacts h2 {
-    padding: 50px 0; }
+/* line 22, ../../sass/style.sass */
+.btn-options { width: 258px; background: -webkit-gradient(linear, left top, right top, from(#7EEAEA), color-stop(99.99%, rgba(25, 102, 97, 0.73)), to(rgba(170, 167, 167, 0.26))); background: linear-gradient(90deg, #7EEAEA 0%, rgba(25, 102, 97, 0.73) 99.99%, rgba(170, 167, 167, 0.26) 100%); padding: 15px 88px; border-radius: 60px; border: none; color: white; text-transform: none; }
 
 /*# sourceMappingURL=style.css.map */
