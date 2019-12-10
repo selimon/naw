@@ -33,34 +33,43 @@
 
 						<div class="col-xl-4 col-md-4 m-auto">
 					    <div class="md-form mt-3 mb-3 mbb-5">
-		            <input type="text" id="materialContactFormName" class="form-control">
-		            <label for="materialContactFormName">Сумма платежа:</label>
+						    <form action="">
+			            <input type="text" id="materialContactFormName" class="form-control">
+			            <label for="materialContactFormName">Сумма платежа:</label>
+			          </form>
 		          </div>
 		        </div>
 
 						<div class="col-xl-4 col-md-4 m-auto">
-					    <div class="md-form mt-3 mb-3 mbb-5">
-		            <input type="text" id="materialContactFormPhone" class="form-control">
-		            <label for="materialContactFormPhone">Номер телефона (*):</label>
-		          </div>
+						  <div class="md-form mt-3 mb-3 mbb-5">
+								<form action="">
+				            <input type="text" id="materialContactFormPhone" class="form-control">
+				            <label for="materialContactFormPhone">Номер телефона (*):</label>
+				        </form>
+			      	</div>
 		        </div>
 
 	        </div>
 
 
 					<div class="row pt-5 pb-5">
-
 						<div class="col-xl-4 col-md-4 m-auto">
-					    <div class="md-form mt-3 mb-3 mbb-5">
-		            <input type="text" id="materialContactFormNameP" class="form-control">
-		            <label for="materialContactFormNameP">Имя покупателя:</label>
-		          </div>
+						    <div class="md-form mt-3 mb-3 mbb-5">
+						    	<form action="">
+				            <input type="text" id="materialContactFormNameP" class="form-control">
+				            <label for="materialContactFormNameP">Имя покупателя:</label>
+				          </form>
+			          </div>
 		        </div>
 
-						<div class="col-xl-4 col-md-4 m-auto">
-					    <div class="md-form mt-3 mb-3 mbb-5">
-		            <input type="text" id="materialContactFormEmail" class="form-control">
-		            <label for="materialContactFormEmail">Email покупателя:</label>
+						<div class="col-xl-4 col-md-4 m-auto position-relative">
+					    <div class="md-form mt-3 mb-3 mbb-5 text-center">
+					    	<form action="">
+			            <input type="text" id="materialContactFormEmail" aria-describedby="defaultRegisterFormPasswordHelpBlock" class="form-control">
+			            <label for="materialContactFormEmail">Email покупателя:</label>    
+			            <small id="defaultRegisterFormPasswordHelpBlock" class="form-text position-absolute" style="color: #8C0000">Укажите реальный емейл. На него придёт ссылка на тренинг
+								   </small>
+			          </form>
 		          </div>
 		        </div>
 
@@ -68,9 +77,11 @@
 
 	        <div class="col-xl-8 m-auto">
 	        	<div class="md-form form-sm">
-		          <textarea type="text" id="materialFormMessageModalEx1"
-		            class="md-textarea form-control border-dark"></textarea>
-          		<label for="materialFormMessageModalEx1">Комментарии к заказу:</label>
+	        		<form action="">
+			          <textarea type="text" id="materialFormMessageModalEx1"
+			            class="md-textarea form-control border-dark"></textarea>
+	          		<label for="materialFormMessageModalEx1">Комментарии к заказу:</label>
+	          	</form>
         		</div>
 	        </div>
 
