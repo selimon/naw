@@ -7,16 +7,40 @@ h1 { font-size: 42px; }
 /* line 9, ../../sass/style.sass */
 h2 { font-size: 33px; }
 
-/* line 13, ../../sass/style.sass */
+/* line 12, ../../sass/style.sass */
+h3 { font-size: 35px; }
+
+/* line 15, ../../sass/style.sass */
+h4 { font-size: 26px; }
+
+/* line 18, ../../sass/style.sass */
+.fs56 { font-size: 56px; }
+
+/* line 21, ../../sass/style.sass */
+.text-fio { color: #0915eb; }
+
+/* line 24, ../../sass/style.sass */
+img { max-width: 100%; }
+
+/* line 28, ../../sass/style.sass */
 .main-container { background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.45)), to(rgba(255, 255, 255, 0))); background: linear-gradient(180deg, rgba(255, 255, 255, 0.45) 0%, rgba(255, 255, 255, 0) 100%); }
 
-/* line 16, ../../sass/style.sass */
+/* line 31, ../../sass/style.sass */
 .md-form label { color: black; }
 
-/* line 19, ../../sass/style.sass */
+/* line 34, ../../sass/style.sass */
 #materialContactFormName, #materialContactFormPhone, #materialContactFormNameP, #materialContactFormEmail { border-bottom: 1px solid black; }
 
-/* line 22, ../../sass/style.sass */
+/* line 37, ../../sass/style.sass */
 .btn-options { width: 258px; background: -webkit-gradient(linear, left top, right top, from(#7EEAEA), color-stop(99.99%, rgba(25, 102, 97, 0.73)), to(rgba(170, 167, 167, 0.26))); background: linear-gradient(90deg, #7EEAEA 0%, rgba(25, 102, 97, 0.73) 99.99%, rgba(170, 167, 167, 0.26) 100%); padding: 15px 88px; border-radius: 60px; border: none; color: white; text-transform: none; }
+
+/* line 48, ../../sass/style.sass */
+.lending-bg { background-color: #98e2da; }
+
+/* line 51, ../../sass/style.sass */
+.len-header { background: -webkit-gradient(linear, left top, left bottom, from(#00A880), to(rgba(150, 226, 222, 0.78))); background: linear-gradient(180deg, #00A880 0%, rgba(150, 226, 222, 0.78) 100%); height: 100vh; padding-top: 25vh; }
+
+/* line 56, ../../sass/style.sass */
+.btn-land { border-radius: 40px; }
 
 /*# sourceMappingURL=style.css.map */
