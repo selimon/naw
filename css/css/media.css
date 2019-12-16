@@ -13,6 +13,14 @@
 
   /* line 9, ../../sass/media.sass */
   .mbb-5 {
-    padding-bottom: 20px; } }
+    padding-bottom: 20px; }
+
+  /* line 12, ../../sass/media.sass */
+  .slick-next {
+    right: 0px; }
+
+  /* line 14, ../../sass/media.sass */
+  .slick-prev {
+    left: 0px; } }
 
 /*# sourceMappingURL=media.css.map */

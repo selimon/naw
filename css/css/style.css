@@ -2,62 +2,83 @@
 .bg { background-repeat: no-repeat; background-size: cover; }
 
 /* line 6, ../../sass/style.sass */
+a, a:hover { text-decoration: none; color: inherit; }
+
+/* line 10, ../../sass/style.sass */
 h1 { font-size: 42px; }
 
-/* line 9, ../../sass/style.sass */
+/* line 13, ../../sass/style.sass */
 h2 { font-size: 33px; }
 
-/* line 12, ../../sass/style.sass */
+/* line 16, ../../sass/style.sass */
 h3 { font-size: 35px; }
 
-/* line 15, ../../sass/style.sass */
+/* line 19, ../../sass/style.sass */
 h4 { font-size: 26px; }
 
-/* line 18, ../../sass/style.sass */
+/* line 22, ../../sass/style.sass */
 .fs56 { font-size: 56px; }
 
-/* line 20, ../../sass/style.sass */
+/* line 24, ../../sass/style.sass */
 .fs18 { font-size: 18px; }
 
-/* line 23, ../../sass/style.sass */
+/* line 27, ../../sass/style.sass */
 .text-fio { color: #0915eb; }
 
-/* line 26, ../../sass/style.sass */
-img { max-width: 100%; }
-
 /* line 30, ../../sass/style.sass */
-.main-container { background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.45)), to(rgba(255, 255, 255, 0))); background: linear-gradient(180deg, rgba(255, 255, 255, 0.45) 0%, rgba(255, 255, 255, 0) 100%); }
+.text-black { color: black; }
 
 /* line 33, ../../sass/style.sass */
+img { max-width: 100%; }
+
+/* line 37, ../../sass/style.sass */
+.main-container { background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.45)), to(rgba(255, 255, 255, 0))); background: linear-gradient(180deg, rgba(255, 255, 255, 0.45) 0%, rgba(255, 255, 255, 0) 100%); }
+
+/* line 40, ../../sass/style.sass */
 .md-form label { color: black; }
 
-/* line 36, ../../sass/style.sass */
+/* line 43, ../../sass/style.sass */
 #materialContactFormName, #materialContactFormPhone, #materialContactFormNameP, #materialContactFormEmail { border-bottom: 1px solid black; }
 
-/* line 39, ../../sass/style.sass */
+/* line 46, ../../sass/style.sass */
 .btn-options { width: 258px; background: -webkit-gradient(linear, left top, right top, from(#7EEAEA), color-stop(99.99%, rgba(25, 102, 97, 0.73)), to(rgba(170, 167, 167, 0.26))); background: linear-gradient(90deg, #7EEAEA 0%, rgba(25, 102, 97, 0.73) 99.99%, rgba(170, 167, 167, 0.26) 100%); padding: 15px 88px; border-radius: 60px; border: none; color: white; text-transform: none; }
 
-/* line 50, ../../sass/style.sass */
+/* line 57, ../../sass/style.sass */
 .lending-bg { background-color: #98e2da; }
 
-/* line 53, ../../sass/style.sass */
+/* line 60, ../../sass/style.sass */
 .len-header { background: -webkit-gradient(linear, left top, left bottom, from(#00A880), to(rgba(150, 226, 222, 0.78))); background: linear-gradient(180deg, #00A880 0%, rgba(150, 226, 222, 0.78) 100%); height: 100vh; padding-top: 25vh; }
 
-/* line 59, ../../sass/style.sass */
+/* line 66, ../../sass/style.sass */
 .bg-mut { background-color: #f0f0f0; }
 
-/* line 62, ../../sass/style.sass */
+/* line 69, ../../sass/style.sass */
 .btn-land { border-radius: 40px; }
 
-/* line 65, ../../sass/style.sass */
+/* line 72, ../../sass/style.sass */
 .filter { -webkit-filter: blur(2px); filter: blur(2px); }
-/* line 67, ../../sass/style.sass */
+/* line 74, ../../sass/style.sass */
 .filter:hover { -webkit-filter: blur(0px); filter: blur(0px); }
 
-/* line 71, ../../sass/style.sass */
+/* line 78, ../../sass/style.sass */
 .icon { width: 100px; height: 100px; background-color: #6E9ECF; color: white; padding-top: 30px; border-radius: 50%; }
 
-/* line 79, ../../sass/style.sass */
+/* line 86, ../../sass/style.sass */
 .fas { font-size: 40px; }
+
+/* line 92, ../../sass/style.sass */
+.len { cursor: ew-resize; }
+
+/* line 96, ../../sass/style.sass */
+.sec9 { min-height: 100vh; }
+
+/* line 99, ../../sass/style.sass */
+.bg-video { position: absolute; top: -3px; right: 0; bottom: 0; left: 0; width: 100%; min-width: 100%; min-height: 100%; -o-object-fit: cover; object-fit: cover; }
+
+/* line 110, ../../sass/style.sass */
+.z-1 { z-index: 1; }
+
+/* line 114, ../../sass/style.sass */
+.footer { padding-top: 170px; }
 
 /*# sourceMappingURL=style.css.map */
