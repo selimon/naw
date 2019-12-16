@@ -66,25 +66,25 @@ img { max-width: 100%; }
 /* line 86, ../../sass/style.sass */
 .fas { font-size: 40px; }
 
-/* line 92, ../../sass/style.sass */
+/* line 90, ../../sass/style.sass */
 .len { cursor: ew-resize; }
 
-/* line 96, ../../sass/style.sass */
+/* line 94, ../../sass/style.sass */
 .sec9 { min-height: 100vh; }
 
-/* line 99, ../../sass/style.sass */
+/* line 97, ../../sass/style.sass */
 .bg-video { position: absolute; top: -3px; right: 0; bottom: 0; left: 0; width: 100%; min-width: 100%; min-height: 100%; -o-object-fit: cover; object-fit: cover; }
 
-/* line 110, ../../sass/style.sass */
+/* line 108, ../../sass/style.sass */
 .z-1 { z-index: 1; }
 
-/* line 114, ../../sass/style.sass */
+/* line 112, ../../sass/style.sass */
 .footer { padding-top: 170px; }
 
-/* line 118, ../../sass/style.sass */
-#mdb-preloader.loaded { opacity: 0; -webkit-transition: 0.3s ease-in 1.5s; transition: 0.3s ease-in 1.5s; }
+/* line 116, ../../sass/style.sass */
+#mdb-preloader.loaded { opacity: 0; -webkit-transition: 0.3s ease-in 1.5s; transition: 0.3s ease-in 1.5s; z-index: 0; }
 
-/* line 122, ../../sass/style.sass */
+/* line 121, ../../sass/style.sass */
 #mdb-preloader { overflow: hidden; }
 
 /*# sourceMappingURL=style.css.map */
