@@ -81,4 +81,10 @@ img { max-width: 100%; }
 /* line 114, ../../sass/style.sass */
 .footer { padding-top: 170px; }
 
+/* line 118, ../../sass/style.sass */
+#mdb-preloader.loaded { opacity: 0; -webkit-transition: 0.3s ease-in 1.5s; transition: 0.3s ease-in 1.5s; }
+
+/* line 122, ../../sass/style.sass */
+#mdb-preloader { overflow: hidden; }
+
 /*# sourceMappingURL=style.css.map */

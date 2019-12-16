@@ -7,3 +7,11 @@ jQuery(document).ready(function($) {
     dots: true,
   });
 });
+
+// preloader 
+jQuery(document).ready(function($) {
+  $(window).on('load', function() {
+  $('#mdb-preloader').addClass('loaded');
+});
+});
+

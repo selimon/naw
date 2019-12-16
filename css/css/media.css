@@ -22,5 +22,24 @@
   /* line 14, ../../sass/media.sass */
   .slick-prev {
     left: 0px; } }
+@media (max-width: 1024px) {
+  /* line 18, ../../sass/media.sass */
+  .len-header {
+    height: 100%; }
+
+  /* line 20, ../../sass/media.sass */
+  .card-group {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column; }
+
+  /* line 22, ../../sass/media.sass */
+  .card {
+    margin: 20px 0px !important; }
+
+  /* line 25, ../../sass/media.sass */
+  .fs56 {
+    font-size: 43px; } }
 
 /*# sourceMappingURL=media.css.map */
